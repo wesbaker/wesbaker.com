@@ -45,29 +45,26 @@ module.exports = {
         ],
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: `UA-89594185-1`,
       },
     },
-    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-feed`,
       options: {
         query: `
-          {
-            site {
-              siteMetadata {
-                title
-                description
-                siteUrl
-                site_url: siteUrl
-              }
+        {
+          site {
+            siteMetadata {
+              title
+              description
+              siteUrl
+              site_url: siteUrl
             }
           }
+        }
         `,
         feeds: [
           {
@@ -79,13 +76,13 @@ module.exports = {
                   url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   custom_elements: [{ "content:encoded": edge.node.html }],
-                })
-              })
+                });
+              });
             },
             query: `
-              {
-                allMarkdownRemark(
-                  sort: { order: DESC, fields: [frontmatter___date] },
+            {
+              allMarkdownRemark(
+                sort: { order: DESC, fields: [frontmatter___date] },
                 ) {
                   edges {
                     node {
@@ -100,19 +97,23 @@ module.exports = {
                   }
                 }
               }
-            `,
+              `,
             output: "/rss.xml",
             title: "Wes Baker RSS Feed",
           },
         ],
       },
     },
-    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-styled-components`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-netlify`,
   ],
-}
+};
