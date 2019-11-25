@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, graphql } from "gatsby";
+import { graphql } from "gatsby";
 
 import Bio from "../components/bio";
 import Layout from "../components/layout";
@@ -14,7 +14,97 @@ class Now extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="Now" />
         <h1>Now</h1>
-        <p>Sometimes I use things.</p>
+        <p>
+          <small>
+            This is <a href="https://nownownow.com/about">a now page</a>.
+          </small>
+        </p>
+        <h2>Writing Code and Managing a Team</h2>
+        <p>
+          I currently work at <a href="https://instructure.com/">Instructure</a>{" "}
+          and I've been working there since 2016. I'm a team lead which means I
+          write code, I manage a team, I lead technical projects, and I work
+          with others including my product manager, my program manager, design,
+          and QA.
+        </p>
+        <h2>Personal Projects</h2>
+        <p>
+          I write and maintain a number of personal programming projects to
+          scratch various itches I have:
+        </p>
+        <ul>
+          <li>
+            <a href="https://github.com/wesbaker/github-pinboard-star-sync">
+              Syncing GitHub Stars to Pinboard
+            </a>
+          </li>
+          <li>
+            Sending board game plays to{" "}
+            <a href="https://github.com/wesbaker/nemeslack">Slack</a> and{" "}
+            <a href="https://github.com/wesbaker/nemecord">Discord</a>
+          </li>
+          <li>
+            Running two Twitter Bots for{" "}
+            <a href="https://github.com/wesbaker/enworld-twitterbot">
+              ENWorld.org
+            </a>{" "}
+            and{" "}
+            <a href="https://github.com/wesbaker/tenkarstavern-twitterbot">
+              Tenkar's Tavern
+            </a>{" "}
+            (two RPG news sites)
+          </li>
+          <li>
+            And{" "}
+            <a href="https://github.com/wesbaker/alfred-goodreads-workflow">
+              a
+            </a>{" "}
+            <a href="https://github.com/wesbaker/alfred-stardewvalleywiki">
+              whole
+            </a>{" "}
+            <a href="https://github.com/wesbaker/alfred-kickstarter-workflow">
+              bunch
+            </a>{" "}
+            <a href="https://github.com/wesbaker/alfred-boardgamegeek">of</a>{" "}
+            <a href="https://github.com/wesbaker/alfred-dndbeyond-workflow">
+              Alfred
+            </a>{" "}
+            <a href="https://github.com/wesbaker/alfred-drivethrurpg">
+              workflows
+            </a>
+          </li>
+        </ul>
+        <h2>3D Printing</h2>
+        <p>
+          This is my newest hobby, and therefore, the one I'm most into at the
+          moment. I bought a{" "}
+          <a href="https://www.prusa3d.com/original-prusa-i3-mk3/">
+            Prusa i3 MK3S
+          </a>{" "}
+          and an <a href="https://epax3d.com/products/epax-printer">EPAX X1</a>{" "}
+          and unless they're broken, they're probably printing something.
+          Lately, I've been printing holiday decorations and toys for my kids,
+          and terrain and miniatures for D&D for me.
+        </p>
+        <h2>Rolelaying Games</h2>
+        <p>
+          Before 3D printing, roleplaying were my newest hobby and I still do a
+          fair amount of reading and playing, but I've started to decrease the
+          number of games I run and play in to a reasonable number. I still very
+          much enjoy it, but I'm more realistic about how much I can actually
+          play these days. I always want more though because there's so much out
+          there.
+        </p>
+        <h2>Board Games</h2>
+        <p>
+          Before all of the above, there were board games and I still play them,
+          but I've reached the point in the hobby and my life where I'm
+          generally playing (and buying) fewer games. I used to buy nearly 100
+          games a year (and resell a bunch of those) and now I generally buy
+          less than 10 in a year, which is still a lot. Additionally, members of
+          my game group have moved away and kids can make playing games just a
+          little bit harder.
+        </p>
         <hr style={{ marginBottom: "1.45rem" }} />
         <Bio />
       </Layout>
