@@ -48,9 +48,6 @@
     "gatsby-plugin-eslint": "2.0.8",
     "prettier": "^2.0.4"
   },
-  "engines": {
-    "node": "12.16.2"
-  },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
     "gatsby"
