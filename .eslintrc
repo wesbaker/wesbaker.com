@@ -10,5 +10,8 @@
     "eslint:recommended",
     "plugin:react/recommended",
     "prettier"
-  ]
+  ],
+  "settings": {
+    "version": "detect"
+  }
 }
