@@ -12,6 +12,8 @@
     "prettier"
   ],
   "settings": {
-    "version": "detect"
+    "react": {
+      "version": "detect"
+    }
   }
 }
