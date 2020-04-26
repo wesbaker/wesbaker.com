@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { Link } from "gatsby";
 import styled from "styled-components";
 
@@ -17,9 +18,15 @@ const StyledLink = styled(Link)`
 `;
 
 class Layout extends React.Component {
+  static propTypes = {
+    location: PropTypes.object,
+    title: PropTypes.string,
+    children: PropTypes.children,
+  };
+
   render() {
     const { location, title, children } = this.props;
-    const rootPath = `${__PATH_PREFIX__}/`;
+    const rootPath = `${__PATH_PREFIX__}/`; // eslint-disable-line no-undef
     let header;
 
     if (location.pathname === rootPath) {

@@ -1,16 +1,23 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
+import React from "react";
+import PropTypes from "prop-types";
+import { Link, graphql } from "gatsby";
 
-import Bio from "../components/bio"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { rhythm, scale } from "../utils/typography"
+import Bio from "../components/bio";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import { rhythm, scale } from "../utils/typography";
 
 class BlogPostTemplate extends React.Component {
+  static propTypes = {
+    data: PropTypes.object,
+    location: PropTypes.object,
+    pageContext: PropTypes.object,
+  };
+
   render() {
-    const post = this.props.data.markdownRemark
-    const siteTitle = this.props.data.site.siteMetadata.title
-    const { previous, next } = this.props.pageContext
+    const post = this.props.data.markdownRemark;
+    const siteTitle = this.props.data.site.siteMetadata.title;
+    const { previous, next } = this.props.pageContext;
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -76,11 +83,11 @@ class BlogPostTemplate extends React.Component {
           </ul>
         </nav>
       </Layout>
-    )
+    );
   }
 }
 
-export default BlogPostTemplate
+export default BlogPostTemplate;
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
@@ -101,4 +108,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

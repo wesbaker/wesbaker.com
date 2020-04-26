@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 
 import Bio from "../components/bio";
@@ -6,6 +7,11 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 
 class Uses extends React.Component {
+  static propTypes = {
+    data: PropTypes.object,
+    location: PropTypes.object,
+  };
+
   render() {
     const { data } = this.props;
     const siteTitle = data.site.siteMetadata.title;
@@ -17,7 +23,8 @@ class Uses extends React.Component {
         <p>
           I get{" "}
           <a href="https://wesbos.com/uses/">no emails about what I use</a>, but
-          I love bikeshedding about tools. Here's what I'm currently using.
+          I love bikeshedding about tools. Here&rsquo;s what I&rsquo;m currently
+          using.
         </p>
         <h2>Editor & Terminal</h2>
         <ul>
@@ -27,7 +34,7 @@ class Uses extends React.Component {
             enjoying a Microsoft product.
           </li>
           <li>
-            I mostly use Wes Bos's{" "}
+            I mostly use Wes Bos&rsquo;s{" "}
             <a href="https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2">
               Cobalt2
             </a>{" "}

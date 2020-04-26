@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 
 import Bio from "../components/bio";
@@ -6,6 +7,11 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 
 class Now extends React.Component {
+  static propTypes = {
+    data: PropTypes.object,
+    location: PropTypes.object,
+  };
+
   render() {
     const { data } = this.props;
     const siteTitle = data.site.siteMetadata.title;
@@ -22,10 +28,10 @@ class Now extends React.Component {
         <h2>Writing Code and Managing a Team</h2>
         <p>
           I currently work at <a href="https://instructure.com/">Instructure</a>{" "}
-          and I've been working there since 2016. I'm a team lead which means I
-          write code, I manage a team, I lead technical projects, and I work
-          with others including my product manager, my program manager, design,
-          and QA.
+          and I&rsquo;ve been working there since 2016. I&rsquo;m a team lead
+          which means I write code, I manage a team, I lead technical projects,
+          and I work with others including my product manager, my program
+          manager, design, and QA.
         </p>
         <h2>Personal Projects</h2>
         <p>
@@ -50,7 +56,7 @@ class Now extends React.Component {
             </a>{" "}
             and{" "}
             <a href="https://github.com/wesbaker/tenkarstavern-twitterbot">
-              Tenkar's Tavern
+              Tenkar&rsquo;s Tavern
             </a>{" "}
             (two RPG news sites)
           </li>
@@ -76,34 +82,34 @@ class Now extends React.Component {
         </ul>
         <h2>3D Printing</h2>
         <p>
-          This is my newest hobby, and therefore, the one I'm most into at the
-          moment. I bought a{" "}
+          This is my newest hobby, and therefore, the one I&rsquo;m most into at
+          the moment. I bought a{" "}
           <a href="https://www.prusa3d.com/original-prusa-i3-mk3/">
             Prusa i3 MK3S
           </a>{" "}
           and an <a href="https://epax3d.com/products/epax-printer">EPAX X1</a>{" "}
-          and unless they're broken, they're probably printing something.
-          Lately, I've been printing holiday decorations and toys for my kids,
-          and terrain and miniatures for D&D for me.
+          and unless they&rsquo;re broken, they&rsquo;re probably printing
+          something. Lately, I&rsquo;ve been printing holiday decorations and
+          toys for my kids, and terrain and miniatures for D&D for me.
         </p>
         <h2>Rolelaying Games</h2>
         <p>
           Before 3D printing, roleplaying were my newest hobby and I still do a
-          fair amount of reading and playing, but I've started to decrease the
-          number of games I run and play in to a reasonable number. I still very
-          much enjoy it, but I'm more realistic about how much I can actually
-          play these days. I always want more though because there's so much out
-          there.
+          fair amount of reading and playing, but I&rsquo;ve started to decrease
+          the number of games I run and play in to a reasonable number. I still
+          very much enjoy it, but I&rsquo;m more realistic about how much I can
+          actually play these days. I always want more though because
+          there&rsquo;s so much out there.
         </p>
         <h2>Board Games</h2>
         <p>
           Before all of the above, there were board games and I still play them,
-          but I've reached the point in the hobby and my life where I'm
-          generally playing (and buying) fewer games. I used to buy nearly 100
-          games a year (and resell a bunch of those) and now I generally buy
-          less than 10 in a year, which is still a lot. Additionally, members of
-          my game group have moved away and kids can make playing games just a
-          little bit harder.
+          but I&rsquo;ve reached the point in the hobby and my life where
+          I&rsquo;m generally playing (and buying) fewer games. I used to buy
+          nearly 100 games a year (and resell a bunch of those) and now I
+          generally buy less than 10 in a year, which is still a lot.
+          Additionally, members of my game group have moved away and kids can
+          make playing games just a little bit harder.
         </p>
         <hr style={{ marginBottom: "1.45rem" }} />
         <Bio />

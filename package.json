@@ -17,7 +17,7 @@
     "gatsby-plugin-netlify": "^2.2.4",
     "gatsby-plugin-offline": "^3.1.4",
     "gatsby-plugin-react-helmet": "^3.2.2",
-    "gatsby-plugin-sharp": "^2.2.22",
+    "gatsby-plugin-sharp": "^2.5.7",
     "gatsby-plugin-styled-components": "^3.2.3",
     "gatsby-plugin-typography": "^2.4.1",
     "gatsby-remark-copy-linked-files": "^2.2.1",
@@ -48,6 +48,9 @@
     "gatsby-plugin-eslint": "2.0.8",
     "prettier": "^2.0.4"
   },
+  "engines": {
+    "node": "12.16.2"
+  },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
     "gatsby"
@@ -64,6 +67,6 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "eslint src/"
+    "test": "gatsby build && eslint src/"
   }
 }

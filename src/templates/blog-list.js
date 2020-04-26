@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
 
 import Bio from "../components/bio";
@@ -31,12 +32,18 @@ const Pagination = styled.ul`
 const PageNumber = styled(Link)`
   padding: ${rhythm(1 / 4)};
   text-decoration: none;
-  color: ${props => (props.active ? "#ffffff" : "")};
-  background: ${props => (props.active ? "#38657D" : "")};
+  color: ${(props) => (props.active ? "#ffffff" : "")};
+  background: ${(props) => (props.active ? "#38657D" : "")};
   border-radius: 3px;
 `;
 
 class BlogIndex extends React.Component {
+  static propTypes = {
+    data: PropTypes.object,
+    location: PropTypes.object,
+    pageContext: PropTypes.object,
+  };
+
   render() {
     const { data } = this.props;
     const siteTitle = data.site.siteMetadata.title;
