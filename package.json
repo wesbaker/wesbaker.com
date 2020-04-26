@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.6",
-    "gatsby": "^2.15.16",
+    "gatsby": ">=1",
     "gatsby-image": "^2.2.19",
     "gatsby-plugin-feed": "^2.3.12",
     "gatsby-plugin-google-analytics": "^2.1.16",
@@ -41,6 +41,11 @@
     "typography-theme-ocean-beach": "^0.16.19"
   },
   "devDependencies": {
+    "eslint": "6.0.0",
+    "eslint-config-prettier": "6.11.0",
+    "eslint-loader": "^3.0.2",
+    "eslint-plugin-react": "7.19.0",
+    "gatsby-plugin-eslint": "2.0.8",
     "prettier": "^1.18.2"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
@@ -59,6 +64,6 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+    "test": "eslint src/"
   }
 }
