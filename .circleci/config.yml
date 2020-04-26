@@ -8,6 +8,7 @@ jobs:
     steps:
       - checkout
       - node/install-packages:
+          cache-key: yarn.lock
           pkg-manager: yarn
       - run: yarn test
 workflows:
