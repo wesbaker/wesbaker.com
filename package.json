@@ -41,7 +41,7 @@
     "typography-theme-ocean-beach": "^0.16.19"
   },
   "devDependencies": {
-    "eslint": "6.0.0",
+    "eslint": "6.8.0",
     "eslint-config-prettier": "6.11.0",
     "eslint-loader": "^3.0.2",
     "eslint-plugin-react": "7.19.0",
