@@ -27,11 +27,10 @@ class Now extends React.Component {
         </p>
         <h2>Writing Code and Managing a Team</h2>
         <p>
-          I currently work at <a href="https://instructure.com/">Instructure</a>{" "}
-          and I&rsquo;ve been working there since 2016. I&rsquo;m a team lead
-          which means I write code, I manage a team, I lead technical projects,
-          and I work with others including my product manager, my program
-          manager, design, and QA.
+          I currently work at <a href="https://kuali.co/">Kuali</a>. I&rsquo;m
+          an engineering manager which means I manage a team, write code, and
+          work with product, design, and engineering to deliver a compelling
+          product.
         </p>
         <h2>Personal Projects</h2>
         <p>
