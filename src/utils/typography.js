@@ -1,5 +1,6 @@
 import Typography from "typography";
 import Alton from "typography-theme-alton";
+import CodePlugin from "typography-plugin-code";
 
 Alton.overrideThemeStyles = () => {
   return {
@@ -8,6 +9,8 @@ Alton.overrideThemeStyles = () => {
     },
   };
 };
+
+Alton.plugins = [new CodePlugin()];
 
 const typography = new Typography(Alton);
 

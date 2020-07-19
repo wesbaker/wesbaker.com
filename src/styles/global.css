@@ -1,0 +1,5 @@
+code[class*="language"],
+pre[class*="language"] {
+  font-variant-ligatures: none;
+  -webkit-font-variant-ligatures: none;
+}
