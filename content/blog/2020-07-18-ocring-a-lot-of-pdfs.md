@@ -9,7 +9,7 @@ First, some preamble: I very much enjoy RPGs and I'm always finding new ones and
 
 Lets get back to PDFs though. These days you can generally get all RPGs in printed or PDF format. PDFs are cheaper and take up little to no room. Additionally, if you're interested in an older game--say a Star Wars RPG that was last published in 1998--you may only be able to get PDFs. With Star Wars, many of the PDFs can be easily found, but there's one problem: for the most part, they are not OCR'ed.
 
-I spent some time digging around on the internet and the fastest approach that I could find was using something like PDFPenPro, but that was \$129 and I wasn't looking to spend that kind of money. So I dug around on [homebrew](https://brew.sh) and found [`ocrmypdf`](https://ocrmypdf.readthedocs.io/en/latest/#). Then I spent a wrote a [fish shell](https://fishshell.com) one liner to OCR all of the PDFs:
+I spent some time digging around on the internet and the fastest approach that I could find was using something like PDFPenPro, but that was \$129 and I wasn't looking to spend that kind of money. So I dug around on [homebrew](https://brew.sh) and found [`ocrmypdf`](https://ocrmypdf.readthedocs.io/en/latest/#). Then I wrote a [fish shell](https://fishshell.com) one liner to OCR all of the PDFs:
 
 ```bash
 for file in ./*.pdf; ocrmypdf "$file" "$file"; end
