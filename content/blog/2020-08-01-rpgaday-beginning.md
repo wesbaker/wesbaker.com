@@ -2,6 +2,9 @@
 layout: post
 title: "#RPGaDAY2020 Day 1: Beginning"
 date: 2020-08-01 11:00:00 -0400
+categories:
+  - rpgs
+  - rpgaday
 ---
 
 Every year for the past seven years, [David Chapman has run something called RPGaDAY](https://www.autocratik.com/2020/06/announcing-rpgaday2020.html). It's a series of prompts about RPGs for an entire month with the goal being to drive some discussion around them. I had a blast with it last year and I'm hoping to be as consistent this year with it.
