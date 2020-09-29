@@ -88,10 +88,9 @@ class Now extends React.Component {
           </a>{" "}
           and an <a href="https://epax3d.com/products/epax-printer">EPAX X1</a>{" "}
           and unless they&rsquo;re broken, they&rsquo;re probably printing
-          something. Lately, I&rsquo;ve been printing holiday decorations and
-          toys for my kids, and terrain and miniatures for D&D for me.
+          something.
         </p>
-        <h2>Rolelaying Games</h2>
+        <h2>Roleplaying Games</h2>
         <p>
           Before 3D printing, roleplaying were my newest hobby and I still do a
           fair amount of reading and playing, but I&rsquo;ve started to decrease
