@@ -6770,14 +6770,16 @@ gatsby-plugin-eslint@2.0.8:
   resolved "https://registry.npmjs.org/gatsby-plugin-eslint/-/gatsby-plugin-eslint-2.0.8.tgz#1ff7f546a427d274dc2de3932ba29822aae330c3"
   integrity sha512-vAMy37povmQJNg6ZxY78fkWR3pKwG8MNMhO3u+4vXj2MYT5avhFvHPJTAb126ZCuygf30gAWlpwbV50zP894Jw==
 
-gatsby-plugin-feed@^2.5.13:
-  version "2.5.13"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-feed/-/gatsby-plugin-feed-2.5.13.tgz#aee9eac139e39336a2068ab667610712e113659e"
-  integrity sha512-vzwEmXNIgVoWVW7VrRAAtmCVJaQplugfv1Uge/1aWpm3r3u5oM9wrwg3+yNZTbqi7CgSdhahrYFdQAEN5KQvdA==
+gatsby-plugin-feed@^2.5.16:
+  version "2.5.16"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-feed/-/gatsby-plugin-feed-2.5.16.tgz#7f2cd15147f6005ece0bb4c519d678f1e3684136"
+  integrity sha512-vFLuFlr81Wfs7jiUHinrBQ0ctwBc9N/6NRkt2wA8/FIue+GzPHJmY3z2gjL2TEsK3GNBXvr9W8ossESkVOGmVQ==
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@hapi/joi" "^15.1.1"
+    common-tags "^1.8.0"
     fs-extra "^8.1.0"
+    gatsby-plugin-utils "^0.2.35"
     lodash.merge "^4.6.2"
     rss "^1.2.2"
 
@@ -6895,10 +6897,10 @@ gatsby-plugin-typography@^2.5.13:
   dependencies:
     "@babel/runtime" "^7.11.2"
 
-gatsby-plugin-utils@^0.2.28:
-  version "0.2.28"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-0.2.28.tgz#b1d48b40e58c42962e423c0a92acbf4ed13ae727"
-  integrity sha512-VNjp9V02rIB2JAgFNzOGjgsMbwA7I5sdhU8TA6n9+/3JmV7O15npIy9NZDAR+3cHu+py+yb6VnwAxy23dNZXsg==
+gatsby-plugin-utils@^0.2.28, gatsby-plugin-utils@^0.2.35:
+  version "0.2.36"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-0.2.36.tgz#262da01835906bf92cc1ee43d62b94803ccfba70"
+  integrity sha512-AXvWnRA53z+iTb8LyQl0vaJmea+nf4P/0NUyf4O/8XXZblBxrI4jpcWDMO3VbssXuQrve9+5OtTXaz+GJX8t6A==
   dependencies:
     joi "^17.2.1"
 
