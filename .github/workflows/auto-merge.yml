@@ -4,6 +4,7 @@ on:
   pull_request:
     branches:
       - main
+      - master
     paths:
       - package.json
       - yarn.lock
