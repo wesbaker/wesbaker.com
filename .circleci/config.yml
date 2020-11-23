@@ -6,4 +6,3 @@ workflows:
     jobs:
       - node/test:
           pkg-manager: yarn
-          cache-version: v2
