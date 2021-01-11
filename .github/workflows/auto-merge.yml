@@ -4,7 +4,6 @@ on:
   pull_request:
     branches:
       - main
-      - master
     paths:
       - package.json
       - yarn.lock
@@ -13,8 +12,8 @@ jobs:
   auto-merge:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - uses: ahmadnassri/action-dependabot-auto-merge@v2
         with:
-          command: squash and merge
           github-token: ${{ secrets.WESBAKER_TOKEN }}
-          target: minor
+          command: squash and merge
