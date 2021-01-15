@@ -21,7 +21,7 @@ class Layout extends React.Component {
   static propTypes = {
     location: PropTypes.object,
     title: PropTypes.string,
-    children: PropTypes.children,
+    children: PropTypes.node,
   };
 
   render() {
