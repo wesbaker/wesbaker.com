@@ -66,13 +66,27 @@ class Uses extends React.Component {
             for it.
           </li>
           <li>
-            I use <a href="https://todoist.com/">Todoist</a> until Things
-            supports teams/families.
+            I use Apple Reminders and Calendar in concert with{" "}
+            <a href="https://www.calnewport.com/blog/2013/12/21/deep-habits-the-importance-of-planning-every-minute-of-your-work-day/">
+              timeblock planning.
+            </a>
           </li>
           <li>
             All of my notes go into <a href="https://bear.app">Bear</a>.
           </li>
         </ul>
+        <h2>The Rest</h2>
+        <p>
+          You can see the rest of what I&rsquo;m using in my{" "}
+          <a href="https://github.com/wesbaker/dotfiles">dotfiles</a>{" "}
+          repository. It&rsquo;s probably most interesting to look at the{" "}
+          <code>
+            <a href="https://github.com/wesbaker/dotfiles/blob/main/Brewfile">
+              Brewfile
+            </a>
+          </code>
+          .
+        </p>
         <hr style={{ marginBottom: "1.45rem" }} />
         <Bio />
       </Layout>
