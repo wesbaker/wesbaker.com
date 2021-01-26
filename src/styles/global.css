@@ -1,5 +1,6 @@
+code,
 code[class*="language"],
+pre,
 pre[class*="language"] {
-  font-variant-ligatures: none;
-  -webkit-font-variant-ligatures: none;
+  font-feature-settings: "liga" 0;
 }
