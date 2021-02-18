@@ -6,7 +6,7 @@ categories:
   - technology
 ---
 
-I’m not the first person to write that headline, nor will I be the last, but it’s pretty clear that people forget (or never knew) that RSS is a thing. If you haven’t heard of RSS feeds before, they stand for Really Simple Syndication, which may not tell you what they do. They’re XML feeds with content from a website. They can be created statically or generated from an application (e.g. Wordpress or Gatsby). In fact, [this website has an RSS feed](https://www.wesbaker.com/rss.xml) and I’m not sure I’d built a blog without one.
+I’m not the first person to write that headline, nor will I be the last, but it’s pretty clear that people forget (or never knew) that RSS is a thing. If you haven’t heard of RSS feeds before, they stand for Really Simple Syndication, which may not tell you what they do. They’re XML feeds with content from a website. They can be created statically or generated from an application (e.g. Wordpress or Gatsby). In fact, [this website has an RSS feed](https://www.wesbaker.com/rss.xml) and I wouldn’t build a blog without one.
 
 ## Why?
 
