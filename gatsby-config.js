@@ -46,9 +46,9 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-plausible`,
       options: {
-        trackingId: `UA-89594185-1`,
+        domain: `wesbaker.com`,
       },
     },
     {
