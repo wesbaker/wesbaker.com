@@ -12,7 +12,7 @@
     "@mdx-js/react": "^1.6.22",
     "babel-plugin-styled-components": "^1.12.0",
     "gatsby": "^2.32.4",
-    "gatsby-core-utils": "^1.10.0",
+    "gatsby-core-utils": "^1.10.1",
     "gatsby-image": "^2.11.0",
     "gatsby-plugin-feed": "^2.13.0",
     "gatsby-plugin-manifest": "^2.12.0",
