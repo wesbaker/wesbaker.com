@@ -47,6 +47,7 @@
     "typography-theme-ocean-beach": "^0.16.19"
   },
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
     "eslint": "^7.21.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-loader": "^4.0.2",
@@ -70,6 +71,7 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
+    "lint": "eslint src/",
     "test": "gatsby build && eslint src/"
   }
 }
