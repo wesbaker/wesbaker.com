@@ -41,7 +41,7 @@
     "styled-components": "^5.3.0",
     "typeface-merriweather": "1.1.13",
     "typeface-montserrat": "1.1.13",
-    "typography": "^0.16.19",
+    "typography": "^0.16.21",
     "typography-plugin-code": "^0.16.19",
     "typography-theme-alton": "^0.16.19",
     "typography-theme-ocean-beach": "^0.16.19"
