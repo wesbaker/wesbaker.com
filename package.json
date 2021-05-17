@@ -21,7 +21,7 @@
     "gatsby-plugin-offline": "^4.5.0",
     "gatsby-plugin-plausible": "0.0.7",
     "gatsby-plugin-react-helmet": "^4.5.0",
-    "gatsby-plugin-sharp": "^3.4.2",
+    "gatsby-plugin-sharp": "^3.5.0",
     "gatsby-plugin-styled-components": "^4.5.0",
     "gatsby-plugin-typography": "^3.4.0",
     "gatsby-remark-copy-linked-files": "^4.1.0",
