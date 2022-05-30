@@ -47,7 +47,7 @@
     "typography-theme-ocean-beach": "^0.16.19"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.17.0",
+    "@babel/eslint-parser": "^7.18.2",
     "@babel/preset-react": "^7.17.12",
     "eslint": "^8.16.0",
     "eslint-config-prettier": "^8.5.0",
