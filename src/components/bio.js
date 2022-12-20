@@ -58,8 +58,12 @@ const Bio = () => {
         puzzles, and making things work. When I’m not in front of a screen of
         some sort, I’m probably spending time with my wife, my sons, my animals,
         my board games, or my books.{" "}
-        <Link to="/now/">Check out what I&rsquo;m up to now</Link> or{" "}
-        <Link to="/uses/">see what tools I&rsquo;m currently using</Link>.
+        <Link to="/now/">Check out what I&rsquo;m up to now</Link>,{" "}
+        <Link to="/uses/">see what tools I&rsquo;m currently using</Link>, or{" "}
+        <a rel="me" href="https://hachyderm.io/@wesbaker">
+          follow me on Mastodon
+        </a>
+        .
       </p>
     </div>
   );
