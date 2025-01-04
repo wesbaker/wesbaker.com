@@ -4,7 +4,7 @@ title = "Wes Baker"
 base_url = "https://wesbaker.com"
 
 # Whether to automatically compile all Sass files in the sass directory
-compile_sass = false
+compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
@@ -22,8 +22,9 @@ highlight_code = true
 [extra]
 # Put all your custom variables here
 theme = "auto"
-
 fancy_code = true
+show_copyright = true
+copyright_string = "&copy; 2010&ndash;%YEAR% Wes Baker"
 
 socials = [
   { name = "bluesky", url = "https://bsky.app/profile/wesbaker.com", icon = "bluesky" },
