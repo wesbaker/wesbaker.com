@@ -20,7 +20,7 @@ Also, you should expect negative reviews and comments. I don’t love every game
 
 ## One Night Ultimate Werewolf
 
-![One Night Ultimate Werewolf](../assets/covers/one-night-ultimate-werewolf.jpg)
+![One Night Ultimate Werewolf](/covers/one-night-ultimate-werewolf.jpg)
 
 - 3 plays with 6 players
 - Played before
@@ -35,7 +35,7 @@ Yet, this is a game that keeps coming out and is fantastic without the expansion
 
 ## Concordia
 
-![Concordia](../assets/covers/concordia.jpg)
+![Concordia](/covers/concordia.jpg)
 
 - 1 play with 5 players
 - Not played before
@@ -52,7 +52,7 @@ My only concern with this game is play time and I’ve only played the game at i
 
 ## Cosmic Encounter
 
-![Cosmic Encounter](../assets/covers/cosmic-encounter.jpg)
+![Cosmic Encounter](/covers/cosmic-encounter.jpg)
 
 - 1 play with 5 players
 - Played before
@@ -67,7 +67,7 @@ This game gets better and better every time I play it and I love the different d
 
 ## XCOM: The Board Game
 
-![XCOM: The Board Game](../assets/covers/xcom.jpg)
+![XCOM: The Board Game](/covers/xcom.jpg)
 
 - 1 play with 4 players
 - Played before
@@ -86,7 +86,7 @@ Ultimately, XCOM is a game of luck and luck mitigation (mostly thanks to the Sci
 
 ## Stone Age
 
-![Stone Age](../assets/covers/stone-age.jpg)
+![Stone Age](/covers/stone-age.jpg)
 
 - 1 play with 4 players
 - Played before
@@ -103,7 +103,7 @@ That being said, it’s still a great game and one I’m looking to buy when Z-M
 
 ## Battle Line
 
-![Battle Line](../assets/covers/battle-line.jpg)
+![Battle Line](/covers/battle-line.jpg)
 
 - 3 plays with 2 players
 - Played before (on iOS)
@@ -120,7 +120,7 @@ Definitely worth the purchase.
 
 ## XenoShyft Onslaught
 
-![XenoShyft Onslaught](../assets/covers/xenoshyft.jpg)
+![XenoShyft Onslaught](/covers/xenoshyft.jpg)
 
 - 2 plays, one solo and one with 2 players
 - Not played before

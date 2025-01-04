@@ -8,7 +8,7 @@ taxonomies:
 ---
 ## [Arcadia Quest](https://boardgamegeek.com/boardgame/155068/arcadia-quest)
 
-![Arcadia Quest](../assets/covers/arcadia-quest.jpg)
+![Arcadia Quest](/covers/arcadia-quest.jpg)
 
 - 1 play with 4 players
 - Played before
@@ -20,7 +20,7 @@ Recommended.
 
 ## [Through the Ages](https://boardgamegeek.com/boardgame/182028/through-ages-new-story-civilization)
 
-![Through the Ages](../assets/covers/through-the-ages.jpg)
+![Through the Ages](/covers/through-the-ages.jpg)
 
 - 1 play with 2 players
 - Played before
@@ -31,7 +31,7 @@ Highly recommended. **Top 5**
 
 ## [Viticulture](https://boardgamegeek.com/boardgame/128621/viticulture)
 
-![Viticulture](../assets/covers/viticulture.jpg)
+![Viticulture](/covers/viticulture.jpg)
 
 - 1 play with 2 players
 - Played before
@@ -42,7 +42,7 @@ Recommended.
 
 ## [Monikers](https://boardgamegeek.com/boardgame/156546/monikers)
 
-![Monikers](../assets/covers/monikers.png)
+![Monikers](/covers/monikers.png)
 
 - 1 play with 10 people
 - Played before
@@ -53,7 +53,7 @@ Highly recommended.
 
 ## [Mission: Red Planet](https://boardgamegeek.com/boardgame/176920/mission-red-planet-second-edition)
 
-![Mission: Red Planet](../assets/covers/mission-red-planet.jpg)
+![Mission: Red Planet](/covers/mission-red-planet.jpg)
 
 - 1 play with 5 players
 - Played before
@@ -64,7 +64,7 @@ Recommended.
 
 ## [Specter Ops](https://boardgamegeek.com/boardgame/155624/specter-ops)
 
-![Specter Ops](../assets/covers/specter-ops.jpg)
+![Specter Ops](/covers/specter-ops.jpg)
 
 - 1 play with 4 players
 - Played before
@@ -81,7 +81,7 @@ Not recommended.
 
 ## [Cosmic Encounter](https://boardgamegeek.com/boardgame/39463/cosmic-encounter)
 
-![Cosmic Encounter](../assets/covers/cosmic-encounter.jpg)
+![Cosmic Encounter](/covers/cosmic-encounter.jpg)
 
 - 1 play with 6 players
 - Played before
@@ -104,7 +104,7 @@ Highly recommended. **Top 1**
 
 ## [Stockpile](https://boardgamegeek.com/boardgame/161614/stockpile)
 
-![Stockpile](../assets/covers/stockpile.jpg)
+![Stockpile](/covers/stockpile.jpg)
 
 - 1 play with 5 players
 - Played before

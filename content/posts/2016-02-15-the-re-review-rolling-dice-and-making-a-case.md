@@ -8,7 +8,7 @@ taxonomies:
 ---
 ## [Arcadia Quest](https://boardgamegeek.com/boardgame/155068/arcadia-quest)
 
-![Arcadia Quest](../assets/covers/arcadia-quest.jpg)
+![Arcadia Quest](/covers/arcadia-quest.jpg)
 
 - 2 plays with 4 players
 - Played before
@@ -20,7 +20,7 @@ Recommended for the right crowd.
 
 ## [Android](https://boardgamegeek.com/boardgame/39339/android)
 
-![Android](../assets/covers/android.jpg)
+![Android](/covers/android.jpg)
 
 - 1 play with 3 players
 - Played before

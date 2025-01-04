@@ -8,7 +8,7 @@ taxonomies:
 ---
 ## [Through the Ages: A New Story of Civilization](https://boardgamegeek.com/boardgame/182028/through-ages-new-story-civilization)
 
-![Through the Ages](../assets/covers/through-the-ages.jpg)
+![Through the Ages](/covers/through-the-ages.jpg)
 
 - 1 play with 2 players
 - New to me
@@ -27,7 +27,7 @@ _Highly_ recommended. **Top 10.**
 
 ## [Pandemic Legacy: Season 1](https://boardgamegeek.com/boardgame/161936/pandemic-legacy-season-1)
 
-![Pandemic Legacy](../assets/covers/pandemic-legacy.jpg)
+![Pandemic Legacy](/covers/pandemic-legacy.jpg)
 
 - 2 plays with 4 players
 - New to me
@@ -41,7 +41,7 @@ Highly recommended if you can swing a consistent group.
 
 ## [Spaceteam](https://boardgamegeek.com/boardgame/184491/spaceteam)
 
-![Spaceteam](../assets/covers/spaceteam.jpg)
+![Spaceteam](/covers/spaceteam.jpg)
 
 - 1 play with 4 players
 - New to me
@@ -52,7 +52,7 @@ Not recommended.
 
 ## [Castles of Mad King Ludwig](https://boardgamegeek.com/boardgame/155426/castles-mad-king-ludwig)
 
-![Castles of Mad King Ludwig](../assets/covers/castles-of-mad-king-ludwig.jpg)
+![Castles of Mad King Ludwig](/covers/castles-of-mad-king-ludwig.jpg)
 
 - 1 play with 2 players
 - Played before
@@ -64,7 +64,7 @@ Recommended.
 
 ## [7 Wonders: Duel](https://boardgamegeek.com/boardgame/173346/7-wonders-duel)
 
-![7 Wonders: Duel](../assets/covers/7-wonders-duel.jpg)
+![7 Wonders: Duel](/covers/7-wonders-duel.jpg)
 
 - 1 play with 2 players
 - Played before

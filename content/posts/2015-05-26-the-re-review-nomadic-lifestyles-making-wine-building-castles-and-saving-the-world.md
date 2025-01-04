@@ -9,7 +9,7 @@ taxonomies:
 ---
 ## [Arcadia Quest](https://boardgamegeek.com/boardgame/155068/arcadia-quest)
 
-![Arcadia Quest](../assets/covers/arcadia-quest.jpg)
+![Arcadia Quest](/covers/arcadia-quest.jpg)
 
 - 1 play with 3 players this week
 - Played before
@@ -30,7 +30,7 @@ I'm happy I own this game and I have the first expansion, but I'll probably stop
 
 ## [Viticulture](https://boardgamegeek.com/boardgame/128621/viticulture)
 
-![Viticulture](../assets/covers/viticulture.jpg)
+![Viticulture](/covers/viticulture.jpg)
 
 - 2 plays with 1 player this week
 - Played before
@@ -51,7 +51,7 @@ I'm happy I bought both **Viticulture** and **Tuscany**, but I'm not sure I woul
 
 ## [Innovation](http://www.boardgamegeek.com/boardgame/63888/innovation)
 
-![Innovation](../assets/covers/innovation.jpg)
+![Innovation](/covers/innovation.jpg)
 
 - 3 plays with 3 players this week
 - Played before
@@ -66,7 +66,7 @@ I recommend *trying* this game, probably [online](http://innovation.isotropic.or
 
 ## [Five Tribes](http://boardgamegeek.com/boardgame/157354/five-tribes)
 
-![Five Tribes](../assets/covers/five-tribes.jpg)
+![Five Tribes](/covers/five-tribes.jpg)
 
 - 1 play with 4 players this week
 - Played before
@@ -80,7 +80,7 @@ This is a fantastic game and I'm very happy to own it.
 
 ## [Marvel Legendary](http://boardgamegeek.com/boardgame/129437/legendary-a-marvel-deck-building-game)
 
-![Marvel Legendary](../assets/covers/marvel-legendary.jpg)
+![Marvel Legendary](/covers/marvel-legendary.jpg)
 
 - 1 play with 5 players this week
 - Played before
@@ -95,7 +95,7 @@ That being said, I'd love to try out the Guardians of the Galaxy expansion, but 
 
 ## [Neuroshima Hex](http://www.boardgamegeek.com/boardgame/21241/neuroshima-hex)
 
-![Neuroshima Hex](../assets/covers/neuroshima-hex.jpg)
+![Neuroshima Hex](/covers/neuroshima-hex.jpg)
 
 - 1 play with 2 players this week
 - Not played before
@@ -116,7 +116,7 @@ This game is at least worth a purchase if you own an iPad, iPhone, or Android de
 
 ## [Castles of Mad King Ludwig](http://boardgamegeek.com/boardgame/155426/castles-mad-king-ludwig)
 
-![Castles of Mad King Ludwig](../assets/covers/castles-of-mad-king-ludwig.jpg)
+![Castles of Mad King Ludwig](/covers/castles-of-mad-king-ludwig.jpg)
 
 - 2 plays with 1 player, and 1 play with 2 players this week
 - Not played before

@@ -8,7 +8,7 @@ taxonomies:
 ---
 ## [Five Tribes](https://boardgamegeek.com/boardgame/157354/five-tribes)
 
-![Five Tribes](../assets/covers/five-tribes.jpg)
+![Five Tribes](/covers/five-tribes.jpg)
 
 - 1 play with 2 players this week
 - Played before
@@ -22,7 +22,7 @@ I'm happy that this is in my 10x10 challenge and I'm looking forward to even mor
 
 ## [Loony Quest](https://boardgamegeek.com/boardgame/136991/loony-quest)
 
-![Loony Quest](../assets/covers/loony-quest.jpg)
+![Loony Quest](/covers/loony-quest.jpg)
 
 - 1 play with 3 players this week
 - Not played before
@@ -33,7 +33,7 @@ I had fun with it, but I'm not wild about it. It felt like more of an activity w
 
 ## [Roll for the Galaxy](https://boardgamegeek.com/boardgame/132531/roll-galaxy)
 
-![Roll for the Galaxy](../assets/covers/roll-for-the-galaxy.jpg)
+![Roll for the Galaxy](/covers/roll-for-the-galaxy.jpg)
 
 - 1 play with 3 players this week
 - Played before
@@ -44,7 +44,7 @@ The more I play this game, the less I play **Race for the Galaxy** which does bu
 
 ## [Istanbul](https://boardgamegeek.com/boardgame/148949/istanbul)
 
-![Istanbul](../assets/covers/istanbul.jpg)
+![Istanbul](/covers/istanbul.jpg)
 
 - 1 play with 2 players this week
 - Not played before
@@ -59,7 +59,7 @@ I'm happy I own this one now and I'm even happier that it's a game my wife wante
 
 ## [Spyfall](https://boardgamegeek.com/boardgame/166384/spyfall)
 
-![Spyfall](../assets/covers/spyfall.jpg)
+![Spyfall](/covers/spyfall.jpg)
 
 - 3 plays with 6 players this week
 - Played before

@@ -5,7 +5,7 @@ date: 2016-07-18T11:48:09-04:00
 ---
 ## [The Voyages of Marco Polo](https://boardgamegeek.com/boardgame/171623/voyages-marco-polo)
 
-![The Voyages of Marco Polo](../assets/covers/the-voyages-of-marco-polo.jpg)
+![The Voyages of Marco Polo](/covers/the-voyages-of-marco-polo.jpg)
 
 - 1 plays with 2 people
 - Played before
@@ -16,7 +16,7 @@ Recommended.
 
 ## [Coconuts](https://boardgamegeek.com/boardgame/145639/coconuts)
 
-![Coconuts](../assets/covers/coconuts.jpg)
+![Coconuts](/covers/coconuts.jpg)
 
 - 3 plays with 4 people
 - New to me
@@ -27,7 +27,7 @@ Recommended.
 
 ## [6 Nimmt!](https://boardgamegeek.com/boardgame/432/6-nimmt)
 
-![6 Nimmt!](../assets/covers/6-nimmt.jpg)
+![6 Nimmt!](/covers/6-nimmt.jpg)
 
 - 2 plays with 5 people
 - Played before
@@ -38,7 +38,7 @@ Recommended
 
 ## [Mission: Red Planet](https://boardgamegeek.com/boardgame/176920/mission-red-planet-second-edition)
 
-![Mission: Red Planet](../assets/covers/mission-red-planet.jpg)
+![Mission: Red Planet](/covers/mission-red-planet.jpg)
 
 - 1 play with 6 people
 - Played before
@@ -49,7 +49,7 @@ Highly recommended.
 
 ## [Flick ‘em Up!](https://boardgamegeek.com/boardgame/169124/flick-em)
 
-![Flick ‘em Up!](../assets/covers/flick-em-up.jpg)
+![Flick ‘em Up!](/covers/flick-em-up.jpg)
 
 - 1 play with 6 people and 1 play with 8 people
 - Played before
@@ -62,7 +62,7 @@ Recommended.
 
 ## [Scythe](https://boardgamegeek.com/boardgame/169786/scythe)
 
-![Scythe](../assets/covers/scythe.jpg)
+![Scythe](/covers/scythe.jpg)
 
 - 1 play with 2 people and 1 play with 5 people
 - New to me
@@ -73,14 +73,14 @@ Tentatively recommended.
 
 ## [Star Wars: Rebellion](https://boardgamegeek.com/boardgame/187645/star-wars-rebellion)
 
-![Star Wars: Rebellion](../assets/covers/star-wars-rebellion.jpg)
+![Star Wars: Rebellion](/covers/star-wars-rebellion.jpg)
 
 - 1 play with 2 people
 - New to me
 
 First, let me get my butthurt out of the way: don’t play as the Rebels in your first game against an experienced player. Thematically, the Rebels are supposed to feel against the ropes and hopeless, but someone who has played the game before will know that’s more of a feeling than the reality as they figure out ways to punch holes in the Empire’s armor. A new player, however, will feel doubly hopeless and they’re unsure of how to play _and_ the game is sending them signals that they’re not doing well.
 
-Okay, with that out of the way, the game is really interesting. It’s not at all what I expected when I first saw it. Leaders are really workers and missions are basically the work they’re doing. It’s a worker placement game. At the same time, the Rebellion is trying to hide long enough to achieve their goals while the Empire stomps around the galaxy trying to find and destroy their base. The *feel* of the game is just right.
+Okay, with that out of the way, the game is really interesting. It’s not at all what I expected when I first saw it. Leaders are really workers and missions are basically the work they’re doing. It’s a worker placement game. At the same time, the Rebellion is trying to hide long enough to achieve their goals while the Empire stomps around the galaxy trying to find and destroy their base. The _feel_ of the game is just right.
 
 I’m looking forward to playing again and hope my frustrations from the first play go away.
 
@@ -88,7 +88,7 @@ Tentatively recommended.
 
 ## [Dead of Winter](https://boardgamegeek.com/boardgame/150376/dead-winter-crossroads-game)
 
-![Dead of Winter](../assets/covers/dead-of-winter.jpg)
+![Dead of Winter](/covers/dead-of-winter.jpg)
 
 - 1 play with 3 people
 - Played before
@@ -99,7 +99,7 @@ Tentatively recommended.
 
 ## [Ra](https://boardgamegeek.com/boardgame/12/ra)
 
-![Ra](../assets/covers/ra.jpg)
+![Ra](/covers/ra.jpg)
 
 - 1 play with 4 people
 - New to me
@@ -112,7 +112,7 @@ Highly recommended.
 
 ## [Codenames](https://boardgamegeek.com/boardgame/178900/codenames)
 
-![Codenames](../assets/covers/codenames.jpg)
+![Codenames](/covers/codenames.jpg)
 
 - 2 plays with 9 people
 - Played before

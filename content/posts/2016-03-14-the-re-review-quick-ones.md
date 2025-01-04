@@ -8,7 +8,7 @@ taxonomies:
 ---
 ## [Through the Ages: A New Story of Civilization](https://boardgamegeek.com/boardgame/182028/through-ages-new-story-civilization)
 
-![Through the Ages](../assets/covers/through-the-ages.jpg)
+![Through the Ages](/covers/through-the-ages.jpg)
 
 - 1 play with 2 players
 - Played before
@@ -19,7 +19,7 @@ Highly recommended.
 
 ## [Cash 'n Guns](https://boardgamegeek.com/boardgame/155362/cah-n-guns-second-edition)
 
-![Cash ’n Guns](../assets/covers/cash-n-guns.jpg)
+![Cash ’n Guns](/covers/cash-n-guns.jpg)
 
 - 1 play with 8 players
 - Played before
@@ -30,7 +30,7 @@ Recommended.
 
 ## [Codenames](https://boardgamegeek.com/boardgame/178900/codenames)
 
-![Codenames](../assets/covers/codenames.jpg)
+![Codenames](/covers/codenames.jpg)
 
 - 2 plays with 10 players
 - Played before
@@ -43,7 +43,7 @@ Highly recommended.
 
 ## [Dale of Merchants](https://boardgamegeek.com/boardgame/176165/dale-merchants)
 
- ![Dale of Merchants](../assets/covers/dale-of-merchants.jpg)
+ ![Dale of Merchants](/covers/dale-of-merchants.jpg)
 
 - 1 play with 4 players
 - New to me
@@ -54,7 +54,7 @@ Tentatively recommended.
 
 ## [Battle Line](https://boardgamegeek.com/boardgame/760/battle-line)
 
-![Battle Line](../assets/covers/battle-line.jpg)
+![Battle Line](/covers/battle-line.jpg)
 
 - 2 plays with 2 players
 - Played before

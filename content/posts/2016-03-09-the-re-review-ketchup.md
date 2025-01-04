@@ -8,7 +8,7 @@ taxonomies:
 ---
 ## [Roll for the Galaxy](https://boardgamegeek.com/boardgame/132531/roll-galaxy "Roll for the Galaxy")
 
-![Roll for the Galaxy](../assets/covers/roll-for-the-galaxy.jpg)
+![Roll for the Galaxy](/covers/roll-for-the-galaxy.jpg)
 
 - 2 plays with 2 players
 - Played before
@@ -20,7 +20,7 @@ Tentatively recommended.
 
 ## [7 Wonders: Duel](https://boardgamegeek.com/boardgame/173346/7-wonders-duel "7 Wonders: Duel")
 
-![7 Wonders: Duel](../assets/covers/7-wonders-duel.jpg)
+![7 Wonders: Duel](/covers/7-wonders-duel.jpg)
 
 - 2 plays with 2 players
 - Played before
@@ -32,7 +32,7 @@ Highly recommended.
 
 ## [Codenames](https://boardgamegeek.com/boardgame/178900/codenames)
 
-![Codenames](../assets/covers/codenames.jpg)
+![Codenames](/covers/codenames.jpg)
 
 - 2 plays with 6 players
 - Played before
@@ -45,7 +45,7 @@ Highly recommended.
 
 ## [Wits & Wagers](https://boardgamegeek.com/boardgame/20100/wits-wagers)
 
-![Wits & Wagers](../assets/covers/wits-wagers.jpg)
+![Wits & Wagers](/covers/wits-wagers.jpg)
 
 - 1 play with 8 players
 - Played before
@@ -56,7 +56,7 @@ Recommended for a crowd.
 
 ## [Monikers](https://boardgamegeek.com/boardgame/156546/monikers)
 
-![Monikers](../assets/covers/monikers.png)
+![Monikers](/covers/monikers.png)
 
 - 1 play with 7 players
 - Played before
@@ -67,7 +67,7 @@ Recommended.
 
 ## [Through the Ages: A New Story of Civilization](https://boardgamegeek.com/boardgame/182028/through-ages-new-story-civilization)
 
-![Through the Ages](../assets/covers/through-the-ages.jpg)
+![Through the Ages](/covers/through-the-ages.jpg)
 
 - 1 play with 2 players
 - Played before
@@ -78,7 +78,7 @@ Highly recommended. One of the best games I've ever played.
 
 ## [Alchemists](https://boardgamegeek.com/boardgame/161970/alchemists)
 
-![Alchemists](../assets/covers/alchemists.png)
+![Alchemists](/covers/alchemists.png)
 
 - 1 play with 2 players
 - Played before
@@ -89,7 +89,7 @@ Recommendation on hold.
 
 ## [Port Royal](https://boardgamegeek.com/boardgame/156009/port-royal)
 
-![Port Royal](../assets/covers/port-royal.jpg)
+![Port Royal](/covers/port-royal.jpg)
 
 - 1 play with 2 players
 - Played before
@@ -103,7 +103,7 @@ Recommended.
 
 ## [Arcadia Quest](https://boardgamegeek.com/boardgame/155068/arcadia-quest)
 
-![Arcadia Quest](../assets/covers/arcadia-quest.jpg)
+![Arcadia Quest](/covers/arcadia-quest.jpg)
 
 - 1 play with 4 players
 - Played before

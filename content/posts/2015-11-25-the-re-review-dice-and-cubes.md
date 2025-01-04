@@ -8,7 +8,7 @@ taxonomies:
 ---
 ## [Lords of Waterdeep](https://boardgamegeek.com/boardgame/110327/lords-waterdeep)
 
-![Lords of Waterdeep](../assets/covers/lords-of-waterdeep.jpg)
+![Lords of Waterdeep](/covers/lords-of-waterdeep.jpg)
 
 - 1 play with 3 players
 - Played before
@@ -23,7 +23,7 @@ Recommended.
 
 ## [Between Two Cities](https://boardgamegeek.com/boardgame/168435/between-two-cities)
 
-![Between Two Cities](../assets/covers/between-two-cities.jpg)
+![Between Two Cities](/covers/between-two-cities.jpg)
 
 - 1 play with 6 players, and 1 play with 4 players
 - Played before
@@ -34,7 +34,7 @@ Recommended.
 
 ## [Roll for the Galaxy](https://boardgamegeek.com/boardgame/132531/roll-galaxy)
 
-![Roll for the Galaxy](../assets/covers/roll-for-the-galaxy.jpg)
+![Roll for the Galaxy](/covers/roll-for-the-galaxy.jpg)
 
 - 1 play with 2 players
 - Played before
@@ -47,7 +47,7 @@ Highly recommended.
 
 ## [Pandemic: The Cure](https://boardgamegeek.com/boardgame/150658/pandemic-cure)
 
-![Pandemic: The Cure](../assets/covers/pandemic-the-cure.jpg)
+![Pandemic: The Cure](/covers/pandemic-the-cure.jpg)
 
 - 2 plays with 2 players
 - Played before
@@ -58,7 +58,7 @@ Recommended for fans of dice and cooperative games.
 
 ## [Blood Rage](https://boardgamegeek.com/boardgame/170216/blood-rage)
 
- ![Blood Rage](../assets/covers/blood-rage.jpg)
+ ![Blood Rage](/covers/blood-rage.jpg)
 
 - 1 play with 3 players
 - New to me
@@ -75,7 +75,7 @@ Highly recommended if you enjoy confrontational games.
 
 ## [A Game of Thrones: The Card Game (Second Edition)](https://boardgamegeek.com/boardgame/169255/game-thrones-card-game-second-edition)
 
-![A Game of Thrones: The Card Game (Second Edition)](../assets/covers/a-game-of-thrones-the-card-game-second-edition.png)
+![A Game of Thrones: The Card Game (Second Edition)](/covers/a-game-of-thrones-the-card-game-second-edition.png)
 
 - 1 play with 3 players
 - New to me
@@ -88,7 +88,7 @@ Recommended to fans of LCGs looking to get in on the ground floor.
 
 ## [Kingdom Builder](https://boardgamegeek.com/boardgame/107529/kingdom-builder)
 
- ![Kingdom Builder](../assets/covers/kingdom-builder.jpg)
+ ![Kingdom Builder](/covers/kingdom-builder.jpg)
 
 - 1 play with 4 players
 - Played before
@@ -101,7 +101,7 @@ Not recommended.
 
 ## [Discoveries](https://boardgamegeek.com/boardgame/171669/discoveries)
 
-![Discoveries](../assets/covers/discoveries.jpg)
+![Discoveries](/covers/discoveries.jpg)
 
 - 1 play with 3 players
 - New to me
@@ -116,7 +116,7 @@ Not recommended.
 
 ## [Burgle Bros](https://boardgamegeek.com/boardgame/172081/burgle-bros)
 
-![Burgle Bros](../assets/covers/burgle-bros.png)
+![Burgle Bros](/covers/burgle-bros.png)
 
 - 2 plays with 2 players
 - New to me
@@ -135,7 +135,7 @@ Recommended.
 
 ## [Orléans](https://boardgamegeek.com/boardgame/164928/orleans)
 
-![Orleans](../assets/covers/orleans.png)
+![Orleans](/covers/orleans.png)
 
 - 1 play with 2 players
 - New to me
@@ -159,7 +159,7 @@ Highly recommended.
 
 ## [Cthulhu Wars](https://boardgamegeek.com/boardgame/139976/cthulhu-wars)
 
-![Cthulhu Wars](../assets/covers/cthulhu-wars.jpg)
+![Cthulhu Wars](/covers/cthulhu-wars.jpg)
 
 - 1 play with 4 players
 - New to me
@@ -176,7 +176,7 @@ Tentatively recommended. Needs more plays.
 
 ## [Hyperborea](https://boardgamegeek.com/boardgame/119788/hyperborea)
 
-![Hyperborea](../assets/covers/hyperborea.jpg)
+![Hyperborea](/covers/hyperborea.jpg)
 
 - 1 play with 4 players
 - Played before
@@ -189,7 +189,7 @@ Not recommended.
 
 ## [No Thanks!](https://boardgamegeek.com/boardgame/12942/no-thanks)
 
-![No Thanks!](../assets/covers/no-thanks.jpg)
+![No Thanks!](/covers/no-thanks.jpg)
 
 - 1 play with 5 players, 1 play with 4 players
 - New to me

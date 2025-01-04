@@ -8,7 +8,7 @@ taxonomies:
 ---
 ## [Cosmic Encounter](https://boardgamegeek.com/boardgame/39463/cosmic-encounter)
 
-![Cosmic Encounter](../assets/covers/cosmic-encounter.jpg)
+![Cosmic Encounter](/covers/cosmic-encounter.jpg)
 
 - 1 play with 5 players
 - Played before
@@ -20,7 +20,7 @@ In this particular game, I was the Parasite which meant that no one could refuse
 
 ## [Spyfall](https://boardgamegeek.com/boardgame/166384/spyfall)
 
-![Spyfall](../assets/covers/spyfall.jpg)
+![Spyfall](/covers/spyfall.jpg)
 
 - 2 plays with 5 players
 - Played before
@@ -31,7 +31,7 @@ However, with a group of experienced players who know each other and enjoy this 
 
 ## [7 Wonders](https://boardgamegeek.com/boardgame/68448/7-wonders)
 
-![7 Wonders](../assets/covers/7-wonders.jpg)
+![7 Wonders](/covers/7-wonders.jpg)
 
 - 1 play with 4 players
 - Played before
@@ -42,7 +42,7 @@ In this particular game I heavily went for resources and largely ignored blue ca
 
 ## [Stockpile](https://boardgamegeek.com/boardgame/161614/stockpile)
 
-![Stockpile](../assets/covers/stockpile.jpg)
+![Stockpile](/covers/stockpile.jpg)
 
 - 1 play with 4 players
 - New to me
@@ -57,7 +57,7 @@ There's a lot to like here: easy rules, quick playing time, real world theme and
 
 ## [Monikers](https://boardgamegeek.com/boardgame/156546/monikers)
 
-![Monikers](../assets/covers/monikers.png)
+![Monikers](/covers/monikers.png)
 
 - 1 play with 8 players
 - New to me
@@ -70,7 +70,7 @@ In our game we didn't keep score, we treated it mostly as an activity which is *
 
 ## [One Night Ultimate Werewolf](https://boardgamegeek.com/boardgame/147949/one-night-ultimate-werewolf)
 
-![One Night Ultimate Werewolf](../assets/covers/one-night-ultimate-werewolf.jpg)
+![One Night Ultimate Werewolf](/covers/one-night-ultimate-werewolf.jpg)
 
 - 2 plays with 8 players
 - Played before
@@ -83,7 +83,7 @@ I do enjoy this game, but be wary of players like this and discourage that kind 
 
 ## [Isle of Skye](https://boardgamegeek.com/boardgame/176494/isle-skye-chieftain-king)
 
-![Isle of Skye](../assets/covers/isle-of-skye.jpg)
+![Isle of Skye](/covers/isle-of-skye.jpg)
 
 - 1 play with 3 players
 - New to me
@@ -96,7 +96,7 @@ I enjoyed my play of this quite a bit, the meat of it being the pricing which re
 
 ## [Alchemists](https://boardgamegeek.com/boardgame/161970/alchemists)
 
-![Alchemists](../assets/covers/alchemists.png)
+![Alchemists](/covers/alchemists.png)
 
 - 1 play with 2 players, 1 play with 4 players
 - New to me
@@ -109,7 +109,7 @@ In two games my wife and I have each won once, both times within one point of th
 
 ## [Star Wars: Imperial Assault](https://boardgamegeek.com/boardgame/164153/star-wars-imperial-assault)
 
-![Star Wars: Imperial Assault](../assets/covers/star-wars-imperial-assault.jpg)
+![Star Wars: Imperial Assault](/covers/star-wars-imperial-assault.jpg)
 
 - 2 plays with 3 players
 - Played before
@@ -121,7 +121,7 @@ Thankfully, I prevented the Rebels from gaining Chewbacca as an ally, but I'm no
 
 ## [Rhino Hero](https://boardgamegeek.com/boardgame/91514/rhino-hero)
 
-![Rhino Hero](../assets/covers/rhino-hero.jpg)
+![Rhino Hero](/covers/rhino-hero.jpg)
 
 - 2 plays with 2 players
 - New to me
@@ -132,7 +132,7 @@ The winner is the person who gets rid of their cards first, alternatively the lo
 
 ## [Ashes: Rise of the Phoenixborn](https://boardgamegeek.com/boardgame/167400/ashes-rise-phoenixborn)
 
-![Ashes: Rise of the Phoenixborn](../assets/covers/ashes-rise-of-the-phoenixborn.jpg)
+![Ashes: Rise of the Phoenixborn](/covers/ashes-rise-of-the-phoenixborn.jpg)
 
 - 1 play with 2 players
 - Played before
@@ -141,7 +141,7 @@ In this particular game of **Ashes** I played with Noah Redmoon's base deck and 
 
 ## [Codenames](https://boardgamegeek.com/boardgame/178900/codenames)
 
-![Codenames](../assets/covers/codenames.jpg)
+![Codenames](/covers/codenames.jpg)
 
 - 3 plays with 6 players, 2 plays with 11 players
 - New to me
@@ -154,7 +154,7 @@ The biggest problem is remaining straight faced as the spymaster and giving **no
 
 ## [Terra Mystica](https://boardgamegeek.com/boardgame/120677/terra-mystica)
 
-![Terra Mystica](../assets/covers/terra-mystica.jpg)
+![Terra Mystica](/covers/terra-mystica.jpg)
 
 - 1 play with 2 players
 - Played before
@@ -164,7 +164,7 @@ Alright, we're done with the party games for now and on to meatier fare. **Terra
 
 ## [Nations: The Dice Game](https://boardgamegeek.com/boardgame/157809/nations-dice-game)
 
-![Nations: The Dice Game](../assets/covers/nations-the-dice-game.jpg)
+![Nations: The Dice Game](/covers/nations-the-dice-game.jpg)
 
 - 1 play with 3 players
 - New to me
@@ -175,7 +175,7 @@ I liked my play of **Nations: The Dice Game** enough to (briefly) add it to my w
 
 ## [Race for the Galaxy](https://boardgamegeek.com/boardgame/28143/race-galaxy "Race for the Galaxy")
 
-![Race for the Galaxy](../assets/covers/race-for-the-galaxy.jpg)
+![Race for the Galaxy](/covers/race-for-the-galaxy.jpg)
 
 - 1 play with 3 players
 - Played before
@@ -184,7 +184,7 @@ I liked my play of **Nations: The Dice Game** enough to (briefly) add it to my w
 
 ## [Viceroy](https://boardgamegeek.com/boardgame/157526/viceroy "Viceroy")
 
-![Viceroy](../assets/covers/viceroy.jpg)
+![Viceroy](/covers/viceroy.jpg)
 
 - 1 play with 3 players
 - New to me
@@ -193,7 +193,7 @@ I backed this game on Kickstarter due to Tom Vasel's review and while I enjoyed 
 
 ## [Caverna](https://boardgamegeek.com/boardgame/102794/caverna-cave-farmers "Caverna: The Cave Farmers")
 
-![Caverna](../assets/covers/caverna.jpg)
+![Caverna](/covers/caverna.jpg)
 
 - 1 play with 2 players
 - Played before
@@ -203,7 +203,7 @@ My wife agreed to start using the larger set of furnishings which allowed us to 
 
 ## [Ticket to Ride](https://boardgamegeek.com/boardgame/9209/ticket-ride "Ticket to Ride")
 
-![Ticket to Ride](../assets/covers/ticket-to-ride.jpg)
+![Ticket to Ride](/covers/ticket-to-ride.jpg)
 
 - 2 plays with 2 players
 - Played before
@@ -214,7 +214,7 @@ We don't play **Ticket to Ride** much, but it's definitely a nice and relaxing g
 
 ## [Evolution](https://boardgamegeek.com/boardgame/155703/evolution "Evolution")
 
-![Evolution](../assets/covers/evolution.jpg)
+![Evolution](/covers/evolution.jpg)
 
 - 1 play with 3 players
 - New to me

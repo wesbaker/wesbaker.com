@@ -9,7 +9,7 @@ taxonomies:
 ---
 ## [Warhammer 40,000: Conquest](https://boardgamegeek.com/boardgame/156776/warhammer-40000-conquest)
 
-<img src="../assets/covers/wh40kconquest.jpg" alt=“Warhammer 40,000: Conquest” class="image-right" />
+<img src="/covers/wh40kconquest.jpg" alt=“Warhammer 40,000: Conquest” class="image-right" />
 
 - 1 play with 2 players
 - Played before
@@ -24,7 +24,7 @@ I have two problems and if either was “fixed” I could ignore the other. I’
 
 ## [Cyclades](https://boardgamegeek.com/boardgame/54998/cyclades) with [Cyclades: Titans](https://boardgamegeek.com/boardgameexpansion/155820/cyclades-titans)
 
-<img src="../assets/covers/cyclades-titans.jpg" alt=“Cyclades: Titans“ class="image-right" />
+<img src="/covers/cyclades-titans.jpg" alt=“Cyclades: Titans“ class="image-right" />
 
 - 1 play with 3 players
 - Played base game before, but **Titans** is new
@@ -39,7 +39,7 @@ This will be the last time I buy this game, I’m officially done with it.
 
 ## [Wiz-War](https://boardgamegeek.com/boardgame/104710/wiz-war-eighth-edition)
 
-<img src="../assets/covers/wiz-war.jpg" alt=“Wiz-War” class="image-right" />
+<img src="/covers/wiz-war.jpg" alt=“Wiz-War” class="image-right" />
 
 - 1 play with 3 players
 - Played before
@@ -54,7 +54,7 @@ I’m hoping to keep this one around now and start to shuffle in the expansions 
 
 ## [Battle Line](https://boardgamegeek.com/boardgame/760/battle-line)
 
-![Battle Line](../assets/covers/battle-line.jpg)
+![Battle Line](/covers/battle-line.jpg)
 
 - 3 plays with 2 players
 - Played before
@@ -69,7 +69,7 @@ One piece of advice with this game: don't take too many tactics cards. Since you
 
 ## [Beasty Bar](https://boardgamegeek.com/boardgame/165950/beasty-bar)
 
-![Beasty Bar](../assets/covers/beasty-bar.jpg)
+![Beasty Bar](/covers/beasty-bar.jpg)
 
 - 1 play with 2 players
 - Played before
@@ -82,7 +82,7 @@ We ended in a tie and I suspect most two player games of **Beasty Bar** would en
 
 ## [Roll for the Galaxy](https://boardgamegeek.com/boardgame/132531/roll-galaxy)
 
-<img src="../assets/covers/roll-for-the-galaxy.jpg" alt=“Roll for the Galaxy“ class="image-right" />
+<img src="/covers/roll-for-the-galaxy.jpg" alt=“Roll for the Galaxy“ class="image-right" />
 
 - 1 play with 2 players
 - Played before

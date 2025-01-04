@@ -8,7 +8,7 @@ taxonomies:
 ---
 ## [Through the Ages](https://boardgamegeek.com/boardgame/182028/through-ages-new-story-civilization)
 
-![Through the Ages](../assets/covers/through-the-ages.jpg)
+![Through the Ages](/covers/through-the-ages.jpg)
 
 - 1 play with 2 people
 - Played before
@@ -19,7 +19,7 @@ Highly recommended.
 
 ## [Magic: The Gathering](https://boardgamegeek.com/boardgame/463/magic-gathering)
 
-![Magic](../assets/covers/magic.jpg)
+![Magic](/covers/magic.jpg)
 
 - 5 plays with 2 people
 - Played before
@@ -30,7 +30,7 @@ Not recommended.
 
 ## [Dale of Merchants](https://boardgamegeek.com/boardgame/176165/dale-merchants)
 
-![Dale of Merchants](../assets/covers/dale-of-merchants.jpg)
+![Dale of Merchants](/covers/dale-of-merchants.jpg)
 
 - 1 play with 2 people
 - Played before
@@ -41,7 +41,7 @@ Not recommended.
 
 ## [Five Tribes](https://boardgamegeek.com/boardgame/157354/five-tribes)
 
-![Five Tribes](../assets/covers/five-tribes.jpg)
+![Five Tribes](/covers/five-tribes.jpg)
 
 - 1 play with 2 people
 - Played before
@@ -55,7 +55,7 @@ Highly recommended.
 
 ## [Burgle Bros](https://boardgamegeek.com/boardgame/160968/homeland-game)
 
-![Burgle Bros](../assets/covers/burgle-bros.jpg)
+![Burgle Bros](/covers/burgle-bros.jpg)
 
 - 1 play with 4 people
 - Played before
@@ -70,7 +70,7 @@ Recommended.
 
 ## [Homeland: The Game](https://boardgamegeek.com/boardgame/172081/burgle-bros)
 
-![Homeland](../assets/covers/homeland.jpg)
+![Homeland](/covers/homeland.jpg)
 
 - 1 play with 5 people
 - Played before

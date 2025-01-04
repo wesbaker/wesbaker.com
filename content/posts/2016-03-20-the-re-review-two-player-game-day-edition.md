@@ -8,7 +8,7 @@ taxonomies:
 ---
 ## [Blood Rage](https://boardgamegeek.com/boardgame/170216/blood-rage)
 
-![Blood Rage](../assets/covers/blood-rage.jpg)
+![Blood Rage](/covers/blood-rage.jpg)
 
 - 1 play with 3 players
 - Played before
@@ -22,7 +22,7 @@ Tentatively recommended.
 
 ## [Concordia](https://boardgamegeek.com/boardgame/124361/concordia)
 
-![Concordia](../assets/covers/concordia.jpg)
+![Concordia](/covers/concordia.jpg)
 
 - 1 play with 2 players
 - Played before
@@ -35,7 +35,7 @@ Recommended.
 
 ## [Twilight Struggle](https://boardgamegeek.com/boardgame/12333/twilight-struggle)
 
-![Twilight Struggle](../assets/covers/twilight-struggle.jpg)
+![Twilight Struggle](/covers/twilight-struggle.jpg)
 
 - 1 play with 2 players
 - Played before
@@ -50,7 +50,7 @@ Recommended, but understand it's a three hour game about The Cold War and, thema
 
 ## [The Duke](https://boardgamegeek.com/boardgame/36235/duke)
 
-![The Duke](../assets/covers/the-duke.jpg)
+![The Duke](/covers/the-duke.jpg)
 
 - 1 play with 2 players
 - Played before
@@ -67,7 +67,7 @@ Recommended.
 
 ## [Claustrophobia](https://boardgamegeek.com/boardgame/36932/claustrophobia)
 
-![Claustrophobia](../assets/covers/claustrophobia.jpg)
+![Claustrophobia](/covers/claustrophobia.jpg)
 
 - 1 play with 2 players
 - Played before
@@ -82,7 +82,7 @@ Recommended.
 
 ## [Raptor](https://boardgamegeek.com/boardgame/177639/raptor)
 
-![Raptor](../assets/covers/raptor.jpg)
+![Raptor](/covers/raptor.jpg)
 
 - 2 plays with 2 players
 - New to me
@@ -95,7 +95,7 @@ Highly recommended.
 
 ## [Battle Line](https://boardgamegeek.com/boardgame/760/battle-line)
 
-![Battle Line](../assets/covers/battle-line.jpg)
+![Battle Line](/covers/battle-line.jpg)
 
 - 1 play with 2 players
 - Played before
@@ -106,7 +106,7 @@ Recommended.
 
 ## [BattleLore](https://boardgamegeek.com/boardgame/146439/battlelore-second-edition)
 
-![BattleLore](../assets/covers/battlelore.jpg)
+![BattleLore](/covers/battlelore.jpg)
 
 - 1 play with 2 players
 - Played before
@@ -121,7 +121,7 @@ Recommended.
 
 ## [Risk: Star Wars Edition](https://boardgamegeek.com/boardgame/183880/risk-star-wars-edition)
 
-![Risk: Star Wars Edition](../assets/covers/risk-star-wars-edition.jpg)
+![Risk: Star Wars Edition](/covers/risk-star-wars-edition.jpg)
 
 - 1 play with 2 players
 - New to me

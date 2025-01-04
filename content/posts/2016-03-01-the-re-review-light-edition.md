@@ -8,7 +8,7 @@ taxonomies:
 ---
 ## [Arcadia Quest](https://boardgamegeek.com/boardgame/155068/arcadia-quest)
 
-![Arcadia Quest](../assets/covers/arcadia-quest.jpg)
+![Arcadia Quest](/covers/arcadia-quest.jpg)
 
 - 1 play with 4 players
 - Played before
@@ -20,7 +20,7 @@ Highly recommended, especially if you can swing campaign play.
 
 ## [Between Two Cities](https://boardgamegeek.com/boardgame/168435/between-two-cities)
 
-![Between Two Cities](../assets/covers/between-two-cities.jpg)
+![Between Two Cities](/covers/between-two-cities.jpg)
 
 - 1 play with 4 players
 - Played before

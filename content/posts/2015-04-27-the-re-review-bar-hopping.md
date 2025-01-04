@@ -8,7 +8,7 @@ taxonomies:
 ---
 ## Beasty Bar
 
-![Beasty Bar](../assets/covers/beasty-bar.jpg)
+![Beasty Bar](/covers/beasty-bar.jpg)
 
 - 1 play with 4 players
 - Not played before

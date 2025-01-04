@@ -8,7 +8,7 @@ taxonomies:
 ---
 ## [Baseball Highlights 2045](https://boardgamegeek.com/boardgame/186567/baseball-highlights-2045-super-deluxe-edition)
 
-![Baseball Highlights 2045](../assets/covers/baseball-highlights-2045.jpg)
+![Baseball Highlights 2045](/covers/baseball-highlights-2045.jpg)
 
 - 1 play with 2 players
 - New to me
@@ -21,7 +21,7 @@ Not recommended.
 
 ## [Pairs](https://boardgamegeek.com/boardgame/152237/pairs)
 
-![Pairs](../assets/covers/pairs.jpg)
+![Pairs](/covers/pairs.jpg)
 
 - 4 plays with 6 players
 - Played before
@@ -34,7 +34,7 @@ Recommended.
 
 ## [Spot It!](https://boardgamegeek.com/boardgame/63268/spot-it)
 
-![Spot It!](../assets/covers/spot-it.jpg)
+![Spot It!](/covers/spot-it.jpg)
 
 - 5 plays with 6 players
 - Played before
@@ -45,7 +45,7 @@ Recommended.
 
 ## [7 Wonders: Duel](https://boardgamegeek.com/boardgame/173346/7-wonders-duel)
 
-![7 Wonders: Duel](../assets/covers/7-wonders-duel.jpg)
+![7 Wonders: Duel](/covers/7-wonders-duel.jpg)
 
 - 3 plays with 2 players
 - Played before
@@ -57,7 +57,7 @@ Highly recommended.
 
 ## [Claustrophobia](https://boardgamegeek.com/boardgame/36932/claustrophobia)
 
-![Claustrophobia](../assets/covers/claustrophobia.jpg)
+![Claustrophobia](/covers/claustrophobia.jpg)
 
 - 1 play with 2 players
 - Played before
@@ -70,7 +70,7 @@ Not recommended at the moment.
 
 ## [Forbidden Desert](https://boardgamegeek.com/boardgame/136063/forbidden-desert)
 
-![Forbidden Desert](../assets/covers/forbidden-desert.jpg)
+![Forbidden Desert](/covers/forbidden-desert.jpg)
 
 - 1 play with 4 players
 - Played before
@@ -81,7 +81,7 @@ Recommended.
 
 ## [Mission: Red Planet](https://boardgamegeek.com/boardgame/176920/mission-red-planet-second-edition)
 
-![Mission: Red Planet](../assets/covers/mission-red-planet.jpg)
+![Mission: Red Planet](/covers/mission-red-planet.jpg)
 
 - 1 play with 4 players
 - Played before (sorta)
@@ -92,7 +92,7 @@ Highly recommended (at the higher player counts).
 
 ## [Orléans](https://boardgamegeek.com/boardgame/164928/orleans)
 
-![Orleans](../assets/covers/orleans.png)
+![Orleans](/covers/orleans.png)
 
 - 1 play with 2 players
 - Played before

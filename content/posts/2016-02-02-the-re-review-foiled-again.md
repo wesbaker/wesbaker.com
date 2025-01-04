@@ -8,7 +8,7 @@ taxonomies:
 ---
 ## [Blood Rage](https://boardgamegeek.com/boardgame/170216/blood-rage "Blood Rage")
 
-![Blood Rage](../assets/covers/blood-rage.jpg)
+![Blood Rage](/covers/blood-rage.jpg)
 
 - 1 play with 3 players
 - Played before
@@ -18,7 +18,7 @@ taxonomies:
 
 ## [7 Wonders: Duel](https://boardgamegeek.com/boardgame/173346/7-wonders-duel "7 Wonders: Duel")
 
-![7 Wonders: Duel](../assets/covers/7-wonders-duel.jpg)
+![7 Wonders: Duel](/covers/7-wonders-duel.jpg)
 
 - 1 play with 2 players
 - Played before
@@ -28,11 +28,11 @@ I really do enjoy **7 Wonders: Duel**, even if it made me realize that any game 
 
 ## [Roll for the Galaxy](https://boardgamegeek.com/boardgame/132531/roll-galaxy "Roll for the Galaxy")
 
-![Roll for the Galaxy](../assets/covers/roll-for-the-galaxy.jpg)
+![Roll for the Galaxy](/covers/roll-for-the-galaxy.jpg)
 
 - 2 plays with 2 players
 - Played before
- 	- First time with **[Roll for the Galaxy: Ambition](https://boardgamegeek.com/boardgameexpansion/175754/roll-galaxy-ambition "Roll for the Galaxy: Ambition (English first edition)")**
+  - First time with **[Roll for the Galaxy: Ambition](https://boardgamegeek.com/boardgameexpansion/175754/roll-galaxy-ambition "Roll for the Galaxy: Ambition (English first edition)")**
 - **Part of [my 2016 10x10 Challenge](https://boardgamegeek.com/geeklist/202712/wesbakers-2016-10x10-hardcore-challenge)**
 
 My wife and I played two games of **Roll for the Galaxy** in a row, namely because she did so well and I did so poorly in our first game that I had to have a rematch. In that particular game, she managed to create a money generating engine that allowed her to not really have any dips where she wasn't rolling gobs of dice, whereas I had turns of rolling one die. It's no fun to lose, but it was even less fun to have one tiny decision while your opponent is trying to decide what to do with their ten dice.
@@ -43,7 +43,7 @@ I'm still happy playing this game, but this was the first time where we both saw
 
 ## [Clash of Cultures](https://boardgamegeek.com/boardgame/40765/clash-cultures)
 
-![Clash of Cultures](../assets/covers/clash-of-cultures.jpg)
+![Clash of Cultures](/covers/clash-of-cultures.jpg)
 
 - 1 play with 4 players
 - Played before
@@ -52,7 +52,7 @@ There's nothing quite like taking a tiny little civilization and seeing it grow 
 
 ## [Homeland](https://boardgamegeek.com/boardgame/160968/homeland-game)
 
-![Homeland](../assets/covers/homeland.jpg)
+![Homeland](/covers/homeland.jpg)
 
 - 1 play with 3 players
 - New to me
@@ -61,7 +61,7 @@ There's nothing quite like taking a tiny little civilization and seeing it grow 
 
 ## [Warhammer Quest: The Adventure Card Game](https://boardgamegeek.com/boardgame/181521/warhammer-quest-adventure-card-game)
 
-![Warhammer Quest: The Adventure Card Game](../assets/covers/warhammer-quest-the-adventure-card-game.jpg)
+![Warhammer Quest: The Adventure Card Game](/covers/warhammer-quest-the-adventure-card-game.jpg)
 
 - 1 play with 3 players
 - Played before

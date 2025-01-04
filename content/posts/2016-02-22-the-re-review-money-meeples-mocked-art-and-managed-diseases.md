@@ -8,7 +8,7 @@ taxonomies:
 ---
 ## [For Sale](https://boardgamegeek.com/boardgame/172/sale)
 
-![For Sale](../assets/covers/for-sale.jpg)
+![For Sale](/covers/for-sale.jpg)
 
 - 1 play with 6 players
 - Played before
@@ -19,7 +19,7 @@ Recommended.
 
 ## [Survive: Escape from Atlantis!](https://boardgamegeek.com/boardgame/2653/survive-escape-atlantis)
 
-![Survive: Escape from Atlantis](../assets/covers/survive-escape-from-atlantis.jpg)
+![Survive: Escape from Atlantis](/covers/survive-escape-from-atlantis.jpg)
 
 - 1 play with 4 players
 - Played before
@@ -31,7 +31,7 @@ Highly recommended, just be wary of butthurt.
 
 ## [Telestrations](https://boardgamegeek.com/boardgame/46213/telestrations)
 
-![Telestrations](../assets/covers/telestrations.jpg)
+![Telestrations](/covers/telestrations.jpg)
 
 - 2 plays with 8 players
 - Played before
@@ -42,7 +42,7 @@ Recommended with large groups.
 
 ## [Pandemic Legacy: Season 1](https://boardgamegeek.com/boardgame/161936/pandemic-legacy-season-1)
 
-![Pandemic Legacy](../assets/covers/pandemic-legacy.jpg)
+![Pandemic Legacy](/covers/pandemic-legacy.jpg)
 
 - 2 plays with 4 players
 - Played before

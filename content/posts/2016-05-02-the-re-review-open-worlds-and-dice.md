@@ -8,7 +8,7 @@ taxonomies:
 ---
 ## [Food Chain Magnate](https://boardgamegeek.com/boardgame/175914/food-chain-magnate)
 
-![Food Chain Magnate](../assets/covers/food-chain-magnate.jpg)
+![Food Chain Magnate](/covers/food-chain-magnate.jpg)
 
 - 1 play with 2 players
 - Played before
@@ -21,7 +21,7 @@ Tentatively recommended, and even if I had a few games under my belt, this isn't
 
 ## [Spookies](https://boardgamegeek.com/boardgame/183264/spookies)
 
-![Spookies](../assets/covers/spookies.jpg)
+![Spookies](/covers/spookies.jpg)
 
 - 3 plays with 2 players
 - New to me
@@ -36,7 +36,7 @@ Recommended.
 
 ## [Merchants & Marauders](https://boardgamegeek.com/boardgame/25292/merchants-marauders)
 
-![Merchants & Marauders](../assets/covers/merchants-marauders.jpg)
+![Merchants & Marauders](/covers/merchants-marauders.jpg)
 
 - 1 play with 3 players
 - Played before

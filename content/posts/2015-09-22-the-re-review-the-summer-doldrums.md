@@ -8,7 +8,7 @@ taxonomies:
 ---
 ## [Forbidden Stars](https://boardgamegeek.com/boardgame/175155/forbidden-stars)
 
-![Forbidden Stars](../assets/covers/forbidden-stars.jpg)
+![Forbidden Stars](/covers/forbidden-stars.jpg)
 
 - 1 play with 3 players
 - Played before
@@ -25,7 +25,7 @@ I'm glad I gave this game another shot as it's a lot of fun, but I'd recommend t
 
 ## [Colt Express](https://boardgamegeek.com/boardgame/158899/colt-express)
 
-![Colt Express](../assets/covers/colt-express.jpg)
+![Colt Express](/covers/colt-express.jpg)
 
 - 1 play with 4 players
 - New to me
@@ -38,7 +38,7 @@ I think this largely replaces **RoboRally** for me, and that's a tough realizati
 
 ## [Spyfall](https://boardgamegeek.com/boardgame/166384/spyfall)
 
-![Spyfall](../assets/covers/spyfall.jpg)
+![Spyfall](/covers/spyfall.jpg)
 
 - 5 plays with 5 players, 5 plays with 6 players
 - Played before
@@ -47,7 +47,7 @@ This was quite the hit on vacation as we ended up playing it 10 times in one nig
 
 ## [Cosmic Encounter](https://boardgamegeek.com/boardgame/39463/cosmic-encounter)
 
-![Cosmic Encounter](../assets/covers/cosmic-encounter.jpg)
+![Cosmic Encounter](/covers/cosmic-encounter.jpg)
 
 - 1 play with 5 players
 - Played before
@@ -57,7 +57,7 @@ This is my favorite game and I managed to play it with my favorite group and I m
 
 ## [Star Wars: Imperial Assault](https://boardgamegeek.com/boardgame/164153/star-wars-imperial-assault)
 
-![Star Wars: Imperial Assault](../assets/covers/star-wars-imperial-assault.jpg)
+![Star Wars: Imperial Assault](/covers/star-wars-imperial-assault.jpg)
 
 - 1 play with 3 players
 - Played before
@@ -71,7 +71,7 @@ This game is still quite a bit of fun, but I need to properly read the rulebook 
 
 ## [Race for the Galaxy](https://boardgamegeek.com/boardgame/28143/race-galaxy)
 
-![Race for the Galaxy](../assets/covers/race-for-the-galaxy.jpg)
+![Race for the Galaxy](/covers/race-for-the-galaxy.jpg)
 
 - 1 play with 3 players
 - Played before
@@ -82,7 +82,7 @@ This was a fast game as I was going for broke with a very development heavy stra
 
 ## [Tsuro](https://boardgamegeek.com/boardgame/16992/tsuro)
 
-![Tsuro](../assets/covers/tsuro.jpg)
+![Tsuro](/covers/tsuro.jpg)
 
 - 1 play with 7 players
 - Played before
@@ -91,7 +91,7 @@ Tsuro is an okay game. I'll almost always play it when offered as a filler, but 
 
 ## [Wits & Wagers](https://boardgamegeek.com/boardgame/20100/wits-wagers)
 
-![Wits & Wagers](../assets/covers/wits-wagers.jpg)
+![Wits & Wagers](/covers/wits-wagers.jpg)
 
 - 1 play with 7 players
 - Played before
@@ -102,7 +102,7 @@ I enjoy **Wits & Wagers** for what it is, a light trivia game where you don't ne
 
 ## [Medieval Academy](https://boardgamegeek.com/boardgame/154386/medieval-academy)
 
-![Medieval Academy](../assets/covers/medieval-academy.jpg)
+![Medieval Academy](/covers/medieval-academy.jpg)
 
 - 1 play with 3 players
 - New to me
@@ -117,7 +117,7 @@ On the other hand, the game is thematically weak when compared to **7 Wonders**,
 
 ## [The Voyages of Marco Polo](https://boardgamegeek.com/boardgame/171623/voyages-marco-polo)
 
-![The Voyages of Marco Polo](../assets/covers/the-voyages-of-marco-polo.png)
+![The Voyages of Marco Polo](/covers/the-voyages-of-marco-polo.png)
 
 - 1 play with 2 players
 - Played before

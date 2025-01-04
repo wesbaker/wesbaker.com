@@ -8,7 +8,7 @@ taxonomies:
 ---
 ## [Mage Knight](https://boardgamegeek.com/boardgame/96848/mage-knight-board-game)
 
-![Mage Knight](../assets/covers/mage-knight.jpg)
+![Mage Knight](/covers/mage-knight.jpg)
 
 - 1 play with 2 players this week
 - Played before
@@ -22,7 +22,7 @@ It's that ability to do what you want without the game getting in the way that m
 
 ## [Caverna](https://boardgamegeek.com/boardgame/102794/caverna-cave-farmers)
 
-![Caverna](../assets/covers/caverna.jpg)
+![Caverna](/covers/caverna.jpg)
 
 - 1 play with 2 players this week
 - Played before
@@ -34,7 +34,7 @@ That being said, we haven't even flipped the boards over to the more complicated
 
 ## [Glory to Rome](https://boardgamegeek.com/boardgame/19857/glory-rome)
 
-![Glory to Rome](../assets/covers/glory-to-rome.png)
+![Glory to Rome](/covers/glory-to-rome.png)
 
 - 2 plays with 2 players this week
 - Played before

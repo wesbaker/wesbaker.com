@@ -8,7 +8,7 @@ taxonomies:
 ---
 ## [Flick 'em Up!](https://boardgamegeek.com/boardgame/169124/flick-em)
 
-![Flick ‘em Up!](../assets/covers/flick-em-up.png)
+![Flick ‘em Up!](/covers/flick-em-up.png)
 
 - 1 play with 3 players
 - New to me
@@ -24,7 +24,7 @@ Now, I've only played once and it was only the first scenario, but I really enjo
 
 ## [Codenames](https://boardgamegeek.com/boardgame/178900/codenames)
 
-![Codenames](../assets/covers/codenames.jpg)
+![Codenames](/covers/codenames.jpg)
 
 - 2 plays with 9 players and 8 plays with 4 players
 - Played before
@@ -35,7 +35,7 @@ There's something really smart about **Codenames** and how elegantly it's design
 
 ## [Medieval Academy](https://boardgamegeek.com/boardgame/154386/medieval-academy)
 
-![Medieval Academy](../assets/covers/medieval-academy.jpg)
+![Medieval Academy](/covers/medieval-academy.jpg)
 
 - 1 play with 4 players
 - Played before
@@ -46,7 +46,7 @@ That's what it's like to play **Medieval Academy**: your choices largely don't m
 
 ## [Monikers](https://boardgamegeek.com/boardgame/156546/monikers)
 
-![Monikers](../assets/covers/monikers.png)
+![Monikers](/covers/monikers.png)
 
 - 2 plays with 4 players
 - Played before
@@ -57,7 +57,7 @@ Oh, and it's back and print, so go buy it.
 
 ## [Eclipse](https://boardgamegeek.com/boardgame/72125/eclipse)
 
-![Eclipse](../assets/covers/eclipse.jpg)
+![Eclipse](/covers/eclipse.jpg)
 
 - 1 play with 4 players
 - Played before
@@ -68,7 +68,7 @@ Oh well, I'll just have to play again.
 
 ## [Chaos in the Old World](https://boardgamegeek.com/boardgame/43111/chaos-old-world)
 
-![Chaos in the Old World](../assets/covers/chaos-in-the-old-world.jpg)
+![Chaos in the Old World](/covers/chaos-in-the-old-world.jpg)
 
 - 1 play with 4 players
 - Played before
@@ -80,7 +80,7 @@ This game really does get better over time and I've only ever enjoyed my plays o
 
 ## [Between Two Cities](https://boardgamegeek.com/boardgame/168435/between-two-cities)
 
-![Between Two Cities](../assets/covers/between-two-cities.jpg)
+![Between Two Cities](/covers/between-two-cities.jpg)
 
 - 1 play with 7 players
 - New to me
@@ -95,7 +95,7 @@ This is one of those games that you could teach to any gamer and most non-gamers
 
 ## [Roll for the Galaxy](https://boardgamegeek.com/boardgame/132531/roll-galaxy)
 
-![ Roll for the Galaxy](../assets/covers/roll-for-the-galaxy.jpg)
+![ Roll for the Galaxy](/covers/roll-for-the-galaxy.jpg)
 
 - 1 play with 4 players
 - Played before
@@ -104,7 +104,7 @@ My rules explanation was a bit shakier than normal, but I still had a good time 
 
 ## [Hanabi](https://boardgamegeek.com/boardgame/98778/hanabi)
 
-![Hanabi](../assets/covers/hanabi.jpg)
+![Hanabi](/covers/hanabi.jpg)
 
 - 2 plays with 4 players
 - Played before

@@ -8,7 +8,7 @@ taxonomies:
 ---
 ## [Alchemists](https://boardgamegeek.com/boardgame/161970/alchemists)
 
- ![Alchemists](../assets/covers/alchemists.png)
+ ![Alchemists](/covers/alchemists.png)
 
 - 1 play with 4 players
 - Played before
@@ -25,7 +25,7 @@ Recommended.
 
 ## [Arcadia Quest](https://boardgamegeek.com/boardgame/155068/arcadia-quest)
 
-![Arcadia Quest](../assets/covers/arcadia-quest.jpg)
+![Arcadia Quest](/covers/arcadia-quest.jpg)
 
 - 1 play with 4 players
 - Played before

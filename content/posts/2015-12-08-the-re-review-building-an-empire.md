@@ -8,7 +8,7 @@ taxonomies:
 ---
 ## [Castles of Mad King Ludwig](https://boardgamegeek.com/boardgame/155426/castles-mad-king-ludwig)
 
- ![Castles of Mad King Ludwig](../assets/covers/castles-of-mad-king-ludwig.jpg)
+ ![Castles of Mad King Ludwig](/covers/castles-of-mad-king-ludwig.jpg)
 
 - 1 play with 4 players
 - Played before
@@ -19,7 +19,7 @@ Highly recommended.
 
 ## [Codenames](https://boardgamegeek.com/boardgame/178900/codenames)
 
-![Codenames](../assets/covers/codenames.jpg)
+![Codenames](/covers/codenames.jpg)
 
 - 1 play with 9 players, 2 plays with 5 players
 - Played before
@@ -32,7 +32,7 @@ Highly recommended.
 
 ## [Super Rhino!](https://boardgamegeek.com/boardgame/91514/rhino-hero)
 
-![Super Rhino!](../assets/covers/rhino-hero.jpg)
+![Super Rhino!](/covers/rhino-hero.jpg)
 
 - 2 plays with 5 players
 - Played before
@@ -45,7 +45,7 @@ Recommended.
 
 ## [Mare Nostrum](https://boardgamegeek.com/boardgame/3931/mare-nostrum)
 
-![Mare Nostrum](../assets/covers/mare-nostrum.jpg)
+![Mare Nostrum](/covers/mare-nostrum.jpg)
 
 - 1 play with 5 players
 - New to me

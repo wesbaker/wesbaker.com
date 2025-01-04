@@ -8,7 +8,7 @@ taxonomies:
 ---
 ## [Star Realms](https://boardgamegeek.com/boardgame/147020/star-realms)
 
-<img src="../assets/covers/star-realms.jpg" alt=“Star Realms” class="image-right" />
+<img src="/covers/star-realms.jpg" alt=“Star Realms” class="image-right" />
 
 - 5 plays with 2 players
 - Played before
@@ -23,7 +23,7 @@ Really, it's hard not to recommend a $15 game that plays in 20 minutes and is in
 
 ## [Imperial Settlers](https://boardgamegeek.com/boardgame/154203/imperial-settlers)
 
-<img src="../assets/covers/imperial-settlers.jpg" alt=“Imperial Settlers” class="image-right" />
+<img src="/covers/imperial-settlers.jpg" alt=“Imperial Settlers” class="image-right" />
 
 - 1 play with 1 player
 - Played before

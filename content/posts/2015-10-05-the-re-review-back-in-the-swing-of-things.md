@@ -8,7 +8,7 @@ taxonomies:
 ---
 ## [Five Tribes](https://boardgamegeek.com/boardgame/157354/five-tribes)
 
-![Five Tribes](../assets/covers/five-tribes.jpg)
+![Five Tribes](/covers/five-tribes.jpg)
 
 - 1 play with 2 players
 - Played before
@@ -26,7 +26,7 @@ If you already own **Five Tribes** (which you should) then you owe it to yoursel
 
 ## [Mottainai](https://boardgamegeek.com/boardgame/175199/mottainai)
 
-![Mottainai](../assets/covers/mottainai.jpg)
+![Mottainai](/covers/mottainai.jpg)
 
 - 1 play with 2 players
 - New to me
@@ -43,7 +43,7 @@ If you already have **Glory to Rome**, I'd skip this one. If you don't have **Gl
 
 ## [Tiny Epic Galaxies](https://boardgamegeek.com/boardgame/163967/tiny-epic-galaxies)
 
-![Tiny Epic Galaxies](../assets/covers/tiny-epic-galaxies.jpg)
+![Tiny Epic Galaxies](/covers/tiny-epic-galaxies.jpg)
 
 - 1 play with 1 player
 - New to me

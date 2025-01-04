@@ -8,7 +8,7 @@ taxonomies:
 ---
 ## [The Duke](https://boardgamegeek.com/boardgame/36235/duke)
 
-![The Duke](../assets/covers/the-duke.jpg)
+![The Duke](/covers/the-duke.jpg)
 
 - 1 play with 2 players this week
 - Played before
@@ -19,7 +19,7 @@ Highly recommended if you can get it to the table.
 
 ## [TransAmerica](https://boardgamegeek.com/boardgame/2842/transamerica)
 
-![Transamerica](../assets/covers/transamerica.jpg)
+![Transamerica](/covers/transamerica.jpg)
 
 - 1 play with 6 players this week
 - New to me
@@ -32,7 +32,7 @@ I'm pretty sure this is out of print and while I did enjoy it, I  definitely wou
 
 ## [Elysium](https://boardgamegeek.com/boardgame/163968/elysium)
 
-![Elysium](../assets/covers/elysium.jpg)
+![Elysium](/covers/elysium.jpg)
 
 - 1 play with 3 players this week
 - New to me
@@ -45,7 +45,7 @@ I can see how that description probably wouldn't sell most people. It didn't rea
 
 ## [Five Tribes](https://boardgamegeek.com/boardgame/157354/five-tribes)
 
-![Five Tribes](../assets/covers/five-tribes.jpg)
+![Five Tribes](/covers/five-tribes.jpg)
 
 - 1 play with 3 players this week
 - Played before
@@ -55,7 +55,7 @@ My love for this game continues, though I don't remember a ton about this play o
 
 ## [Through the Desert](https://boardgamegeek.com/boardgame/503/through-desert)
 
-![Through the Desert](../assets/covers/through-the-desert.jpg)
+![Through the Desert](/covers/through-the-desert.jpg)
 
 - 1 play with 3 players this week
 - New to me
@@ -66,7 +66,7 @@ I'd play this again, but I'd prefer playing most other games.
 
 ## [Specter Ops](https://boardgamegeek.com/boardgame/155624/specter-ops)
 
-![Specter Ops](../assets/covers/specter-ops.jpg)
+![Specter Ops](/covers/specter-ops.jpg)
 
 - 1 play with 2 players this week
 - New to me
@@ -75,7 +75,7 @@ My only play of **Specter Ops** was probably not at an optimal player count: 2. 
 
 ## [Sushi Go](https://boardgamegeek.com/boardgame/133473/sushi-go)
 
-![Specter Ops](../assets/covers/sushi-go.jpg)
+![Specter Ops](/covers/sushi-go.jpg)
 
 - 3 plays with 5 players this week
 - Played before

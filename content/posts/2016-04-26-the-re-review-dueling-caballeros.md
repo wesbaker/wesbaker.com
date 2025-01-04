@@ -8,7 +8,7 @@ taxonomies:
 ---
 ## [Raptor](https://boardgamegeek.com/boardgame/177639/raptor "Raptor")
 
-![Raptor](../assets/covers/raptor.jpg)
+![Raptor](/covers/raptor.jpg)
 
 - 2 plays with 2 players
 - Played before
@@ -19,7 +19,7 @@ Highly recommended.
 
 ## [7 Wonders: Duel](https://boardgamegeek.com/boardgame/173346/7-wonders-duel "7 Wonders: Duel")
 
-![7 Wonders: Duel](../assets/covers/7-wonders-duel.jpg)
+![7 Wonders: Duel](/covers/7-wonders-duel.jpg)
 
 - 2 plays with 2 players
 - Played before
@@ -31,7 +31,7 @@ Highly recommended.
 
 ## [Viticulture](https://boardgamegeek.com/boardgame/128621/viticulture "Viticulture")
 
-![Viticulture](../assets/covers/viticulture.jpg)
+![Viticulture](/covers/viticulture.jpg)
 
 - 1 play with 2 players
 - Played before
@@ -44,7 +44,7 @@ Recommended (still).
 
 ## [El Grande Big Box](https://boardgamegeek.com/boardgame/171908/el-grande-big-box "El Grande Big Box")
 
-![El Grande](../assets/covers/el-grande.jpg)
+![El Grande](/covers/el-grande.jpg)
 
 - 1 play with 4 players
 - Played before
@@ -66,7 +66,7 @@ Recommended.
 
 ## [Risk: Star Wars Edition](https://boardgamegeek.com/boardgame/183880/risk-star-wars-edition "Risk: Star Wars Edition")
 
-![Risk: Star Wars Edition](../assets/covers/risk-star-wars-edition.jpg)
+![Risk: Star Wars Edition](/covers/risk-star-wars-edition.jpg)
 
 - 1 play with 4 players
 - Played before

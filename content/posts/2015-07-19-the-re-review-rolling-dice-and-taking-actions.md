@@ -8,7 +8,7 @@ taxonomies:
 ---
 ## [Elysium](https://boardgamegeek.com/boardgame/163968/elysium)
 
-![Elysium](../assets/covers/elysium.jpg)
+![Elysium](/covers/elysium.jpg)
 
 - 1 play with 3 players and 1 play with 2 players in the past two weeks
 - Played before
@@ -19,7 +19,7 @@ I'm not sure if it plays *best* at any particular player count though, it's just
 
 ## [The Voyages of Marco Polo](https://boardgamegeek.com/boardgame/171623/voyages-marco-polo)
 
-![The Voyages of Marco Polo](../assets/covers/the-voyages-of-marco-polo.png)
+![The Voyages of Marco Polo](/covers/the-voyages-of-marco-polo.png)
 
 - 1 play with 2 players in the past two weeks
 - New to me
@@ -36,7 +36,7 @@ This is definitely a game I recommend playing and picking up if any of the above
 
 ## [Arcadia Quest](https://boardgamegeek.com/boardgame/155068/arcadia-quest)
 
-![Arcadia Quest](../assets/covers/arcadia-quest.jpg)
+![Arcadia Quest](/covers/arcadia-quest.jpg)
 
 - 1 play with 4 players in the past two weeks
 - Played before
@@ -49,7 +49,7 @@ If you don't like dice, steer clear, and there's not much optimization to be don
 
 ## [Viticulture](https://boardgamegeek.com/boardgame/128621/viticulture)
 
-![Viticulture](../assets/covers/viticulture.jpg)
+![Viticulture](/covers/viticulture.jpg)
 
 - 1 play with 5-6 players in the past two weeks
 - Played before
@@ -60,7 +60,7 @@ I do think the game went a bit long with six, but so long as the players know th
 
 ## [Escape: The Curse of the Temple](https://boardgamegeek.com/boardgame/113294/escape-curse-temple)
 
-![Escape: The Curse of the Temple](../assets/covers/escape-the-curse-of-the-temple.jpg)
+![Escape: The Curse of the Temple](/covers/escape-the-curse-of-the-temple.jpg)
 
 - 1 play with 5 players in the past two weeks
 - New to me
@@ -75,7 +75,7 @@ So why am I glad I didn't buy it? It's a fun game, but it's one I would only get
 
 ## [Spyfall](https://boardgamegeek.com/boardgame/166384/spyfall)
 
-![Spyfall](../assets/covers/spyfall.jpg)
+![Spyfall](/covers/spyfall.jpg)
 
 - 3 plays with 6-8 players in the past two weeks
 - Played before
@@ -96,7 +96,7 @@ The more I play this game, the more I love it. It fits perfectly next to **One N
 
 ## [Imperial Settlers](https://boardgamegeek.com/boardgame/154203/imperial-settlers)
 
-<img src="../assets/covers/imperial-settlers.jpg" alt=“Imperial Settlers” class="image-right" />
+<img src="/covers/imperial-settlers.jpg" alt=“Imperial Settlers” class="image-right" />
 
 - 1 play with 3 players in the past two weeks
 - Played before
@@ -109,7 +109,7 @@ Final scoring had me winning with 50, Dane with 47, and Scott with 42. A nice cl
 
 ## [Star Wars: Imperial Assault](https://boardgamegeek.com/boardgame/164153/star-wars-imperial-assault)
 
-![Star Wars: Imperial Assault](../assets/covers/star-wars-imperial-assault.jpg)
+![Star Wars: Imperial Assault](/covers/star-wars-imperial-assault.jpg)
 
 - 1 play with 2 players in the past two weeks
 - Played before
@@ -123,7 +123,7 @@ I'd like to play this more and potentially get a campaign going, but I think I'l
 
 ## [Terra Mystica](https://boardgamegeek.com/boardgame/120677/terra-mystica)
 
-![Terra Mystica](../assets/covers/terra-mystica.jpg)
+![Terra Mystica](/covers/terra-mystica.jpg)
 
 - 1 play with 2 players in the past two weeks
 - Played before

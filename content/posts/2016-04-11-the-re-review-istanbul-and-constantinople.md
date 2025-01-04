@@ -8,7 +8,7 @@ taxonomies:
 ---
 ## [Istanbul](https://boardgamegeek.com/boardgame/148949/istanbul)
 
-![Istanbul](../assets/covers/istanbul.jpg)
+![Istanbul](/covers/istanbul.jpg)
 
 - 2 plays with 2 players
 - Played before
@@ -23,7 +23,7 @@ Tentatively recommended.
 
 ## [Through the Ages](https://boardgamegeek.com/boardgame/182028/through-ages-new-story-civilization)
 
-![Through the Ages](../assets/covers/through-the-ages.jpg)
+![Through the Ages](/covers/through-the-ages.jpg)
 
 - 2 plays with 2 players
 - Played before
@@ -36,7 +36,7 @@ Highly recommended. One of the best games.
 
 ## [Kemet](https://boardgamegeek.com/boardgame/127023/kemet)
 
-![Kemet](../assets/covers/kemet.jpg)
+![Kemet](/covers/kemet.jpg)
 
 - 1 play with 3 players
 - Played before

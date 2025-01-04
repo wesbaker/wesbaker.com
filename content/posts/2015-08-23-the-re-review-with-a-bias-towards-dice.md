@@ -8,7 +8,7 @@ taxonomies:
 ---
 ## [Quantum](https://boardgamegeek.com/boardgame/143519/quantum)
 
-![Quantum](../assets/covers/quantum.jpg)
+![Quantum](/covers/quantum.jpg)
 
 - 1 play with 3 players
 - Played before
@@ -26,7 +26,7 @@ If you haven't tried this game, I recommend giving it a shot on [Board Game Aren
 
 ## [Castles of Mad King Ludwig](https://boardgamegeek.com/boardgame/155426/castles-mad-king-ludwig)
 
-![Castles of Mad King Ludwig](../assets/covers/castles-of-mad-king-ludwig.jpg)
+![Castles of Mad King Ludwig](/covers/castles-of-mad-king-ludwig.jpg)
 
 - 1 play with 3 players
 - Played before
@@ -37,7 +37,7 @@ It's also a lot more fun to look back on your castle at the end of the game than
 
 ## [Red7](https://boardgamegeek.com/boardgame/161417/red7)
 
-![Red7](../assets/covers/red7.png)
+![Red7](/covers/red7.png)
 
 - 1 play with 3 players
 - Played before
@@ -48,7 +48,7 @@ Straight to the sell pile.
 
 ## [Port Royal](https://boardgamegeek.com/boardgame/156009/port-royal)
 
-![Port Royal](../assets/covers/port-royal.jpg)
+![Port Royal](/covers/port-royal.jpg)
 
 - 1 play with 2 players
 - Played before
@@ -61,7 +61,7 @@ I doubt that two players is the sweet spot here, but I'm happy to see that I enj
 
 ## [Ashes: Rise of the Phoenixborn](https://boardgamegeek.com/boardgame/167400/ashes-rise-phoenixborn)
 
-![Ashes: Rise of the Phoenixborn](../assets/covers/ashes-rise-of-the-phoenixborn.jpg)
+![Ashes: Rise of the Phoenixborn](/covers/ashes-rise-of-the-phoenixborn.jpg)
 
 - 2 plays with 2 players
 - New to me
@@ -76,7 +76,7 @@ Still, I enjoyed my plays and I'm keeping the game for the time being.
 
 ## [Five Tribes](https://boardgamegeek.com/boardgame/157354/five-tribes)
 
-![Five Tribes](../assets/covers/five-tribes.jpg)
+![Five Tribes](/covers/five-tribes.jpg)
 
 - 1 play with 2 players
 - Played before
@@ -88,7 +88,7 @@ In this game I went for djinn, a few sets of good cards, and viziers, and also m
 
 ## [Forbidden Stars](https://boardgamegeek.com/boardgame/175155/forbidden-stars)
 
-![Forbidden Stars](../assets/covers/forbidden-stars.jpg)
+![Forbidden Stars](/covers/forbidden-stars.jpg)
 
 - 1 play with 4 players
 - New to me
@@ -99,7 +99,7 @@ However, I see a lot to like here for me: asymmetric player powers, upgradable p
 
 ## [Sheriff of Nottingham](https://boardgamegeek.com/boardgame/157969/sheriff-nottingham)
 
-![Sheriff of Nottingham](../assets/covers/sheriff-of-nottingham.jpg)
+![Sheriff of Nottingham](/covers/sheriff-of-nottingham.jpg)
 
 - 1 play with 5 players
 - Played before
@@ -110,7 +110,7 @@ I wish I got this game to the table more, *but* you can have a pretty terrible e
 
 ## [Caverna](https://boardgamegeek.com/boardgame/102794/caverna-cave-farmers)
 
-![Caverna](../assets/covers/caverna.jpg)
+![Caverna](/covers/caverna.jpg)
 
 - 1 play with 2 players
 - Played before

@@ -8,7 +8,7 @@ taxonomies:
 ---
 ## [Russian Railroads](https://boardgamegeek.com/boardgame/144733/russian-railroads)
 
-![Russian Railroads](../assets/covers/russian-railroads.jpg)
+![Russian Railroads](/covers/russian-railroads.jpg)
 
 - 1 play with 3 players
 - Played before
@@ -19,7 +19,7 @@ Not recommended unless you're a fan of low-conflict efficiency puzzles.
 
 ## [Keyflower](https://boardgamegeek.com/boardgame/122515/keyflower)
 
-![Keyflower](../assets/covers/keyflower.jpg)
+![Keyflower](/covers/keyflower.jpg)
 
 - 1 play with 3 players
 - Played before
@@ -30,7 +30,7 @@ Recommended.
 
 ## [Through the Ages](https://boardgamegeek.com/boardgame/182028/through-ages-new-story-civilization)
 
-![Through the Ages](../assets/covers/through-the-ages.jpg)
+![Through the Ages](/covers/through-the-ages.jpg)
 
 - 1 play with 2 players
 - Played before
@@ -41,7 +41,7 @@ Highly recommended.
 
 ## [Food Chain Magnate](https://boardgamegeek.com/boardgame/175914/food-chain-magnate)
 
-![Food Chain Magnate](../assets/covers/food-chain-magnate.jpg)
+![Food Chain Magnate](/covers/food-chain-magnate.jpg)
 
 - 1 play with 3 players, 1 play with 2 players
 - New to me

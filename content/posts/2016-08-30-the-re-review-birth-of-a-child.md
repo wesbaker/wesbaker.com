@@ -5,7 +5,7 @@ date: 2016-08-30T21:57:52-04:00
 ---
 ## [Scythe](https://boardgamegeek.com/boardgame/169786/scythe)
 
-![Scythe](../assets/covers/scythe.jpg)
+![Scythe](/covers/scythe.jpg)
 
 - 1 play with 5 people
 - Played before
@@ -16,7 +16,7 @@ Recommended.
 
 ## [Chaos in the Old World](https://boardgamegeek.com/boardgame/43111/chaos-old-world)
 
-![Chaos in the Old World](../assets/covers/chaos-in-the-old-world.jpg)
+![Chaos in the Old World](/covers/chaos-in-the-old-world.jpg)
 
 - 1 play with 5 people
 - Played before
@@ -31,7 +31,7 @@ Highly recommended.
 
 ## [Guild Ball](https://boardgamegeek.com/boardgame/155451/guild-ball)
 
-![Guild Ball](../assets/covers/guild-ball.jpg)
+![Guild Ball](/covers/guild-ball.jpg)
 
 - 1 play with 2 people
 - New to me
@@ -42,7 +42,7 @@ Recommended, but it’s a miniatures game, know what you’re getting yourself i
 
 ## [Castles of Mad King Ludwig](https://boardgamegeek.com/boardgame/155426/castles-mad-king-ludwig)
 
-![Castles of Mad King Ludwig](../assets/covers/castles-of-mad-king-ludwig.jpg)
+![Castles of Mad King Ludwig](/covers/castles-of-mad-king-ludwig.jpg)
 
 - 1 play with 2 people
 - Played before
@@ -56,7 +56,7 @@ Recommended, but skip the expansion, it's garbage.
 
 ## [Pandemic Legacy](https://boardgamegeek.com/boardgame/161936/pandemic-legacy-season-1)
 
-![Pandemic Legacy](../assets/covers/pandemic-legacy.jpg)
+![Pandemic Legacy](/covers/pandemic-legacy.jpg)
 
 - 2 plays with 4 people
 - Played before
@@ -68,7 +68,7 @@ Recommended for a consistent group.
 
 ## [Viticulture](https://boardgamegeek.com/boardgame/128621/viticulture)
 
-![Viticulture](../assets/covers/viticulture.jpg)
+![Viticulture](/covers/viticulture.jpg)
 
 - 1 play with 6 people
 - Played before
@@ -83,7 +83,7 @@ Recommended, but beware of the cards.
 
 ## [Cosmic Encounter](https://boardgamegeek.com/boardgame/39463/cosmic-encounter)
 
-![Cosmic Encounter](../assets/covers/cosmic-encounter.jpg)
+![Cosmic Encounter](/covers/cosmic-encounter.jpg)
 
 - 1 play with 6 people
 - Played before
@@ -97,7 +97,7 @@ Highly recommended. **My favorite game.**
 
 ## [Captain Sonar](https://boardgamegeek.com/boardgame/171131/captain-sonar)
 
-![Captain Sonar](../assets/covers/captain-sonar.jpg)
+![Captain Sonar](/covers/captain-sonar.jpg)
 
 - 3 play with 6 people
 - New to me
@@ -109,18 +109,18 @@ Speaking of *pure* player interaction, **Captain Sonar** is in the same category
 - The **Engineer** who tracks the ship's damage and delicately balances that damage.
 - The **Radio Operator** who is listening to the enemy captain's every direction and attempting to track where they are.
 
-Now the crazy part: you can play this game turn-based like a normal board game, _or_ you can play in **real time**. Yes, you can play as fast as your team can move through your various commands. This is a high-stress situation, but absolutely a blast for the right players. It's also a game that's over relatively quick and suffers a bit from the Baker Rule (you should play a game n-1 times where n is the number of times you think you want to play it). However, it's absolutely fantastic and will undoubtedly remain in my collection.
+Now the crazy part: you can play this game turn-based like a normal board game, *or* you can play in **real time**. Yes, you can play as fast as your team can move through your various commands. This is a high-stress situation, but absolutely a blast for the right players. It's also a game that's over relatively quick and suffers a bit from the Baker Rule (you should play a game n-1 times where n is the number of times you think you want to play it). However, it's absolutely fantastic and will undoubtedly remain in my collection.
 
 Highly recommended.
 
 ## [El Grande](https://boardgamegeek.com/boardgame/171908/el-grande-big-box)
 
-![El Grande](../assets/covers/el-grande.jpg)
+![El Grande](/covers/el-grande.jpg)
 
 - 1 play with 4 people
 - Played before
 
-**El Grande** is known as the grandfather of area control games and after playing it that's abundantly clear. The basics of your modern European area control game are laid bare in this game, almost devoid of any ornamentation. You're presented with a beige and brown board with some illustrations to _jazz_ it up a bit, along with some meeples and cards.
+**El Grande** is known as the grandfather of area control games and after playing it that's abundantly clear. The basics of your modern European area control game are laid bare in this game, almost devoid of any ornamentation. You're presented with a beige and brown board with some illustrations to *jazz* it up a bit, along with some meeples and cards.
 
 Now, those cards keep things interesting. You have a hand of 13 cards numbered 1 through 13 and then there's five communal piles of cards (well, not really, one pile is just one card). The communal piles are your options for the turn and the card you play from your hand dictates the order in which you pick cards.
 
@@ -132,7 +132,7 @@ Recommended for those who want an area control game for those who don't like are
 
 ## [Keyflower](https://boardgamegeek.com/boardgame/122515/keyflower)
 
-![KeyFlower](../assets/covers/keyflower.jpg)
+![KeyFlower](/covers/keyflower.jpg)
 
 - 1 play with 6 people
 - Played before
