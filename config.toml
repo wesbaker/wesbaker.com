@@ -13,6 +13,7 @@ theme = "apollo"
 taxonomies = [{ name = "tags" }]
 
 generate_feeds = true
+feed_filenames = ["atom.xml", "rss.xml"]
 
 [markdown]
 # Whether to do syntax highlighting
@@ -30,6 +31,7 @@ socials = [
   { name = "bluesky", url = "https://bsky.app/profile/wesbaker.com", icon = "bluesky" },
   { name = "mastodon", url = "https://hachyderm.io/@wesbaker", icon = "mastodon" },
   { name = "github", url = "https://github.com/wesbaker/", icon = "github" },
+  { name = "rss", url = "https://wesbaker.com/rss.xml", icon = "rss" },
 ]
 
 menu = [
