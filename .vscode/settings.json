@@ -1,8 +1,5 @@
 {
-  "cSpell.words": [
-    "frontmatter",
-    "rpgaday",
-    "rpgs"
-  ],
-  "explorer.sortOrder": "mixed"
+  "[html]": {
+    "editor.formatOnSave": false
+  }
 }
