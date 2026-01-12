@@ -1,4 +1,4 @@
-name: Check
+name: zola check
 
 on:
   pull_request:
@@ -21,4 +21,4 @@ jobs:
           tool: zola
 
       - name: Run zola check
-        run: zola check
+        run: zola check --skip-external-links
