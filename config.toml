@@ -16,9 +16,8 @@ generate_feeds = true
 feed_filenames = ["atom.xml", "rss.xml"]
 
 [markdown]
-# Whether to do syntax highlighting
+# Syntax highlighting is always enabled in Zola
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = true
 
 [extra]
 # Put all your custom variables here
