@@ -64,6 +64,9 @@ public
 # Zola generated files
 static/processed_images/
 
+# Local-only config
+.ruby-version
+
 # Yarn
 yarn-error.log
 .pnp/
