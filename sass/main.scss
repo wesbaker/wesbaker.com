@@ -1,5 +1,29 @@
 @import "../themes/apollo/sass/main.scss";
 
+:root {
+  --mono-stack: "SF Mono Powerline", "SF Mono", "Jetbrains Mono", ui-monospace, monospace;
+  --text-font: var(--mono-stack);
+  --header-font: "Space Grotesk", "Helvetica", sans-serif;
+  --mono-text-font: var(--mono-stack);
+  --code-font: var(--mono-stack);
+}
+
+.toc li,
+.toc a {
+  font-family: var(--text-font);
+}
+
+body {
+  flex-wrap: wrap;
+
+  .content {
+    margin: 0 auto;
+  }
+}
+
 footer {
-  margin-top: 100px;
+  flex-basis: 100%;
+  max-width: var(--page-width);
+  margin: 100px auto 0;
+  padding: 0 24px;
 }

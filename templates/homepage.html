@@ -1,14 +1,21 @@
 {% extends "apollo/templates/homepage.html" %}
 
 {% block main_content %}
-  {{ post_macros::home_page(section=section) }}
+  <main>
+    <article>
+      <section class="body">
+        {{ post_macros::page_header(title=section.title) }}
+        {{ section.content | safe }}
+      </section>
+    </article>
+  </main>
 
-  <h2><a href="/posts"></a>Recent Posts</a></h2>
+  <h2><a href="/posts">Recent Posts</a></h2>
 
   {% block post_list %}
-    <main class="list">
+    <main class="post-list">
       {% set section = get_section(path="posts/_index.md") %}
-      {%- set show_pages = section.pages | slice(start=0, end=5) -%}
+      {%- set show_pages = section.pages | slice(start=0, end=10) -%}
       {{ post_macros::list_posts(pages=show_pages) }}
     </main>
   {% endblock post_list %}
