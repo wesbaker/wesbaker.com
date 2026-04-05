@@ -8,14 +8,6 @@ This is [a now page](https://nownownow.com/about).
 
 I currently work at [Shopify](https://shopify.com). I’m a engineering manager who manages a team, writes code, and works with product, design, and engineering to deliver a compelling product.
 
-## Personal Projects
-
-I have fewer personal projects than I once did, but right now, I've got:
-
-- `dewey` (currently private) which is a Discord bot that runs on my Raspberry Pi that facilitates my book club by randomizing who is picking what and sending us reminders to pick the next book and schedule the next meeting.
-- [Apple Photos Raycast extension](https://github.com/raycast/extensions/tree/main/extensions/apple-photos)
-- [Prusa Printer Control Raycast extension](https://github.com/raycast/extensions/tree/main/extensions/prusa) where I'm a contributor
-
 ## 3D Printing
 
 With 3D printing I've just upgraded my Prusa MK4 to a [MK4S](https://www.prusa3d.com/product/original-prusa-mk4s-3d-printer-5/) and have been keeping it busy between board game inserts and Gridfinity setups for my art desk. I also have an [Elegoo Saturn 4 Ultra](https://www.elegoo.com/pages/elegoo-saturn-4-ultra), but I haven't been printing many miniatures because of the chore of resin printing.
