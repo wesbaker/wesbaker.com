@@ -1,6 +1,11 @@
 @import "../themes/apollo/sass/main.scss";
 
+:root.light, :root.dark {
+  --primary-color: #2979ff;
+}
+
 :root {
+  --primary-color: #2979ff;
   --mono-stack: "SF Mono Powerline", "SF Mono", "Jetbrains Mono", ui-monospace, monospace;
   --text-font: var(--mono-stack);
   --header-font: "Space Grotesk", "Helvetica", sans-serif;
