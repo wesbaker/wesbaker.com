@@ -36,7 +36,8 @@ socials = [
 
 menu = [
   { name = "/posts", url = "/posts", weight = 1 },
-  { name = "/now", url = "/now", weight = 2 },
-  { name = "/uses", url = "/uses", weight = 3 },
-  { name = "/tags", url = "/tags", weight = 4 },
+  { name = "/projects", url = "/projects", weight = 2 },
+  { name = "/now", url = "/now", weight = 3 },
+  { name = "/uses", url = "/uses", weight = 4 },
+  { name = "/tags", url = "/tags", weight = 5 },
 ]

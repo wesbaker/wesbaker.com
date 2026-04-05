@@ -1,0 +1,11 @@
+{% set width = width | default(value=800) %}
+{% set format = format | default(value='webp') %}
+{% set quality = quality | default(value=85) %}
+{% set img = resize_image(path=path, width=width, op="fit_width", format=format, quality=quality) %}
+
+<figure>
+  <img src="{{ img.url }}" alt="{{ alt | default(value='') }}" loading="lazy" decoding="async" />
+  {% if caption %}
+    <figcaption>{{ caption }}</figcaption>
+  {% endif %}
+</figure>

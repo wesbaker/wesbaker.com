@@ -21,6 +21,16 @@ body {
   }
 }
 
+.content figure {
+  display: block;
+  margin: 1.5rem 0;
+  text-align: center;
+
+  figcaption {
+    color: var(--text-2);
+  }
+}
+
 footer {
   flex-basis: 100%;
   max-width: var(--page-width);
