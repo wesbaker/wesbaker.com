@@ -61,6 +61,9 @@ public
 # Mac files
 .DS_Store
 
+# Zola generated files
+static/processed_images/
+
 # Yarn
 yarn-error.log
 .pnp/
