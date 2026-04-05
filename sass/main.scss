@@ -13,6 +13,10 @@
   font-family: var(--text-font);
 }
 
+.right-nav a {
+  border-bottom: 2px solid var(--primary-color);
+}
+
 body {
   flex-wrap: wrap;
 
