@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -h -A 20 \"^  tags:\" /Users/wesbaker/Development/wesbaker.com/content/posts/**/*.md)",
+      "Bash(grep -h -A 10 \"^tags:\" /Users/wesbaker/Development/wesbaker.com/content/posts/**/*.md)",
+      "Bash(chmod +x /Users/wesbaker/Development/wesbaker.com/bin/list-tags)",
+      "Bash(/Users/wesbaker/Development/wesbaker.com/bin/list-tags)",
+      "Bash(awk ':*)",
+      "Bash(ruby -e ':*)",
+      "Bash(ruby --version)",
+      "Bash(rbenv version:*)",
+      "Bash(rvm current:*)",
+      "Bash(asdf current:*)",
+      "Bash(brew list:*)",
+      "Bash(/Users/wesbaker/.rubies/ruby-4.0.2/bin/ruby /Users/wesbaker/Development/wesbaker.com/bin/list-tags)",
+      "Bash(/Users/wesbaker/.rubies/ruby-4.0.2/bin/ruby -e ':*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m ':*)"
+    ]
+  }
+}

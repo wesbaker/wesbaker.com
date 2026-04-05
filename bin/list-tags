@@ -1,0 +1,22 @@
+#!/usr/bin/env ruby
+require 'yaml'
+require 'date'
+
+posts_dir = File.expand_path("../../content/posts", __FILE__)
+
+tags = Dir.glob("#{posts_dir}/**/*.md").flat_map do |file|
+  content = File.read(file)
+  next [] unless content.start_with?("---")
+
+  fm = content.split("---", 3)[1]
+  data = YAML.safe_load(fm, permitted_classes: [Time, Date]) rescue nil
+  next [] if data.nil?
+
+  taxonomies = data["taxonomies"] || {}
+  top_level = data["tags"] || []
+  nested = taxonomies["tags"] || []
+
+  top_level + nested
+end
+
+puts tags.uniq.sort
