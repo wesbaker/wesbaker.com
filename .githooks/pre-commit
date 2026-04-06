@@ -1,0 +1,14 @@
+#!/bin/sh
+
+set -eu
+
+repo_root=$(git rev-parse --show-toplevel)
+cd "$repo_root"
+
+if ! command -v zola >/dev/null 2>&1; then
+  echo "pre-commit: zola is required to validate content before committing." >&2
+  exit 1
+fi
+
+echo "pre-commit: running zola check..."
+zola check --skip-external-links
