@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Managing Well - Part 1: How You Show Up
+title: "Managing Well, Part 1: How You Show Up"
 date: 2026-04-06T10:00:00-04:00
 taxonomies:
   tags:
