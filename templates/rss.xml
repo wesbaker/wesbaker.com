@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>{{ config.title }}</title>
+      <link>{{ config.base_url }}</link>
+      <description>{{ config.description | default(value="") }}</description>
+      <generator>Zola</generator>
+      <language>{{ lang }}</language>
+      <atom:link href="{{ get_url(path="rss.xml") }}" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>{{ last_updated | date(format="%a, %d %b %Y %H:%M:%S %z") }}</lastBuildDate>
+      {% for page in pages %}
+      <item>
+          <title>{{ page.title }}</title>
+          <pubDate>{{ page.date | date(format="%a, %d %b %Y %H:%M:%S %z") }}</pubDate>
+          {% if page.authors %}<author>{{ page.authors[0] }}</author>{% else %}<author>Unknown</author>{% endif %}
+          {% if page.extra.external_url %}
+          <link>{{ page.extra.external_url | escape }}</link>
+          <guid isPermaLink="false">{{ page.permalink | escape }}</guid>
+          <atom:link rel="related" type="text/html" href="{{ page.permalink | escape }}"/>
+          {% else %}
+          <link>{{ page.permalink | escape }}</link>
+          <guid>{{ page.permalink | escape }}</guid>
+          {% endif %}
+          <description xml:base="{{ page.permalink | escape }}">{% if page.summary %}{{ page.summary | escape }}{% else %}{{ page.content | escape }}{% endif %}</description>
+      </item>
+      {% endfor %}
+    </channel>
+</rss>
