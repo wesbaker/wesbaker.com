@@ -56,10 +56,11 @@ h1.page-header {
 // External link icon inside link post title
 .external-link-icon {
   display: inline-block;
-  vertical-align: 0.1em;
+  vertical-align: middle;
   margin-left: 0.15em;
   width: 0.75em;
   height: 0.75em;
+  transform: translateY(-10%);
 }
 
 // Link post permalink symbol in post listings
@@ -70,7 +71,8 @@ h1.page-header {
   text-decoration: none;
   display: inline-flex;
   align-items: center;
-  vertical-align: 0.1em;
+  vertical-align: middle;
+  transform: translateY(-10%);
 
   &:hover {
     background-color: transparent;
