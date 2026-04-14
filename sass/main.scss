@@ -47,14 +47,30 @@ footer {
   padding: 0 24px;
 }
 
+// Fix cramped line-height on wrapping page titles, and suppress the h1::before
+// "# " content that Apollo adds to all headings
+h1.page-header {
+  line-height: 1.2;
+}
+
+// External link icon inside link post title
+.external-link-icon {
+  display: inline-block;
+  vertical-align: 0.1em;
+  margin-left: 0.15em;
+  width: 0.75em;
+  height: 0.75em;
+}
+
 // Link post permalink symbol in post listings
 .permalink-symbol {
-  font-size: 0.75em;
-  color: var(--text-2);
+  color: var(--text-1);
   border-bottom: none;
-  margin-left: 0.25em;
-  vertical-align: middle;
+  margin-left: 0.35em;
   text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  vertical-align: 0.1em;
 
   &:hover {
     background-color: transparent;
