@@ -23,17 +23,17 @@
         {% endfor %}
 
         {% if page.extra.external_url %}
-        <link rel="alternate" type="text/html" href="{{ page.extra.external_url | safe }}"/>
-        <link rel="related" type="text/html" href="{{ page.permalink | safe }}"/>
+        <link rel="alternate" type="text/html" href="{{ page.extra.external_url | escape }}"/>
+        <link rel="related" type="text/html" href="{{ page.permalink | escape }}"/>
         {% else %}
-        <link rel="alternate" type="text/html" href="{{ page.permalink | safe }}"/>
+        <link rel="alternate" type="text/html" href="{{ page.permalink | escape }}"/>
         {% endif %}
-        <id>{{ page.permalink | safe }}</id>
+        <id>{{ page.permalink | escape }}</id>
 
         {% if page.summary %}
-        <summary type="html">{{ page.summary }}</summary>
+        <summary type="html">{{ page.summary | escape }}</summary>
         {% else %}
-        <content type="html" xml:base="{{ page.permalink | safe }}">{{ page.content | escape }}</content>
+        <content type="html" xml:base="{{ page.permalink | escape }}">{{ page.content | escape }}</content>
         {% endif %}
 
     </entry>
