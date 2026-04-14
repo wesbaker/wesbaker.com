@@ -46,3 +46,18 @@ footer {
   margin: 100px auto 0;
   padding: 0 24px;
 }
+
+// Link post permalink symbol in post listings
+.permalink-symbol {
+  font-size: 0.75em;
+  color: var(--text-2);
+  border-bottom: none;
+  margin-left: 0.25em;
+  vertical-align: middle;
+  text-decoration: none;
+
+  &:hover {
+    background-color: transparent;
+    color: var(--primary-color);
+  }
+}
