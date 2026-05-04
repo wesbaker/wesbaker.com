@@ -10,7 +10,7 @@
       <byline:person id="wesbaker">
         <byline:name>Wes Baker</byline:name>
         <byline:url>{{ config.base_url }}</byline:url>
-        <byline:context>Software engineer sharing notes on development, leadership, and tech.</byline:context>
+        <byline:context>Software Engineering Manager sharing notes on development, leadership, and productivity.</byline:context>
       </byline:person>
     </byline:contributors>
     {% for page in pages %}
@@ -25,7 +25,7 @@
         </author>
         {% else %}
         <author>
-          <name>Unknown</name>
+          <name>Wes Baker</name>
         </author>
         {% endfor %}
 

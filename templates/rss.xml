@@ -11,7 +11,7 @@
         <byline:person id="wesbaker">
           <byline:name>Wes Baker</byline:name>
           <byline:url>{{ config.base_url }}</byline:url>
-          <byline:context>Software engineer sharing notes on development, leadership, and tech.</byline:context>
+          <byline:context>Software Engineering Manager sharing notes on development, leadership, and productivity.</byline:context>
         </byline:person>
       </byline:contributors>
       <lastBuildDate>{{ last_updated | date(format="%a, %d %b %Y %H:%M:%S %z") }}</lastBuildDate>
@@ -19,7 +19,7 @@
       <item>
           <title>{{ page.title }}</title>
           <pubDate>{{ page.date | date(format="%a, %d %b %Y %H:%M:%S %z") }}</pubDate>
-          {% if page.authors %}<author>{{ page.authors[0] }}</author>{% else %}<author>Unknown</author>{% endif %}
+          {% if page.authors %}<author>{{ page.authors[0] }}</author>{% else %}<author>Wes Baker</author>{% endif %}
           <byline:author ref="wesbaker"/>
           <byline:perspective>personal</byline:perspective>
           {% if page.extra.external_url %}
