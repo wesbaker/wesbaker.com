@@ -8,10 +8,15 @@
       <language>{{ lang }}</language>
       <atom:link href="{{ get_url(path="rss.xml") }}" rel="self" type="application/rss+xml"/>
       <byline:contributors>
-        <byline:person id="wesbaker">
+        <byline:person id="wes">
           <byline:name>Wes Baker</byline:name>
-          <byline:url>{{ config.base_url }}</byline:url>
           <byline:context>Software Engineering Manager sharing notes on development, leadership, and productivity.</byline:context>
+          <byline:url>https://wesbaker.com</byline:url>
+          <byline:profile href="https://hachyderm.io/@wesbaker" rel="mastodon"/>
+          <byline:profile href="https://bsky.app/profile/wesbaker.com" rel="bluesky"/>
+          <byline:profile href="https://github.com/wesbaker" rel="github"/>
+          <byline:now>https://wesbaker.com/now</byline:now>
+          <byline:uses>https://wesbaker.com/uses</byline:uses>
         </byline:person>
       </byline:contributors>
       <lastBuildDate>{{ last_updated | date(format="%a, %d %b %Y %H:%M:%S %z") }}</lastBuildDate>
@@ -20,7 +25,7 @@
           <title>{{ page.title }}</title>
           <pubDate>{{ page.date | date(format="%a, %d %b %Y %H:%M:%S %z") }}</pubDate>
           {% if page.authors %}<author>{{ page.authors[0] }}</author>{% else %}<author>Wes Baker</author>{% endif %}
-          <byline:author ref="wesbaker"/>
+          <byline:author ref="wes"/>
           <byline:perspective>personal</byline:perspective>
           {% if page.extra.external_url %}
           <link>{{ page.extra.external_url | escape }}</link>
