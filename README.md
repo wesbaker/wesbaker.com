@@ -27,6 +27,19 @@ bin/setup-git-hooks
 
 That hook runs `zola check --skip-external-links` before each commit so malformed front matter and broken internal links fail locally.
 
+
+### Codex setup script
+
+If you are using Codex's **Setup script** field, use:
+
+```bash
+git submodule update --init --recursive
+./bin/install-zola.sh
+bin/setup-git-hooks
+```
+
+This ensures `zola` is available before running local checks/builds in the container.
+
 ## Common Commands
 
 ```bash

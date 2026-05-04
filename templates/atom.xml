@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ lang }}">
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:byline="https://bylinespec.org/1.0" xml:lang="{{ lang }}">
     <title>{{ config.title }}</title>
     <link rel="self" type="application/atom+xml" href="{{ get_url(path="atom.xml") }}"/>
     <link rel="alternate" type="text/html" href="{{ config.base_url }}"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>{{ last_updated | date(format="%+") }}</updated>
     <id>{{ get_url(path="atom.xml") }}</id>
+    <byline:contributors>
+      <byline:person id="wesbaker">
+        <byline:name>Wes Baker</byline:name>
+        <byline:url>{{ config.base_url }}</byline:url>
+        <byline:context>Software engineer sharing notes on development, leadership, and tech.</byline:context>
+      </byline:person>
+    </byline:contributors>
     {% for page in pages %}
     <entry xml:lang="{{ page.lang }}">
         <title>{{ page.title }}</title>
@@ -21,6 +28,9 @@
           <name>Unknown</name>
         </author>
         {% endfor %}
+
+        <byline:author ref="wesbaker"/>
+        <byline:perspective>personal</byline:perspective>
 
         {% if page.extra.external_url %}
         <link rel="alternate" type="text/html" href="{{ page.extra.external_url | escape }}"/>
