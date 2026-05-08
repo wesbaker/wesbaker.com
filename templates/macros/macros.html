@@ -46,11 +46,18 @@
     </ul>
 {% endmacro list_posts %}
 
-{% macro page_header(title) %}
+{% macro page_header(title, subtitle="") %}
     {% if title %}
-        <h1 class="page-header">
-            {{ title }}
-        </h1>
+        {% if subtitle %}
+            <hgroup>
+                <h1 class="page-header">{{ title }}</h1>
+                <p class="page-subtitle">{{ subtitle }}</p>
+            </hgroup>
+        {% else %}
+            <h1 class="page-header">
+                {{ title }}
+            </h1>
+        {% endif %}
     {% endif %}
 {% endmacro page_header %}
 
