@@ -15,9 +15,10 @@ taxonomies = [{ name = "tags" }]
 generate_feeds = true
 feed_filenames = ["atom.xml", "rss.xml"]
 
-[markdown]
-# Syntax highlighting is always enabled in Zola
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+[markdown.highlighting]
+style = "class"
+light_theme = "github-light"
+dark_theme = "github-dark"
 
 [extra]
 # Put all your custom variables here
