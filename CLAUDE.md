@@ -44,3 +44,12 @@ tags = ["tag1", "tag2"]
 ```
 
 Zola automatically compiles SCSS, generates RSS/Atom feeds, and paginates posts (10 per page).
+
+## Style Guide
+
+`content/posts/style-guide.md` is a draft page that demonstrates every visual element used on posts. Any time you add or change a style that affects post presentation — new frontmatter fields, new CSS classes, template changes — add a representative example to the style guide. Preview it with:
+
+```bash
+zola serve --drafts
+# visit http://127.0.0.1:1111/posts/style-guide/
+```
