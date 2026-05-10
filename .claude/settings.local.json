@@ -24,7 +24,12 @@
       "WebFetch(domain:api.github.com)",
       "Skill(commit-commands:commit-push-pr)",
       "Skill(commit-commands:commit-push-pr:*)",
-      "Bash(rtk git *)"
+      "Bash(rtk git *)",
+      "Bash(rtk find *)",
+      "Read(//Users/wesbaker/Documents/Design/SimpleBits® Secret Club™/Rotundo/**)",
+      "Read(//Users/wesbaker/Documents/Design/SimpleBits® Secret Club™/Turbeau/**)",
+      "Bash(cp '/Users/wesbaker/Documents/Design/SimpleBits® Secret Club™/Beeswacks/Beeswacks-Regular.woff2' '/Users/wesbaker/Documents/Design/SimpleBits® Secret Club™/Clauthbound/Clauthbound-Regular.woff2' '/Users/wesbaker/Documents/Design/SimpleBits® Secret Club™/Clauthbound/Clauthbound-Bold.woff2' '/Users/wesbaker/Documents/Design/SimpleBits® Secret Club™/Dragonsteel/Dragonsteel-Regular.woff2' '/Users/wesbaker/Documents/Design/SimpleBits® Secret Club™/Dragonsteel/Dragonsteel-Rough.woff2' '/Users/wesbaker/Documents/Design/SimpleBits® Secret Club™/Easy-Coast/EasyCoast-Regular.woff2' '/Users/wesbaker/Documents/Design/SimpleBits® Secret Club™/Free-Lunch/FreeLunch-Regular.woff2' '/Users/wesbaker/Documents/Design/SimpleBits® Secret Club™/Free-Lunch/FreeLunch-Rough.woff2' '/Users/wesbaker/Documents/Design/SimpleBits® Secret Club™/Hubano/Hubano-Regular.woff2' '/Users/wesbaker/Documents/Design/SimpleBits® Secret Club™/Hubano/Hubano-Rough.woff2' '/Users/wesbaker/Documents/Design/SimpleBits® Secret Club™/Paint-Factory/PaintFactory-Bold.woff2' '/Users/wesbaker/Documents/Design/SimpleBits® Secret Club™/Spagetty/Spagetty-Regular.woff2' '/Users/wesbaker/Documents/Design/SimpleBits® Secret Club™/Ships-Whistle/ShipsWhistle-Regular.woff2' '/Users/wesbaker/Documents/Design/SimpleBits® Secret Club™/Ships-Whistle/ShipsWhistle-Bold.woff2' '/Users/wesbaker/Documents/Design/SimpleBits® Secret Club™/Vault Alarm/VaultAlarm-Regular.woff2' '/Users/wesbaker/Documents/Design/SimpleBits® Secret Club™/Vault Alarm/VaultAlarm-Sharp.woff2' /Users/wesbaker/Projects/wesbaker.com/static/fonts/simplebits/)",
+      "Bash(rm '/Users/wesbaker/Projects/wesbaker.com/static/fonts/simplebits/Parkly-*.woff2' '/Users/wesbaker/Projects/wesbaker.com/static/fonts/simplebits/WilcoLoftSans-*.woff2' '/Users/wesbaker/Projects/wesbaker.com/static/fonts/simplebits/Grandsans-*.woff2' '/Users/wesbaker/Projects/wesbaker.com/static/fonts/simplebits/CaptainEdward-*.woff2')"
     ]
   }
 }

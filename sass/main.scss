@@ -13,6 +13,11 @@
   --code-font: var(--mono-stack);
 }
 
+// RSS icon orange — overrides the dark-mode invert(1) applied to all social icons
+a.social[href*="rss"] img {
+  filter: brightness(0) saturate(100%) invert(52%) sepia(78%) saturate(900%) hue-rotate(345deg) brightness(105%);
+}
+
 .toc li,
 .toc a {
   font-family: var(--text-font);
@@ -52,6 +57,13 @@ footer {
 h1.page-header {
   line-height: 1.2;
 }
+
+// Typographic scale for in-body headings (theme sets all h1-h6 to a flat 1.2rem)
+h2 { font-size: 2rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.3rem; }
+h5 { font-size: 1.1rem; }
+h6 { font-size: 1rem; }
 
 hgroup {
   margin-bottom: 1rem;
