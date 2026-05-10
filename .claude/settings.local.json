@@ -17,7 +17,14 @@
       "Bash(git add:*)",
       "Bash(git commit -m ':*)",
       "Bash(git -C /Users/wesbaker/Projects/wesbaker.com/themes/apollo grep -r \"left_content\\\\|right_content\" --include=\"*.html\" origin/main)",
-      "Bash(git -C /Users/wesbaker/Projects/wesbaker.com/themes/apollo grep -r \"left_content\\\\|right_content\" origin/main -- \"*.html\")"
+      "Bash(git -C /Users/wesbaker/Projects/wesbaker.com/themes/apollo grep -r \"left_content\\\\|right_content\" origin/main -- \"*.html\")",
+      "Bash(rtk ls *)",
+      "Bash(rtk grep *)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:api.github.com)",
+      "Skill(commit-commands:commit-push-pr)",
+      "Skill(commit-commands:commit-push-pr:*)",
+      "Bash(rtk git *)"
     ]
   }
 }

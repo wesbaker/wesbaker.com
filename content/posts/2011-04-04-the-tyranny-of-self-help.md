@@ -2,6 +2,10 @@
 layout: post
 title:  "The Tyranny of Self-Help"
 date: 2011-04-04T00:00:00-04:00
+taxonomies:
+  tags:
+    - books
+    - self-improvement
 ---
 We all read for different reasons, some of us read to wind down and strip back the problems of our day. Others read for inspiration. But I want to talk about the people who are reading to learn, more specifically the people who are trying to improve.
 

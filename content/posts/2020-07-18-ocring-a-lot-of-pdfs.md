@@ -3,6 +3,10 @@ layout: post
 disqus: true
 title: "OCRing a lot of PDFs"
 date: 2020-07-18T17:42:00-04:00
+taxonomies:
+  tags:
+    - technology
+    - rpg
 ---
 
 First, some preamble: I very much enjoy RPGs and I'm always finding new ones and reading them to see if I want to run them. My kids are almost always willing subjects to try out systems as well. I recently decided that I want to use RPGs to help teach math and my kids have been running around the house playing Star Wars, so the old West End Games Star Wars D6 RPG seemed like a perfect choice. The GM sets a difficulty number and the players roll a number of D6s and add them up. It's not high math by any means, but by asking him to add several numbers and then compare to another value, it's doing something while keeping him engaged. Please be on the lookout for my TED talk.

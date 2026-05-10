@@ -2,6 +2,9 @@
 layout: post
 title:  "Someone Else's Code"
 date: 2011-10-21T00:00:00-04:00
+taxonomies:
+  tags:
+    - programming
 ---
 Head down, fingers tapping and teeth gnashing, that's how you'd find me if I was working on someone else's code. I want to rewrite it. I mean, it's awful just look at it. There are no comments and there are ternary operators where they shouldn't be and they aren't used where they should be. And to make it all worse, the code is littered with tons of inane variables like `temp` and `iter`.
 

@@ -2,6 +2,9 @@
 layout: post
 title:  "Wet Shaving"
 date: 2012-02-01T00:00:00-04:00
+taxonomies:
+  tags:
+    - hobbies
 ---
 _Disclaimer: All Amazon links are affiliate links._
 

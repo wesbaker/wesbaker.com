@@ -2,6 +2,10 @@
 layout: post
 title:  "Too Well Read"
 date: 2011-02-14T00:00:00-04:00
+taxonomies:
+  tags:
+    - books
+    - personal
 ---
 > Seeking advice is addicting and can become a proxy for action. [...] Be suspicious of lists, advice, and lists of advice.
 
