@@ -1,5 +1,22 @@
 @import "../themes/apollo/sass/main.scss";
 
+// Override theme's TTF + font-display: swap with WOFF2 + optional to eliminate FOUT on headers
+@font-face {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/SpaceGrotesk/SpaceGrotesk-Regular.woff2") format("woff2");
+  font-display: optional;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/SpaceGrotesk/SpaceGrotesk-Bold.woff2") format("woff2");
+  font-display: optional;
+}
+
 :root.light, :root.dark {
   --primary-color: #2979ff;
 }
