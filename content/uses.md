@@ -7,10 +7,18 @@ I get [no emails about what I use](https://wesbos.com/uses/), but I love bikeshe
 ## Code
 
 - [Claude Code](https://claude.com/product/claude-code) is how I write most of my code these days both at work and at home.
-- [Visual Studio Code](https://code.visualstudio.com) is *still* my editor. A younger me would be horrified that I was both using and enjoying a Microsoft product.
+- [Zed](https://zed.dev/) is my editor when I'm using one. 
 - I mostly use Wes Bos’s [Cobalt2](https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2) themes everywhere.
 - I use [SF Mono](https://developer.apple.com/fonts/) for my editor font everywhere.
 - I use [Ghostty](https://ghostty.org) for my terminal.
+
+## AI
+
+- I use a combination of [Claude and Claude Code](https://claude.ai/) and [ChatGPT and Codex](https://chatgpt.com/) for my LLM usage at home
+
+When you read my writing, it truly is _my_ writing, but I am using LLMs in my process in two specfic ways:
+  1. After I write up my notes and outline, I'll have an LLM research my notes to fill in the blanks
+  2. After I've written, I'll have an LLM do a proofreading pass
 
 ## Productivity
 
