@@ -17,7 +17,7 @@ I get [no emails about what I use](https://wesbos.com/uses/), but I love bikeshe
 - I use a combination of [Claude and Claude Code](https://claude.ai/) and [ChatGPT and Codex](https://chatgpt.com/) for my LLM usage at home
 
 When you read my writing, it truly is _my_ writing, but I am using LLMs in my process in two specfic ways:
-  1. After I write up my notes and outline, I'll have an LLM research my notes to fill in the blanks
+  1. After I write up my notes and outline, I'll have an LLM pull URLs and answer any questions I have and point me towards the sources
   2. After I've written, I'll have an LLM do a proofreading pass
 
 ## Productivity
