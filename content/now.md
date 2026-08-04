@@ -14,7 +14,7 @@ With 3D printing I've just upgraded my Prusa MK4 to a [MK4S](https://www.prusa3d
 
 ## Roleplaying Games
 
-Before 3D printing, roleplaying were my newest hobby and I still do a fair amount of reading and playing, but I've started to decrease the number of games I run and play in to a reasonable number. I still very much enjoy it, but I'm more realistic about how much I can actually play these days. I always want more though because there's so much out there.
+Before 3D printing, roleplaying was my newest hobby and I still do a fair amount of reading and playing, but I've started to decrease the number of games I run and play in to a reasonable number. I still very much enjoy it, but I'm more realistic about how much I can actually play these days. I always want more though because there's so much out there.
 
 ## Board Games
 

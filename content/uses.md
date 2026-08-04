@@ -7,16 +7,17 @@ I get [no emails about what I use](https://wesbos.com/uses/), but I love bikeshe
 ## Code
 
 - [Claude Code](https://claude.com/product/claude-code) is how I write most of my code these days both at work and at home.
-- [Zed](https://zed.dev/) is my editor when I'm using one. 
+- [Zed](https://zed.dev/) is my editor when I'm using one, though I've been mixing in [NeoVim](https://neovim.io) with [LazyVim](https://www.lazyvim.org) lately.
 - I mostly use Wes Bos’s [Cobalt2](https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2) themes everywhere.
 - I use [SF Mono](https://developer.apple.com/fonts/) for my editor font everywhere.
-- I use [Ghostty](https://ghostty.org) for my terminal.
+- I use [Ghostty](https://ghostty.org) for my terminal, though I've also been mixing in [cmux](https://cmux.com).
 
 ## AI
 
-- I use a combination of [Claude and Claude Code](https://claude.ai/) and [ChatGPT and Codex](https://chatgpt.com/) for my LLM usage at home
+- I'm a heavy user of [pi](https://pi.dev) and GPT-5.6 at work.
+- I use a combination of [Claude and Claude Code](https://claude.ai/) and [ChatGPT and Codex](https://chatgpt.com/) for my LLM usage at home, though I mostly reach for ChatGPT over Claude.
 
-When you read my writing, it truly is _my_ writing, but I am using LLMs in my process in two specfic ways:
+When you read my writing, it truly is _my_ writing, but I am using LLMs in my process in two specific ways:
   1. After I write up my notes and outline, I'll have an LLM pull URLs and answer any questions I have and point me towards the sources
   2. After I've written, I'll have an LLM do a proofreading pass
 
@@ -34,8 +35,12 @@ When you read my writing, it truly is _my_ writing, but I am using LLMs in my pr
 - [Raindrop.io](https://raindrop.io) is my bookmarking app of choice. Long ago I used Delicious, then moved to Pinboard, and then to Raindrop. It's nicer looking than Pinboard and has an official client. I got tired of waiting for the third-party Pinboard clients to care again.
 - [Readwise](https://readwise.io) aggregates highlights from a bunch of places (namely Kindle and Instapaper) and sends me a number of highlights to review every day. I can also create flashcards with the goal of retaining what I read.
 - [Readwise Reader](https://readwise.io/read) is where I save articles to read later.
-- [Reeder](https://www.reederapp.com/) is my RSS reader of choice. It beats scrolling through Twitter or Facebook.
+- [NetNewsWire](https://netnewswire.com) is my RSS reader of choice. It beats scrolling through Twitter or Facebook.
 - [Feedbin](https://feedbin.com) is my RSS service of choice for <Link to='/2021-02-17-rss-isnt-dead/'>a number of reasons</Link>
+
+## Social
+
+- [Indigo](https://anilineapps.com/indigo.html) is how I check Mastodon and Bluesky.
 
 ## Travel
 
@@ -62,9 +67,8 @@ This is a mish-mash of web applications and iOS applications as the lines blur.
 I started off tracking what I read through Goodreads and enjoy having that record, I've since expanded it to other media:
 
 - [Board Game Stats](https://www.bgstatsapp.com) for board game plays
-- [GameTrack](https://gametrack.app/user/wesbaker/) for video games
 - [Goodreads](https://www.goodreads.com/user/show/3457168-wes-baker) for books
-- [Letterboxd](https://letterboxd.com/wesbaker/) for movies
+- [Sofa](https://sofahq.com) for books, video games, movies, TV shows, audiobooks, and albums to listen to
 
 ### Content Blockers
 
