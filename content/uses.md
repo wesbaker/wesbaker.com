@@ -7,7 +7,7 @@ I get [no emails about what I use](https://wesbos.com/uses/), but I love bikeshe
 ## Code
 
 - [Claude Code](https://claude.com/product/claude-code) is how I write most of my code these days both at work and at home.
-- [Zed](https://zed.dev/) is my editor when I'm using one, though I've been spending more time in [NeoVim](https://neovim.io) with [LazyVim](https://www.lazyvim.org) lately.
+- [Zed](https://zed.dev/) is my editor when I'm using one, though I've been spending more time in [Neovim](https://neovim.io) with [LazyVim](https://www.lazyvim.org) lately.
 - I mostly use Wes Bos's [Cobalt2](https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2) themes everywhere.
 - I use [SF Mono](https://developer.apple.com/fonts/) for my editor font everywhere.
 - I use [Ghostty](https://ghostty.org) for my terminal, though I've also been mixing in [cmux](https://cmux.com).
