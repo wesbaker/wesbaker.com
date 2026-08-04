@@ -40,7 +40,7 @@ When you read my writing, it truly is _my_ writing, but I'm using LLMs in my pro
 
 ## Social
 
-- I check Mastodon and Bluesky with [Indigo](https://anilineapps.com/indigo.html).
+- [Indigo](https://anilineapps.com/indigo.html) is how I check Mastodon and Bluesky.
 
 ## Travel
 
