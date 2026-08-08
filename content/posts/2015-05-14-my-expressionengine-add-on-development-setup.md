@@ -1,11 +1,9 @@
 ---
-layout: post
-title: My ExpressionEngine Add-On Development Setup
-date: 2015-05-14T17:40:00-04:00
-taxonomies:
-  tags:
-  - programming
+title: "My ExpressionEngine Add-On Development Setup"
+date: "2015-05-14T17:40:00-04:00"
+tags: ["programming"]
 ---
+
 I make an add-on for ExpressionEngine called [Subscriber](https://devot-ee.com/add-ons/subscriber). It’s a pretty simple little add-on: when a visitor fills out a form on your website they’re added to a newsletter list either automatically or based on a selection they make.
 
 Developing Subscriber has been pretty simple. I have a directory  (and therefore repository) for Subscriber and a directory for my test site. I'll work almost exclusively in the test site and copy things over when I'm satisfied with how it's working. I've missed some changes in the past when copying things over. In addition, it was something of a process when I had files in two different directories.

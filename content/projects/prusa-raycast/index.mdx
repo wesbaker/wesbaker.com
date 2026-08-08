@@ -1,0 +1,30 @@
+---
+title: "Prusa Printer Control Raycast Extension"
+description: "A Raycast extension for monitoring and controlling Prusa 3D printers from the command bar."
+date: 2024-01-01
+weight: 3
+github: "https://github.com/raycast/extensions/tree/main/extensions/prusa"
+image: "./prusa-1.png"
+tags: ["typescript", "raycast", "3d-printing"]
+---
+
+import Figure from "../../../src/components/Figure.astro";
+import status from "./prusa-1.png";
+import commands from "./prusa-2.png";
+import menubar from "./prusa-3.png";
+
+A Raycast extension for monitoring and controlling Prusa 3D printers from the command bar.
+
+<Figure src={status} alt="Prusa Raycast Extension">
+  The Prusa Raycast extension allows you to look up the status of your printer.
+</Figure>
+
+<Figure src={commands} alt="Prusa Raycast Extension Commands">
+  In addition to status, you can open the PrusaConnect Dashboard and Print
+  Files.
+</Figure>
+
+<Figure src={menubar} alt="Prusa Raycast Extension Menubar">
+  A Menubar option allows you to always see the progress of your current print
+  in the menubar.
+</Figure>

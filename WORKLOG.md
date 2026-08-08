@@ -1,5 +1,16 @@
 # WORKLOG
 
+## 2026-08-08
+Converted the site from Zola to Astro. Every URL is unchanged, including
+`/posts/<slug>/`, `/posts/page/N/`, `/tags/`, the feeds, and `_redirects`.
+The Apollo theme submodule is gone — its styles now live in `src/styles/`,
+ported to plain SCSS with the site's own overrides folded in. Content moved to
+Astro collections (`taxonomies`/`extra` front matter flattened to plain keys,
+dates quoted to preserve their UTC offset), the `figure` shortcode became an
+MDX `Figure` component with real image optimization, and `zola check` was
+replaced by `npm run check` (`astro check` + build + `bin/check-links.mjs`).
+Feeds now emit absolute URLs, which the old `base_url = "/"` had broken.
+
 ## 2026-04-14
 Added link post support (PR #1236). Posts with `extra.external_url` in frontmatter render their title as a link to the external URL, with a Lucide external link icon inline and an anchor permalink icon linking back to the post page. Atom and RSS feeds follow Daring Fireball's pattern — external URL as the primary link, post permalink as a related link. Post page title changed from `<div>` to semantic `<h1>`. Fixed cramped line-height on wrapping titles on mobile.
 

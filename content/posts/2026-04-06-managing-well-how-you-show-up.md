@@ -1,10 +1,7 @@
 ---
-layout: post
 title: "Managing Well, Part 1: How You Show Up"
-date: 2026-04-06T10:00:00-04:00
-taxonomies:
-  tags:
-    - management
+date: "2026-04-06T10:00:00-04:00"
+tags: ["management"]
 ---
 
 A fundamental part of being a good manager is showing up as a human. That means caring about your team as both employees and people. How was their weekend? How's their family? What vacations do they have coming up? These questions go a long way, but if they come out mechanical and inauthentic they'll do more harm than good. There's a fundamental requirement here as a manager that you both care about the work and the people and hold that tension.

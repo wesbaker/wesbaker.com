@@ -54,15 +54,12 @@ typings/
 # dotenv environment variables file
 .env
 
-# gatsby files
-.cache/
-public
+# Astro build output
+dist/
+.astro/
 
 # Mac files
 .DS_Store
-
-# Zola generated files
-static/processed_images/
 
 # Local-only config
 .ruby-version

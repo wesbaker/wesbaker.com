@@ -1,0 +1,70 @@
+---
+import { SITE } from "../consts";
+import Nav from "../components/Nav.astro";
+import "../styles/main.scss";
+
+interface Props {
+  /** Page title; the site title is used on its own for the homepage. */
+  title?: string;
+  description?: string;
+}
+
+const { title, description } = Astro.props;
+
+const pageTitle = title ?? SITE.title;
+const copyright = SITE.copyright.replace(
+  "%YEAR%",
+  String(new Date().getFullYear()),
+);
+---
+
+<!doctype html>
+<html lang={SITE.lang} class="dark light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="fediverse:creator" content={SITE.fediverseCreator} />
+
+    <title>{pageTitle}</title>
+    <meta property="og:title" content={pageTitle} />
+    {description && <meta property="og:description" content={description} />}
+    {description && <meta name="description" content={description} />}
+
+    <link rel="canonical" href={new URL(Astro.url.pathname, SITE.url)} />
+    <link
+      rel="alternate"
+      type="application/atom+xml"
+      title={SITE.title}
+      href="/atom.xml"
+    />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title={SITE.title}
+      href="/rss.xml"
+    />
+
+    <script is:inline defer src="/js/codeblock.js"></script>
+    <script is:inline defer src="/js/toc.js"></script>
+    <script
+      is:inline
+      defer
+      data-domain={SITE.plausibleDomain}
+      src="https://plausible.io/js/script.js"></script>
+  </head>
+
+  <body>
+    <div class="left-content"></div>
+
+    <div class="content">
+      <Nav />
+      <slot />
+    </div>
+
+    <div class="right-content">
+      <slot name="right" />
+    </div>
+
+    <footer><p set:html={copyright} /></footer>
+  </body>
+</html>

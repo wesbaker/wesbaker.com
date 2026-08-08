@@ -1,11 +1,9 @@
 ---
-layout: post
-title:  "Wet Shaving"
-date: 2012-02-01T00:00:00-04:00
-taxonomies:
-  tags:
-    - hobbies
+title: "Wet Shaving"
+date: "2012-02-01T00:00:00-04:00"
+tags: ["hobbies"]
 ---
+
 _Disclaimer: All Amazon links are affiliate links._
 
 I've been seeing a lot of chatter about safety razors on Twitter lately, men who are either tired of the constant expense of disposables or cartridge razors, or maybe they want some change to their morning routine.

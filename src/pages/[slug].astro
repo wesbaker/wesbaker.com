@@ -1,0 +1,33 @@
+---
+import { getCollection, render } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageHeader from "../components/PageHeader.astro";
+import Toc from "../components/Toc.astro";
+
+export async function getStaticPaths() {
+  const pages = await getCollection("pages");
+  return pages
+    // The homepage body is rendered by `index.astro`, not at `/home/`.
+    .filter((page) => page.id !== "home")
+    .map((page) => ({ params: { slug: page.id }, props: { page } }));
+}
+
+const { page } = Astro.props;
+const { Content, headings } = await render(page);
+---
+
+<BaseLayout title={page.data.title} description={page.data.description}>
+  <main>
+    <article>
+      <div class="title">
+        <PageHeader title={page.data.title} subtitle={page.data.subtitle} />
+      </div>
+
+      <section class="body">
+        <Content />
+      </section>
+    </article>
+  </main>
+
+  <Toc slot="right" headings={headings} />
+</BaseLayout>

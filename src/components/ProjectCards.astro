@@ -1,0 +1,110 @@
+---
+import { Image } from "astro:assets";
+import type { CollectionEntry } from "astro:content";
+import { projectPath } from "../utils";
+
+interface Props {
+  projects: CollectionEntry<"projects">[];
+  columns?: number;
+  mediaHeight?: number;
+}
+
+const { projects, columns = 2, mediaHeight = 200 } = Astro.props;
+
+/**
+ * The cards use a CSS multi-column layout, which fills top-to-bottom before
+ * moving right. Reordering up front keeps reading order left-to-right.
+ */
+function balanceForColumns<T>(items: T[], columnCount: number): T[] {
+  const perColumn = Math.ceil(items.length / columnCount);
+  const ordered: T[] = [];
+  for (let column = 0; column < columnCount; column++) {
+    for (let row = 0; row < perColumn; row++) {
+      const item = items[row * columnCount + column];
+      if (item !== undefined) ordered.push(item);
+    }
+  }
+  return ordered;
+}
+
+const ordered = balanceForColumns(projects, columns);
+---
+
+<div
+  class="cards"
+  style={`--columns: ${columns}; --media-height: ${mediaHeight}px`}
+>
+  {
+    ordered.map((project) => {
+      const href = project.data.link_to ?? projectPath(project.id);
+      return (
+        <div class="card">
+          {project.data.image && (
+            <div class="card-media">
+              <Image
+                class="card-image"
+                src={project.data.image}
+                alt={project.data.title}
+                height={mediaHeight}
+                format="webp"
+              />
+            </div>
+          )}
+
+          <div class="card-content">
+            <h1 class="card-title">
+              <a href={href}>{project.data.title}</a>
+            </h1>
+
+            {project.data.description && (
+              <p class="card-tagline">{project.data.description}</p>
+            )}
+
+            {(project.data.github ||
+              project.data.demo ||
+              project.data.tags.length > 0) && (
+              <div class="card-footer">
+                {(project.data.github || project.data.demo) && (
+                  <div class="card-links">
+                    {project.data.github && (
+                      <a
+                        class="icon-button"
+                        href={project.data.github}
+                        target="_blank"
+                        rel="noopener"
+                      >
+                        <img src="/icons/social/github.svg" alt="" />
+                        GitHub
+                      </a>
+                    )}
+                    {project.data.demo && (
+                      <a
+                        class="icon-button"
+                        href={project.data.demo}
+                        target="_blank"
+                        rel="noopener"
+                      >
+                        Demo
+                      </a>
+                    )}
+                  </div>
+                )}
+
+                {project.data.tags.length > 0 && (
+                  <div class="card-tags">
+                    {[...project.data.tags]
+                      .sort()
+                      .slice(0, 4)
+                      .map((tag) => (
+                        <span class="card-tag">#{tag}</span>
+                      ))}
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+        </div>
+      );
+    })
+  }
+</div>

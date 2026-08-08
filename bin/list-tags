@@ -1,22 +1,21 @@
-#!/usr/bin/env ruby
-require 'yaml'
-require 'date'
+#!/usr/bin/env node
+// Prints every tag used by posts, one per line, sorted.
+import { readdirSync, readFileSync } from "node:fs";
+import { join } from "node:path";
+import { parse } from "yaml";
 
-posts_dir = File.expand_path("../../content/posts", __FILE__)
+const postsDir = new URL("../content/posts", import.meta.url).pathname;
 
-tags = Dir.glob("#{posts_dir}/**/*.md").flat_map do |file|
-  content = File.read(file)
-  next [] unless content.start_with?("---")
+const tags = new Set();
 
-  fm = content.split("---", 3)[1]
-  data = YAML.safe_load(fm, permitted_classes: [Time, Date]) rescue nil
-  next [] if data.nil?
+for (const name of readdirSync(postsDir)) {
+  if (!/\.mdx?$/.test(name)) continue;
 
-  taxonomies = data["taxonomies"] || {}
-  top_level = data["tags"] || []
-  nested = taxonomies["tags"] || []
+  const raw = readFileSync(join(postsDir, name), "utf8");
+  const match = /^---\n([\s\S]*?)\n---/.exec(raw);
+  if (!match) continue;
 
-  top_level + nested
-end
+  for (const tag of parse(match[1])?.tags ?? []) tags.add(tag);
+}
 
-puts tags.uniq.sort
+console.log([...tags].sort().join("\n"));

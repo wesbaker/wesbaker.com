@@ -1,0 +1,105 @@
+@use "theme";
+@use "fonts";
+@use "parts/cards";
+@use "parts/code";
+@use "parts/header";
+@use "parts/image";
+@use "parts/misc";
+@use "parts/table";
+@use "parts/tags";
+@use "parts/toc";
+
+:root {
+  --font-size-base: 16px;
+  --mono-stack: "SF Mono Powerline", "SF Mono", "Jetbrains Mono", ui-monospace,
+    monospace;
+
+  --text-font: var(--mono-stack);
+  --header-font: "Space Grotesk", "Helvetica", sans-serif;
+  --mono-text-font: var(--mono-stack);
+  --code-font: var(--mono-stack);
+
+  --line-height: 1.5;
+  --page-width: 920px;
+}
+
+html {
+  background-color: var(--bg-0);
+  color: var(--text-0);
+  font-family: var(--text-font);
+  line-height: var(--line-height);
+
+  @media (max-width: 992px) {
+    font-size: calc(var(--font-size-base) * 0.97);
+  }
+  @media (max-width: 768px) {
+    font-size: calc(var(--font-size-base) * 0.95);
+  }
+  @media (max-width: 576px) {
+    font-size: calc(var(--font-size-base) * 0.92);
+  }
+}
+
+body {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  padding: 0.9rem;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+  min-height: calc(100vh - 150px);
+
+  @media (min-width: 992px) {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .content {
+    width: 100%;
+    max-width: var(--page-width);
+    flex-shrink: 0;
+    padding-bottom: 1.5rem;
+    margin: 0 auto;
+    word-wrap: break-word;
+  }
+
+  .left-content {
+    width: 100%;
+
+    @media (min-width: 992px) {
+      flex: 1 1 0;
+      min-width: 0;
+    }
+  }
+
+  .right-content {
+    width: 100%;
+
+    @media (min-width: 992px) {
+      flex: 1 1 0;
+      min-width: 0;
+
+      // Has to live here rather than on `.toc` itself to stick correctly
+      position: sticky;
+      top: 60px;
+      padding: 1em;
+      overflow-y: auto;
+      max-height: calc(100vh - 100px);
+    }
+  }
+}
+
+footer {
+  flex-basis: 100%;
+  max-width: var(--page-width);
+  margin: 100px auto 0;
+  padding: 0 24px;
+}
+
+// The RSS glyph stays orange; it is the one social icon that is not inverted
+// wholesale in dark mode.
+a.social[href*="rss"] img {
+  filter: brightness(0) saturate(100%) invert(52%) sepia(78%) saturate(900%)
+    hue-rotate(345deg) brightness(105%);
+}

@@ -1,12 +1,9 @@
 ---
-layout: post
-title:  "The Tyranny of Self-Help"
-date: 2011-04-04T00:00:00-04:00
-taxonomies:
-  tags:
-    - books
-    - self-improvement
+title: "The Tyranny of Self-Help"
+date: "2011-04-04T00:00:00-04:00"
+tags: ["books", "self-improvement"]
 ---
+
 We all read for different reasons, some of us read to wind down and strip back the problems of our day. Others read for inspiration. But I want to talk about the people who are reading to learn, more specifically the people who are trying to improve.
 
 These folks see themselves as lacking something, imperfect in some way. They're constantly striving to find the next book, the one that'll help them finally get out of that funk they've been in: the holy grail of self-help books that will prove all of the other books wrong and will help them become the person they've always thought they could be.

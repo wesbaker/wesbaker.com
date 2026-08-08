@@ -1,9 +1,7 @@
 ---
 title: "The CRY Principle"
-date: 2026-05-11T00:00:00-04:00
-taxonomies:
-  tags:
-    - management
+date: "2026-05-11T00:00:00-04:00"
+tags: ["management"]
 ---
 
 Most software engineering managers (including myself) start as software engineers themselves. Being technical means they can always jump back into work or better understand a plan devised by someone on the team, both of which I do routinely. However, managers need to learn when it makes sense to continue applying some of the same techniques that got them here and when they need to change their strategy for the changing kinds of work they handle.

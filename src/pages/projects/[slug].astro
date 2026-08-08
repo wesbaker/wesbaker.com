@@ -1,0 +1,33 @@
+---
+import { getCollection, render } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHeader from "../../components/PageHeader.astro";
+import Toc from "../../components/Toc.astro";
+
+export async function getStaticPaths() {
+  const projects = await getCollection("projects");
+  return projects.map((project) => ({
+    params: { slug: project.id },
+    props: { project },
+  }));
+}
+
+const { project } = Astro.props;
+const { Content, headings } = await render(project);
+---
+
+<BaseLayout title={project.data.title} description={project.data.description}>
+  <main>
+    <article>
+      <div class="title">
+        <PageHeader title={project.data.title} />
+      </div>
+
+      <section class="body">
+        <Content />
+      </section>
+    </article>
+  </main>
+
+  <Toc slot="right" headings={headings} />
+</BaseLayout>

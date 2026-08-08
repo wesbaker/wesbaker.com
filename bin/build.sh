@@ -3,7 +3,7 @@ set -euo pipefail
 
 # Show draft posts on preview deployments; hide them on production (main).
 if [ "${CF_PAGES_BRANCH:-main}" = "main" ]; then
-  zola build
+  npm run build
 else
-  zola build --drafts
+  INCLUDE_DRAFTS=true npm run build
 fi

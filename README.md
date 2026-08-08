@@ -1,53 +1,38 @@
 # wesbaker.com
 
-Personal site built with [Zola](https://www.getzola.org/) and the Apollo theme.
+Personal site built with [Astro](https://astro.build/).
 
 ## Setup
 
 1. Clone the repository.
-2. Initialize the theme submodule:
+2. Install dependencies:
 
 ```bash
-git submodule update --init --recursive
+npm install
 ```
 
-3. Install Zola.
-
-If you use Homebrew:
-
-```bash
-brew install zola
-```
-
-4. Enable the repo's versioned Git hooks:
+3. Enable the repo's versioned Git hooks:
 
 ```bash
 bin/setup-git-hooks
 ```
 
-That hook runs `zola check --skip-external-links` before each commit so malformed front matter and broken internal links fail locally.
-
-
-### Codex setup script
-
-If you are using Codex's **Setup script** field, use:
-
-```bash
-git submodule update --init --recursive
-./bin/install-zola.sh
-bin/setup-git-hooks
-```
-
-This ensures `zola` is available before running local checks/builds in the container.
+That hook runs `npm run check` before each commit, so malformed front matter,
+type errors, and broken internal links fail locally.
 
 ## Common Commands
 
 ```bash
-zola serve                        # Start local dev server
-zola build                        # Build the site into public/
-zola check --skip-external-links  # Validate site content and internal links
+npm run dev      # Start the dev server (http://localhost:4321), drafts included
+npm run build    # Build the site into dist/
+npm run preview  # Serve the built site
+npm run check    # Type-check, build, and validate internal links
 ```
+
+Drafts (`draft: true` in front matter) are always shown by `npm run dev` and
+hidden by `npm run build`. To include them in a build, set `INCLUDE_DRAFTS=true`
+— which is what `bin/build.sh` does for Cloudflare Pages preview deployments.
 
 ## GitHub Checks
 
-GitHub Actions also runs `zola check --skip-external-links` on pull requests and pushes to `main`.
+GitHub Actions runs `npm run check` on pull requests and pushes to `main`.

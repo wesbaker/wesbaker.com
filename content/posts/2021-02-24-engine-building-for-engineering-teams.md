@@ -1,11 +1,9 @@
 ---
-layout: post
-title: Engine Building for Engineering Teams
-date: 2021-02-24T11:00:00-04:00
-taxonomies:
-  tags:
-  - management
+title: "Engine Building for Engineering Teams"
+date: "2021-02-24T11:00:00-04:00"
+tags: ["management"]
 ---
+
 I'm a big fan of board games. My collection no longer fits in the two bookshelves I have, it sprawls into the closet next to our game room. One of my favorite genres is engine building. This is the idea that you start with basic means of doing *something*---exploring ruins for instance---and build up your capabilities and efficiencies over time. Therefore an action at the beginning of the game doesn't produce the same output as an action at the end, but without those initial actions, those latter actions wouldn't have the same weight.
 
 These games are incredibly satisfying as I see things get more efficient and effective, gaining more points or a better position as my engine starts to hum along. Problematically for board games, I love the feeling of efficiency to a fault: the first time I play a game I'll be focused on building out the engine and miss the point when I need to start thinking more about winning. That might be points or getting far along a path, but I'll miss it because instead of seeing the forest, I'm staring at these fantastic trees.

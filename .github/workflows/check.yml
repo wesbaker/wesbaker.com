@@ -1,4 +1,4 @@
-name: zola check
+name: check
 
 on:
   push:
@@ -16,13 +16,15 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          submodules: true
 
-      - name: Install Zola
-        uses: taiki-e/install-action@v2
+      - name: Set up Node
+        uses: actions/setup-node@v4
         with:
-          tool: zola
+          node-version: 22
+          cache: npm
 
-      - name: Run zola check
-        run: zola check --skip-external-links
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Type-check, build, and validate internal links
+        run: npm run check
