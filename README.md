@@ -33,6 +33,12 @@ Drafts (`draft: true` in front matter) are always shown by `npm run dev` and
 hidden by `npm run build`. To include them in a build, set `INCLUDE_DRAFTS=true`
 — which is what `bin/build.sh` does for Cloudflare Pages preview deployments.
 
+## Deployment
+
+Cloudflare Pages builds the site with `bin/build.sh` and publishes `dist/`.
+`.node-version` pins the Node version Pages uses, so a change to its default
+can't break the build.
+
 ## GitHub Checks
 
 GitHub Actions runs `npm run check` on pull requests and pushes to `main`.
