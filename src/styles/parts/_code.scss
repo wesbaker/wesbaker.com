@@ -1,0 +1,129 @@
+@use "sass:color";
+
+:root {
+  --code-font: var(--code-font), monospace;
+  --bg-primary: var(--bg-1);
+  --text-color: var(--text-0);
+  --label-color: #f0f0f0;
+}
+
+// Language label colours, keyed by Shiki's `data-language` value.
+$language-colors: (
+  "js": #f7df1e,
+  "javascript": #f7df1e,
+  "yaml": #f71e6a,
+  "shell": #4eaa25,
+  "json": dodgerblue,
+  "python": #3572a5,
+  "css": #264de4,
+  "scss": #c76494,
+  "go": #00add8,
+  "markdown": #0000ff,
+  "rust": #ff4647,
+  "java": #f89820,
+  "csharp": #178600,
+  "ruby": #701516,
+  "swift": #f05138,
+  "php": #777bb4,
+  "typescript": #3178c6,
+  "ts": #3178c6,
+  "scala": #c22d40,
+  "kotlin": #f18e33,
+  "lua": #000080,
+  "perl": #0298c3,
+  "haskell": #5e5086,
+  "r": #198ce7,
+  "dart": #00d2b8,
+  "elixir": #6e4a7e,
+  "clojure": #5881d8,
+  "bash": #4eaa25,
+  "fish": #4eaa25,
+  "html": #e34c26,
+  "toml": #9c4221,
+);
+
+// Most language colours are dark enough for the light label text, but a few
+// (JavaScript yellow, Dart teal) need dark text to stay legible.
+@function label-text-color($bg-color) {
+  @if color.channel($bg-color, "lightness", $space: hsl) > 60% {
+    @return #111;
+  }
+  @return var(--label-color);
+}
+
+@mixin base-label-style($bg-color, $text-color: label-text-color($bg-color)) {
+  background: $bg-color;
+  color: $text-color;
+  border-radius: 0 0 0.25rem 0.25rem;
+  font-size: 12px;
+  letter-spacing: 0.025rem;
+  padding: 0.1rem 0.5rem;
+  text-align: right;
+  text-transform: uppercase;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 0.1rem;
+}
+
+.code-label {
+  @include base-label-style(#333); // Default background colour
+}
+
+@each $lang, $color in $language-colors {
+  .label-#{$lang} {
+    @include base-label-style($color);
+  }
+}
+
+code {
+  background-color: var(--bg-primary);
+  padding: 0.1em 0.2em;
+  border-radius: 5px;
+  border: 1px solid var(--border-color);
+  font-family: var(--code-font);
+}
+
+pre {
+  background-color: var(--bg-primary) !important;
+  border-radius: 5px;
+  border: 1px solid var(--border-color);
+  line-height: 1.4;
+  overflow-x: auto;
+  padding: 1em;
+  position: relative;
+
+  code {
+    background-color: transparent !important;
+    color: var(--text-color);
+    font-size: 100%;
+    padding: 0;
+    border: none;
+    font-family: var(--code-font);
+  }
+}
+
+// Shiki emits both palettes inline; swap to the dark tokens with the system
+// preference. The `pre` background is overridden above in both modes.
+@media (prefers-color-scheme: dark) {
+  .astro-code,
+  .astro-code span {
+    color: var(--shiki-dark) !important;
+    font-style: var(--shiki-dark-font-style) !important;
+    font-weight: var(--shiki-dark-font-weight) !important;
+    text-decoration: var(--shiki-dark-text-decoration) !important;
+  }
+}
+
+.clipboard-button,
+.clipboard-button svg {
+  all: unset;
+  cursor: pointer;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  z-index: 10;
+  background-color: transparent;
+  border: none;
+  fill: var(--text-color);
+}

@@ -1,0 +1,17 @@
+// `font-display: optional` (rather than `swap`) keeps headers from flashing a
+// fallback face before Space Grotesk loads.
+@font-face {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/SpaceGrotesk/SpaceGrotesk-Regular.woff2") format("woff2");
+  font-display: optional;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/SpaceGrotesk/SpaceGrotesk-Bold.woff2") format("woff2");
+  font-display: optional;
+}

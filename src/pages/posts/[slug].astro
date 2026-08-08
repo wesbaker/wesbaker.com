@@ -1,0 +1,86 @@
+---
+import { render } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHeader from "../../components/PageHeader.astro";
+import ExternalLinkIcon from "../../components/ExternalLinkIcon.astro";
+import Toc from "../../components/Toc.astro";
+import { getPosts, tagPath } from "../../utils";
+
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
+}
+
+const { post } = Astro.props;
+const { Content, headings } = await render(post);
+const { title, subtitle, date, updated, tags, draft, external_url } = post.data;
+---
+
+<BaseLayout title={title} description={post.data.description}>
+  <main>
+    <article>
+      <div class="title">
+        {
+          external_url ? (
+            subtitle ? (
+              <hgroup>
+                <h1 class="page-header">
+                  <a href={external_url} target="_blank" rel="noopener noreferrer">
+                    {title}
+                    <ExternalLinkIcon />
+                  </a>
+                </h1>
+                <p class="page-subtitle">{subtitle}</p>
+              </hgroup>
+            ) : (
+              <h1 class="page-header">
+                <a href={external_url} target="_blank" rel="noopener noreferrer">
+                  {title}
+                  <ExternalLinkIcon />
+                </a>
+              </h1>
+            )
+          ) : (
+            <PageHeader title={title} subtitle={subtitle} />
+          )
+        }
+
+        <div class="meta">
+          Posted on <time datetime={date.rfc3339}>{date.day}</time>
+
+          {
+            updated && (
+              <Fragment>
+                :: Updated on{" "}
+                <time datetime={updated.rfc3339}>{updated.day}</time>
+              </Fragment>
+            )
+          }
+
+          {
+            tags.length > 0 && (
+              <Fragment>
+                <span class="tags-label">::</span>
+                <span class="tags">
+                  {[...tags].sort().map((tag) => (
+                    <a href={tagPath(tag)} class="post-tag">
+                      {tag}
+                    </a>
+                  ))}
+                </span>
+              </Fragment>
+            )
+          }
+
+          {draft && <span class="draft-label">DRAFT</span>}
+        </div>
+      </div>
+
+      <section class="body">
+        <Content />
+      </section>
+    </article>
+  </main>
+
+  <Toc slot="right" headings={headings} />
+</BaseLayout>

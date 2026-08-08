@@ -1,0 +1,64 @@
+@use "sass:color";
+
+// Light palette. `html` carries both `light` and `dark` classes; the dark
+// block below only applies under a dark system preference, so the two
+// rulesets never fight outside of that media query.
+$light-bg-0: #fff;
+$light-bg-1: color.adjust($light-bg-0, $lightness: -2%);
+$light-bg-2: color.adjust($light-bg-1, $lightness: -5%);
+$light-text-0: color.adjust($light-bg-0, $lightness: -87%);
+$light-text-1: color.adjust($light-bg-0, $lightness: -60%);
+$light-text-2: color.adjust($light-bg-0, $lightness: -30%);
+
+// Dark needs more contrast between surfaces than light does.
+$dark-bg-0: #121212;
+$dark-bg-1: color.adjust($dark-bg-0, $lightness: 5%);
+$dark-bg-2: color.adjust($dark-bg-1, $lightness: 10%);
+$dark-text-0: color.adjust($dark-bg-0, $lightness: 87%);
+$dark-text-1: color.adjust($dark-bg-0, $lightness: 60%);
+$dark-text-2: color.adjust($dark-bg-0, $lightness: 40%);
+
+$primary-color: #2979ff;
+
+:root,
+:root.light {
+  --text-0: #{$light-text-0};
+  --text-1: #{$light-text-1};
+  --text-2: #{$light-text-2};
+
+  --bg-0: #{$light-bg-0};
+  --bg-1: #{$light-bg-1};
+  --bg-2: #{$light-bg-2};
+
+  --border-color: var(--bg-2);
+
+  --primary-color: #{$primary-color};
+  --hover-color: white;
+
+  /* Brand colours for the social links in the header */
+  --github-hover: #8250df;
+  --rss-color: #ee802f;
+  --rss-hover: #f5913e;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root,
+  :root.dark {
+    --text-0: #{$dark-text-0};
+    --text-1: #{$dark-text-1};
+    --text-2: #{$dark-text-2};
+
+    --bg-0: #{$dark-bg-0};
+    --bg-1: #{$dark-bg-1};
+    --bg-2: #{$dark-bg-2};
+
+    --border-color: var(--bg-2);
+
+    --primary-color: #{$primary-color};
+    --hover-color: white;
+
+    /* Both need lifting to stay legible on the dark surface */
+    --github-hover: #a371f7;
+    --rss-hover: #ffa94d;
+  }
+}

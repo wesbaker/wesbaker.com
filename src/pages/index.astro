@@ -1,0 +1,39 @@
+---
+import { getEntry, render } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageHeader from "../components/PageHeader.astro";
+import PostList from "../components/PostList.astro";
+import Pagination from "../components/Pagination.astro";
+import { getPosts } from "../utils";
+import { POSTS_PER_PAGE } from "../consts";
+
+const home = await getEntry("pages", "home");
+if (!home) throw new Error("Missing content/pages/home.md");
+
+const { Content } = await render(home);
+
+// The homepage shows the same slice as page one of /posts/, so its "Next"
+// link can hand off to page two without skipping anything.
+const allPosts = await getPosts();
+const posts = allPosts.slice(0, POSTS_PER_PAGE);
+const pageCount = Math.max(1, Math.ceil(allPosts.length / POSTS_PER_PAGE));
+---
+
+<BaseLayout description={home.data.description}>
+  <main>
+    <article>
+      <section class="body">
+        <PageHeader title={home.data.title} subtitle={home.data.subtitle} />
+        <Content />
+      </section>
+    </article>
+  </main>
+
+  <h2><a href="/posts/">Recent Posts</a></h2>
+
+  <main class="post-list">
+    <PostList posts={posts} />
+  </main>
+
+  <Pagination current={1} pageCount={pageCount} />
+</BaseLayout>

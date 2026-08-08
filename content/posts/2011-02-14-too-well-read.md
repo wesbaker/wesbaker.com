@@ -1,12 +1,9 @@
 ---
-layout: post
-title:  "Too Well Read"
-date: 2011-02-14T00:00:00-04:00
-taxonomies:
-  tags:
-    - books
-    - personal
+title: "Too Well Read"
+date: "2011-02-14T00:00:00-04:00"
+tags: ["books", "personal"]
 ---
+
 > Seeking advice is addicting and can become a proxy for action. [...] Be suspicious of lists, advice, and lists of advice.
 
 That comes from someone I highly respect and is a great suggestion for people who are stuck on self-help books and list posts. I've been hearing this pretty loud and clear for the past six months from a couple of people and yet, I've ignored it. Book purchase after book purchase, I've accumulated a library that would make anyone anxious.

@@ -1,0 +1,69 @@
+---
+import type { CollectionEntry } from "astro:content";
+import ExternalLinkIcon from "./ExternalLinkIcon.astro";
+import PermalinkIcon from "./PermalinkIcon.astro";
+import { postPath } from "../utils";
+
+interface Props {
+  posts: CollectionEntry<"posts">[];
+}
+
+const { posts } = Astro.props;
+---
+
+<ul>
+  {
+    posts.map((post) => {
+      const permalink = postPath(post.id);
+      const external = post.data.external_url;
+      return (
+        <li class="list-item">
+          <section>
+            <div class="post-header">
+              <time datetime={post.data.date.rfc3339}>
+                {post.data.date.day}
+              </time>
+
+              <div>
+                <h1 class="title">
+                  {external ? (
+                    <Fragment>
+                      <a
+                        href={external}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {post.data.title}
+                        <ExternalLinkIcon />
+                      </a>
+                      <a
+                        class="permalink-symbol"
+                        href={permalink}
+                        title="Permalink to this post"
+                      >
+                        <PermalinkIcon />
+                      </a>
+                    </Fragment>
+                  ) : (
+                    <a href={permalink}>{post.data.title}</a>
+                  )}
+
+                  {post.data.draft && <span class="draft-label">DRAFT</span>}
+                </h1>
+
+                {post.data.description && (
+                  <div class="meta">
+                    <div class="description">{post.data.description}</div>
+                    <a class="readmore" href={permalink}>
+                      Read more ⟶
+                    </a>
+                  </div>
+                )}
+              </div>
+            </div>
+          </section>
+        </li>
+      );
+    })
+  }
+</ul>

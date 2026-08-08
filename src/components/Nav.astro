@@ -1,0 +1,30 @@
+---
+import { MENU, SOCIALS, SITE } from "../consts";
+import SocialIcon from "./SocialIcon.astro";
+---
+
+<nav>
+  <div class="left-nav">
+    <a href="/">{SITE.title}</a>
+
+    <div class="socials">
+      {
+        SOCIALS.map((social) => (
+          <a
+            rel="me"
+            href={social.url}
+            class="social"
+            data-social={social.icon}
+            aria-label={social.name}
+          >
+            <SocialIcon name={social.icon} />
+          </a>
+        ))
+      }
+    </div>
+  </div>
+
+  <div class="right-nav">
+    {MENU.map((item) => <a href={item.url}>{item.name}</a>)}
+  </div>
+</nav>

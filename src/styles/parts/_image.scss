@@ -1,0 +1,31 @@
+img {
+  max-width: 100%;
+  border-radius: 0.5rem;
+}
+
+figure {
+  box-sizing: border-box;
+  display: block;
+  margin: 1.5rem 0;
+  max-width: 100%;
+  text-align: center;
+
+  img {
+    max-height: 500px;
+  }
+
+  figcaption {
+    color: var(--text-2);
+
+    // Captions authored as markdown arrive wrapped in a paragraph
+    p {
+      margin: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  figure {
+    padding: 0 40px;
+  }
+}

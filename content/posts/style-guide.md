@@ -1,14 +1,9 @@
 ---
 title: "Style Guide"
-date: 2026-05-08T00:00:00-04:00
+subtitle: "A reference page showing all available markdown styles"
+date: "2026-05-08T00:00:00-04:00"
+tags: ["style", "design", "markdown"]
 draft: true
-extra:
-  subtitle: "A reference page showing all available markdown styles"
-taxonomies:
-  tags:
-    - style
-    - design
-    - markdown
 ---
 
 ## Subtitle
@@ -16,8 +11,7 @@ taxonomies:
 This page uses the optional `subtitle` frontmatter field:
 
 ```yaml
-extra:
-  subtitle: "A reference page showing all available markdown styles"
+subtitle: "A reference page showing all available markdown styles"
 ```
 
 It renders in a `<p class="page-subtitle">` inside an `<hgroup>` with the `<h1>`, using `--text-2` (muted) and `font-size: 1.1rem`.
@@ -80,7 +74,7 @@ Regular paragraph text. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 ### Inline Code
 
-Use `zola serve` to start the development server, or `zola build` for a production build.
+Use `npm run dev` to start the development server, or `npm run build` for a production build.
 
 ### Code Block (no language)
 
@@ -121,9 +115,9 @@ const post: Post = {
 ### Code Block (Shell)
 
 ```bash
-zola build
-zola check --skip-external-links
-git submodule update --init --recursive
+npm install
+npm run build
+npm run check
 ```
 
 ## Table
@@ -144,9 +138,9 @@ git submodule update --init --recursive
 
 ## Links
 
-[External link](https://www.getzola.org) — opens in the same tab.
+[External link](https://astro.build) — opens in the same tab.
 
-[Link with title](https://www.getzola.org "Zola — a fast static site generator")
+[Link with title](https://astro.build "Astro — the web framework for content-driven websites")
 
 ## Horizontal Rule
 
@@ -167,10 +161,10 @@ Below this paragraph is a horizontal rule.
 ## Definition / Description List (HTML)
 
 <dl>
-  <dt>Zola</dt>
-  <dd>A fast static site generator written in Rust.</dd>
-  <dt>Tera</dt>
-  <dd>The templating engine used by Zola, inspired by Jinja2.</dd>
+  <dt>Astro</dt>
+  <dd>The static site generator this site is built with.</dd>
+  <dt>Shiki</dt>
+  <dd>The syntax highlighter Astro uses for fenced code blocks.</dd>
 </dl>
 
 ## Task List

@@ -1,0 +1,33 @@
+---
+interface Props {
+  current: number;
+  pageCount: number;
+}
+
+const { current, pageCount } = Astro.props;
+
+/** Page 1 lives at `/posts/`; later pages at `/posts/page/N/`. */
+const href = (page: number) => (page === 1 ? "/posts/" : `/posts/page/${page}/`);
+---
+
+{
+  pageCount > 1 && (
+    <ul class="pagination">
+      {current > 1 && (
+        <li class="page-item page-prev">
+          <a href={href(current - 1)} class="page-link" aria-label="Previous">
+            <span aria-hidden="true">← Prev</span>
+          </a>
+        </li>
+      )}
+
+      {current < pageCount && (
+        <li class="page-item page-next">
+          <a href={href(current + 1)} class="page-link" aria-label="Next">
+            <span aria-hidden="true">Next →</span>
+          </a>
+        </li>
+      )}
+    </ul>
+  )
+}

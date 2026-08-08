@@ -1,11 +1,9 @@
 ---
-layout: post
-title:  "Being Genuine"
-date: 2010-08-09T00:00:00-04:00
-taxonomies:
-  tags:
-    - personal
+title: "Being Genuine"
+date: "2010-08-09T00:00:00-04:00"
+tags: ["personal"]
 ---
+
 My attention is a fickle sort, it flits back and forth between topics on Philosophy, Psychology, Business, Design and Programming. The idea of being genuine has seen a sort of resurgence in all of these topics recently and I don't completely understand why it ever went away. It seems that we've pushed genuineness aside in lieu of higher profitability, quicker results or some other batch of snake oil. I see and can comprehend that some folks will ignore their morals and their self in order to profit (financially or otherwise), but I think in the long run you are hurting yourself.
 
 Think of the last time you were on the phone for customer support for your credit card. What do you hear every 15-30 seconds? "Thank you for your patience, one of our staff will assist you momentarily." They think constantly spewing that every so many seconds will really tide us over until we start talking with the customer support representative. Yet, it just seems to incite anger in most people. They don't seem to have a genuine care about their customers, just their bottom line and a 15 minute wait time doesn't matter one bit if they aren't losing customers at an alarming rate.

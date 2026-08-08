@@ -1,0 +1,19 @@
+---
+interface Props {
+  title: string;
+  subtitle?: string;
+}
+
+const { title, subtitle } = Astro.props;
+---
+
+{
+  subtitle ? (
+    <hgroup>
+      <h1 class="page-header">{title}</h1>
+      <p class="page-subtitle">{subtitle}</p>
+    </hgroup>
+  ) : (
+    <h1 class="page-header">{title}</h1>
+  )
+}

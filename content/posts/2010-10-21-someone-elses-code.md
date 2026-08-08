@@ -1,11 +1,9 @@
 ---
-layout: post
-title:  "Someone Else's Code"
-date: 2011-10-21T00:00:00-04:00
-taxonomies:
-  tags:
-    - programming
+title: "Someone Else's Code"
+date: "2011-10-21T00:00:00-04:00"
+tags: ["programming"]
 ---
+
 Head down, fingers tapping and teeth gnashing, that's how you'd find me if I was working on someone else's code. I want to rewrite it. I mean, it's awful just look at it. There are no comments and there are ternary operators where they shouldn't be and they aren't used where they should be. And to make it all worse, the code is littered with tons of inane variables like `temp` and `iter`.
 
 At some point in every programmer's rich and illustrious career, we find ourselves in someone else's code. And, inevitably, we start finding problems, things we would never have done. Ever. However, if you took one look at your code from a year ago, I'd bet you'd start finding problems too. So why, then, do we think that someone else's code is awful and only worthy of a rewrite? Because understanding other people is hard.

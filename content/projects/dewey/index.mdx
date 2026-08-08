@@ -1,0 +1,30 @@
+---
+title: "dewey"
+description: "A Discord bot that facilitates book club logistics — randomizing book pickers and sending reminders for book selection and meeting scheduling."
+date: 2024-01-01
+weight: 1
+image: "./pick.png"
+tags: ["typescript", "discord", "raspberry-pi"]
+---
+
+import Figure from "../../../src/components/Figure.astro";
+import pick from "./pick.png";
+import reminder from "./reminder.png";
+import schedule from "./schedule.png";
+
+A Discord bot for managing a book club rotation. Randomizes who picks the book each month, tracks book picks with Goodreads integration, and sends mid-month reminders.
+
+<Figure src={pick} alt="/pick command">
+  The `/pick` command lets the book chooser pick their book or the admin to set
+  a book for someone else.
+</Figure>
+
+<Figure src={reminder} alt="Monthly reminder message">
+  Every month a reminder is sent to the current chooser and next month's as
+  well.
+</Figure>
+
+<Figure src={schedule} alt="/schedule command">
+  The `/schedule` command shows the upcoming schedule along with anyone who's
+  been pinned to a specific month.
+</Figure>

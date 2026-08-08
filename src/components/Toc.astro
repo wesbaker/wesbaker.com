@@ -1,0 +1,72 @@
+---
+import type { MarkdownHeading } from "astro";
+
+interface Props {
+  headings: MarkdownHeading[];
+}
+
+/** Nests a flat heading list so the sidebar mirrors the document outline. */
+interface Node extends MarkdownHeading {
+  children: Node[];
+}
+
+function nest(headings: MarkdownHeading[]): Node[] {
+  const roots: Node[] = [];
+  const stack: Node[] = [];
+
+  for (const heading of headings) {
+    // remark-gfm injects its own "Footnotes" heading at the end of the body.
+    if (heading.depth > 4 || heading.slug === "footnote-label") continue;
+    const node: Node = { ...heading, children: [] };
+
+    while (stack.length && stack[stack.length - 1].depth >= node.depth) {
+      stack.pop();
+    }
+
+    if (stack.length) stack[stack.length - 1].children.push(node);
+    else roots.push(node);
+
+    stack.push(node);
+  }
+
+  return roots;
+}
+
+const { headings } = Astro.props;
+const tree = nest(headings);
+---
+
+{
+  tree.length > 0 && (
+    <div class="toc">
+      <div class="heading">Table of Contents</div>
+      <ul class="toc-list">
+        {tree.map((h1) => (
+          <li class="parent">
+            <a href={`#${h1.slug}`}>{h1.text}</a>
+            {h1.children.length > 0 && (
+              <ul>
+                {h1.children.map((h2) => (
+                  <Fragment>
+                    <li>
+                      <a href={`#${h2.slug}`}>{h2.text}</a>
+                    </li>
+                    {h2.children.length > 0 && (
+                      <ul>
+                        {h2.children.map((h3) => (
+                          <li>
+                            <a href={`#${h3.slug}`}>{h3.text}</a>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </Fragment>
+                ))}
+              </ul>
+            )}
+          </li>
+        ))}
+      </ul>
+    </div>
+  )
+}
