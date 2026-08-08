@@ -1,10 +1,10 @@
-import { render, type CollectionEntry } from "astro:content";
+import { getCollection, render, type CollectionEntry } from "astro:content";
 import { experimental_AstroContainer as AstroContainer } from "astro/container";
 import mdxRenderer from "@astrojs/mdx/server.js";
 
 import { BYLINE, SITE } from "./consts";
 import type { SiteDate } from "./date";
-import { getPosts, postPath } from "./utils";
+import { getPosts, postPath, projectPath } from "./utils";
 
 export interface FeedItem {
   title: string;
@@ -19,6 +19,18 @@ export interface FeedItem {
   content: string;
 }
 
+/**
+ * Rewrites root-relative `src`/`href` values to absolute URLs. Feed readers
+ * resolve them inconsistently, and `xml:base` alone is not enough in practice.
+ */
+function absolutizeUrls(html: string): string {
+  return html.replace(
+    /(\s(?:src|href)=")(\/[^"]*)"/g,
+    (_match, attr: string, path: string) =>
+      `${attr}${new URL(path, SITE.url).href}"`,
+  );
+}
+
 export function escapeXml(value: string): string {
   return value
     .replace(/&/g, "&amp;")
@@ -28,26 +40,73 @@ export function escapeXml(value: string): string {
     .replace(/'/g, "&apos;");
 }
 
-/** Renders each published post to standalone HTML for feed consumers. */
+/** One entry's metadata, before its body has been rendered. */
+interface FeedSource {
+  entry: CollectionEntry<"posts"> | CollectionEntry<"projects">;
+  title: string;
+  path: string;
+  /** Link posts point their title at somewhere else. */
+  external?: string;
+  published: SiteDate;
+  updated: SiteDate;
+}
+
+/**
+ * Everything the feeds syndicate, newest first: posts plus any dated project
+ * page. Zola's site-wide feed included both, so both stay in.
+ */
+async function getFeedSources(): Promise<FeedSource[]> {
+  const posts: FeedSource[] = (await getPosts()).map((entry) => ({
+    entry,
+    title: entry.data.title,
+    path: postPath(entry.id),
+    external: entry.data.external_url,
+    published: entry.data.date,
+    updated: entry.data.updated ?? entry.data.date,
+  }));
+
+  const projects: FeedSource[] = (await getCollection("projects")).flatMap(
+    (entry) =>
+      entry.data.date
+        ? [
+            {
+              entry,
+              title: entry.data.title,
+              path: projectPath(entry.id),
+              published: entry.data.date,
+              updated: entry.data.date,
+            },
+          ]
+        : [],
+  );
+
+  return [...posts, ...projects].sort(
+    (a, b) =>
+      b.published.value.valueOf() - a.published.value.valueOf() ||
+      a.entry.id.localeCompare(b.entry.id),
+  );
+}
+
+/** Renders each syndicated entry to standalone HTML for feed consumers. */
 export async function getFeedItems(): Promise<FeedItem[]> {
   const container = await AstroContainer.create();
   container.addServerRenderer({ name: "@astrojs/mdx", renderer: mdxRenderer });
 
-  const posts = await getPosts();
+  const sources = await getFeedSources();
 
   return Promise.all(
-    posts.map(async (post: CollectionEntry<"posts">) => {
-      const { Content } = await render(post);
-      const content = await container.renderToString(Content);
-      const permalink = new URL(postPath(post.id), SITE.url).href;
+    sources.map(async (source) => {
+      const { Content } = await render(source.entry);
+      const content = absolutizeUrls(await container.renderToString(Content));
+      const permalink = new URL(source.path, SITE.url).href;
 
       return {
-        title: post.data.title,
-        link: post.data.external_url ?? permalink,
+        title: source.title,
+        link: source.external ?? permalink,
         permalink,
-        related: post.data.external_url ? permalink : undefined,
-        published: post.data.date,
-        updated: post.data.updated ?? post.data.date,
+        related: source.external ? permalink : undefined,
+        published: source.published,
+        updated: source.updated,
         content,
       };
     }),
