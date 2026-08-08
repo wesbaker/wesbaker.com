@@ -7,11 +7,11 @@ export const SITE = {
   plausibleDomain: "wesbaker.com",
 } as const;
 
-/** Posts shown per page on /posts/. */
+/**
+ * Posts shown per page on /posts/, and in the homepage's recent-posts list —
+ * the homepage "Next" link hands off to page two, so the two must agree.
+ */
 export const POSTS_PER_PAGE = 10;
-
-/** Recent posts shown on the homepage. */
-export const HOMEPAGE_POSTS = 10;
 
 export const MENU = [
   { name: "/posts", url: "/posts/" },
