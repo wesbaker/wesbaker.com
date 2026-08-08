@@ -99,10 +99,3 @@ footer {
   margin: 100px auto 0;
   padding: 0 24px;
 }
-
-// The RSS glyph stays orange; it is the one social icon that is not inverted
-// wholesale in dark mode.
-a.social[href*="rss"] img {
-  filter: brightness(0) saturate(100%) invert(52%) sepia(78%) saturate(900%)
-    hue-rotate(345deg) brightness(105%);
-}

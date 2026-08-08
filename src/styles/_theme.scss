@@ -35,7 +35,10 @@ $primary-color: #2979ff;
   --primary-color: #{$primary-color};
   --hover-color: white;
 
-  --icon-filter: none;
+  /* Brand colours for the social links in the header */
+  --github-hover: #8250df;
+  --rss-color: #ee802f;
+  --rss-hover: #f5913e;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -54,10 +57,8 @@ $primary-color: #2979ff;
     --primary-color: #{$primary-color};
     --hover-color: white;
 
-    --icon-filter: invert(1);
-  }
-
-  .social > img {
-    filter: invert(1);
+    /* Both need lifting to stay legible on the dark surface */
+    --github-hover: #a371f7;
+    --rss-hover: #ffa94d;
   }
 }

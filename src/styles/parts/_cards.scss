@@ -118,10 +118,6 @@
     height: 16px;
   }
 
-  img {
-    filter: var(--icon-filter);
-  }
-
   &:hover {
     cursor: pointer;
     background: var(--bg-1);

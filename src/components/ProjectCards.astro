@@ -2,6 +2,7 @@
 import { Image } from "astro:assets";
 import type { CollectionEntry } from "astro:content";
 import { projectPath } from "../utils";
+import SocialIcon from "./SocialIcon.astro";
 
 interface Props {
   projects: CollectionEntry<"projects">[];
@@ -73,7 +74,7 @@ const ordered = balanceForColumns(projects, columns);
                         target="_blank"
                         rel="noopener"
                       >
-                        <img src="/icons/social/github.svg" alt="" />
+                        <SocialIcon name="github" />
                         GitHub
                       </a>
                     )}

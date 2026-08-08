@@ -58,14 +58,36 @@ nav {
       align-items: flex-end;
       gap: 8px;
 
-      .social img {
-        width: 16px;
-        height: 16px;
-      }
+      .social {
+        color: var(--text-0);
+        transition: color 0.15s ease;
 
-      /* Don't display background on hover */
-      a:hover {
-        background-color: transparent;
+        svg {
+          width: 16px;
+          height: 16px;
+          display: block;
+        }
+
+        /* Each mark takes on its own brand colour when pointed at */
+        &[data-social="bluesky"] {
+          --social-hover: #0085ff;
+        }
+        &[data-social="mastodon"] {
+          --social-hover: #6364ff;
+        }
+        &[data-social="github"] {
+          --social-hover: var(--github-hover);
+        }
+        &[data-social="rss"] {
+          color: var(--rss-color);
+          --social-hover: var(--rss-hover);
+        }
+
+        /* Colour the glyph, not the usual block background */
+        &:hover {
+          background-color: transparent;
+          color: var(--social-hover);
+        }
       }
     }
   }

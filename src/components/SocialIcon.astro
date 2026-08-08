@@ -1,0 +1,27 @@
+---
+import Bluesky from "../icons/social/bluesky.svg";
+import GitHub from "../icons/social/github.svg";
+import Mastodon from "../icons/social/mastodon.svg";
+import Rss from "../icons/social/rss.svg";
+
+const ICONS = {
+  bluesky: Bluesky,
+  github: GitHub,
+  mastodon: Mastodon,
+  rss: Rss,
+} as const;
+
+export type SocialName = keyof typeof ICONS;
+
+interface Props {
+  name: SocialName;
+  size?: number;
+}
+
+// Inlined rather than rendered via <img> so `currentColor` can carry the
+// brand hover colour; an <img> could only be recoloured with filter chains.
+const { name, size = 16 } = Astro.props;
+const Icon = ICONS[name];
+---
+
+<Icon width={size} height={size} fill="currentColor" aria-hidden="true" />
