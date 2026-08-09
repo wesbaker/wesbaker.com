@@ -1,5 +1,20 @@
 # WORKLOG
 
+## 2026-08-09
+Added Dependabot automation. `dependabot.yml` schedules weekly Monday
+updates: npm ungrouped (one PR per dependency, to preserve Dependabot's
+compatibility-score badge), github-actions grouped (no scores exist for
+Actions, so grouping costs no signal). `dependabot-auto-merge.yml` reads
+that score via a new stdlib-only Ruby parser
+(`bin/dependabot-compat-score.rb`) and auto-merges on `>= 80%` or `unknown`,
+holding for a comment on major bumps or a known low score.
+`output-diff.yml` replaces Playwright visual regression (which never worked
+on Dependabot PRs — secrets resolve to the wrong store on `pull_request`
+events) with a deterministic diff of the built `dist/` between base and PR,
+normalizing Astro's content-hashed asset names
+(`bin/normalize-dist-hashes.rb`) so the diff shows genuine changes instead
+of hash churn. Reporting-only, not a merge gate.
+
 ## 2026-08-08
 Converted the site from Zola to Astro. Every URL is unchanged, including
 `/posts/<slug>/`, `/posts/page/N/`, `/tags/`, the feeds, and `_redirects`.
