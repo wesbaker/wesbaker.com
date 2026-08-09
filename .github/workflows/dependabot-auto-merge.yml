@@ -1,0 +1,74 @@
+name: Dependabot auto-merge
+
+on:
+  pull_request:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  auto-merge:
+    runs-on: ubuntu-latest
+    if: github.actor == 'dependabot[bot]'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch Dependabot metadata
+        id: metadata
+        uses: dependabot/fetch-metadata@v2
+        with:
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+
+      # No compatibility scores exist for github-actions updates, so this is
+      # skipped for that ecosystem — see the decision step below.
+      - name: Compute compatibility score
+        id: score
+        if: steps.metadata.outputs.package-ecosystem != 'github-actions'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+        run: |
+          set -eu
+          score=$(gh pr view "$PR_URL" --json body --jq .body | ruby bin/dependabot-compat-score.rb)
+          echo "score=$score" >> "$GITHUB_OUTPUT"
+
+      - name: Decide and act
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          UPDATE_TYPE: ${{ steps.metadata.outputs.update-type }}
+          ECOSYSTEM: ${{ steps.metadata.outputs.package-ecosystem }}
+          SCORE: ${{ steps.score.outputs.score }}
+        run: |
+          set -eu
+
+          # github-actions: no compatibility scores exist at all, so CI is the
+          # only signal available. Auto-merge on that alone.
+          if [ "$ECOSYSTEM" = "github-actions" ]; then
+            echo "github-actions update: no compatibility scores exist, auto-merging on CI alone."
+            gh pr merge --auto --squash "$PR_URL"
+            exit 0
+          fi
+
+          # Major bumps are always held for manual review, regardless of score.
+          if [ "$UPDATE_TYPE" = "version-update:semver-major" ]; then
+            gh pr comment "$PR_URL" --body "Holding auto-merge: this is a major version bump. Major bumps are never auto-merged and need manual review."
+            echo "Held: major version bump."
+            exit 0
+          fi
+
+          # A known score is a veto below the threshold, not a visa above it.
+          if [ -n "$SCORE" ] && [ "$SCORE" != "unknown" ] && [ "$SCORE" -lt 80 ]; then
+            gh pr comment "$PR_URL" --body "Holding auto-merge: Dependabot's compatibility score for this update is ${SCORE}%, below the 80% auto-merge threshold. Needs manual review."
+            echo "Held: compatibility score ${SCORE}% is below 80%."
+            exit 0
+          fi
+
+          # Score is >= 80%, or unknown (many updates — including astro minors
+          # and the rehype packages — never get a score; unknown falls through
+          # rather than permanently blocking them).
+          echo "Score is ${SCORE:-unknown} (>= 80% or unknown); auto-merging."
+          gh pr merge --auto --squash "$PR_URL"
