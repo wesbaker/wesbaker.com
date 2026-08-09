@@ -11,13 +11,13 @@ dependency tree for the first time. Nine direct dependencies now need routine
 upgrades. The goal is weekly Monday updates with as much of the review and
 merge flow automated as is safe.
 
-A prior attempt on another repo (`wesbaker/littlepagevet`) used Playwright
-visual regression tests as the safety net. Those tests never pass on Dependabot
-pull requests. This spec replaces that approach.
+A prior attempt on another repo used Playwright visual regression tests as the
+safety net. Those tests never pass on Dependabot pull requests. This spec
+replaces that approach.
 
 ## Background: why Playwright fails on Dependabot PRs
 
-Confirmed by reading `littlepagevet`'s `.github/workflows/visual-test.yml`:
+Confirmed by reading that repo's `.github/workflows/visual-test.yml`:
 
 1. **Secrets resolve to a different store.** The job reads
    `secrets.CLOUDFLARE_ACCOUNT_ID` and `secrets.CLOUDFLARE_API_TOKEN`. On a
@@ -26,7 +26,7 @@ Confirmed by reading `littlepagevet`'s `.github/workflows/visual-test.yml`:
    both are empty and the job exits on its own guard clause before Playwright
    runs. This is the primary failure.
 2. **Baselines drift.** Snapshots regenerate from live production
-   (`BASE_URL: https://littlepage.vet`), so they change with content
+   (`BASE_URL` pointed at the production site), so they change with content
    independently of any PR.
 3. **No write path.** Dependabot's `GITHUB_TOKEN` is read-only by default, so
    Dependabot could never push corrected snapshots back to its own branch.
@@ -66,8 +66,8 @@ frequent and most important update — plus all three rehype packages. Therefore
 the score is treated as a **veto, not a visa**: a known score below the
 threshold blocks; `unknown` falls through to CI.
 
-**Grouped PRs have no badges.** Verified on `littlepagevet` PR #360, a
-two-dependency PR: zero `compatibility_score` URLs in the body. Grouping and
+**Grouped PRs have no badges.** Verified on a two-dependency PR in that other
+repo: zero `compatibility_score` URLs in the body. Grouping and
 score-gating are mutually exclusive. npm updates therefore stay ungrouped.
 
 ## Design
@@ -83,9 +83,9 @@ Two ecosystems, both weekly on Monday at 06:00 `America/New_York`.
 
 Label both `dependencies`.
 
-Note: `littlepagevet`'s config omits `day:`, and weekly already defaults to
-Monday, so that repo was on Monday incidentally. Here it is explicit. That repo
-also has no `github-actions` entry, so its Action versions have never updated.
+Note: the other repo's config omits `day:`, and weekly already defaults to
+Monday, so it was on Monday incidentally. Here it is explicit. That repo also
+has no `github-actions` entry, so its Action versions have never updated.
 
 ### 2. `bin/dependabot-compat-score.rb`
 
@@ -184,7 +184,7 @@ right reason, then implement.
 
 - Grouping npm updates (forfeits the compatibility score)
 - Making the output diff blocking
-- Migrating or fixing `littlepagevet`; findings there informed this design only
+- Migrating or fixing the other repo; findings there informed this design only
 - Reclassifying build-time packages from `dependencies` to `devDependencies`
 
 ## Verification
