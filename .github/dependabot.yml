@@ -1,0 +1,32 @@
+version: 2
+
+updates:
+  # Ungrouped: one PR per dependency. This preserves the per-PR compatibility
+  # badge, which the auto-merge workflow reads to decide whether to merge.
+  # Grouping and score-gating are mutually exclusive — see
+  # docs/superpowers/specs/2026-08-08-dependabot-automation-design.md.
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "America/New_York"
+    labels:
+      - "dependencies"
+
+  # Grouped: no compatibility scores exist for GitHub Actions, so grouping
+  # costs no signal and collapses routine bumps into a single PR.
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "America/New_York"
+    labels:
+      - "dependencies"
+    groups:
+      actions:
+        patterns:
+          - "*"
