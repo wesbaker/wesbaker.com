@@ -67,7 +67,14 @@ jobs:
           set -e
 
           {
-            echo "diff<<DIFF_EOF"
+            echo '<!-- output-diff -->'
+            echo '### Built output diff'
+            echo
+            echo 'Comparing `dist/` between the base branch and this PR, with'
+            echo 'content-hashed asset names normalized to a stable placeholder so'
+            echo 'only genuine changes show up. This is reporting-only and does not'
+            echo 'block merging.'
+            echo
             if [ "$status" -eq 0 ]; then
               echo "No differences in built output (after normalizing asset hashes)."
             else
@@ -78,19 +85,20 @@ jobs:
               fi
               echo '```'
             fi
-            echo "DIFF_EOF"
-          } >> "$GITHUB_OUTPUT"
+          } > comment.md
 
-      - name: Post sticky comment
-        uses: marocchino/sticky-pull-request-comment@v3
-        with:
-          header: output-diff
-          message: |
-            ### Built output diff
+      - name: Post or update sticky comment
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          PR: ${{ github.event.pull_request.number }}
+        run: |
+          set -eu
 
-            Comparing `dist/` between the base branch and this PR, with
-            content-hashed asset names normalized to a stable placeholder so
-            only genuine changes show up. This is reporting-only and does not
-            block merging.
+          existing_id=$(gh api "repos/$REPO/issues/$PR/comments" --paginate --jq '.[] | select(.body | contains("<!-- output-diff -->")) | .id' | head -1)
 
-            ${{ steps.diff.outputs.diff }}
+          if [ -n "$existing_id" ]; then
+            jq -n --rawfile b comment.md '{body:$b}' | gh api "repos/$REPO/issues/comments/$existing_id" -X PATCH --input -
+          else
+            gh pr comment "$PR" --body-file comment.md
+          fi
