@@ -1,0 +1,96 @@
+name: Dependabot output diff
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+  pull-requests: write
+
+# Reporting-only: not a merge gate. This is not in the required status
+# checks for `main` — dependabot-auto-merge.yml's own CI check is the only
+# gate. See docs/superpowers/specs/2026-08-08-dependabot-automation-design.md.
+jobs:
+  output-diff:
+    runs-on: ubuntu-latest
+    if: github.actor == 'dependabot[bot]'
+
+    steps:
+      - name: Checkout PR ref
+        uses: actions/checkout@v4
+        with:
+          path: pr
+
+      - name: Checkout base ref
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          path: base
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            pr/package-lock.json
+            base/package-lock.json
+
+      - name: Build PR ref
+        working-directory: pr
+        run: |
+          npm ci
+          npm run build
+
+      - name: Build base ref
+        working-directory: base
+        run: |
+          npm ci
+          npm run build
+
+      # Astro's content-hashed asset names (`_astro/index.BX3kLm2p.css`) churn
+      # on every build regardless of content, and one changed CSS byte
+      # cascades that hash into every page that references it. Normalizing
+      # the hash to a stable placeholder — in both filenames and every HTML
+      # reference — is what keeps the diff limited to genuine changes.
+      - name: Normalize asset hashes
+        run: |
+          ruby pr/bin/normalize-dist-hashes.rb pr/dist
+          ruby base/bin/normalize-dist-hashes.rb base/dist
+
+      - name: Diff built output
+        id: diff
+        run: |
+          set +e
+          diff -ru base/dist pr/dist > output.diff
+          status=$?
+          set -e
+
+          {
+            echo "diff<<DIFF_EOF"
+            if [ "$status" -eq 0 ]; then
+              echo "No differences in built output (after normalizing asset hashes)."
+            else
+              echo '```diff'
+              head -c 60000 output.diff
+              if [ "$(wc -c < output.diff)" -gt 60000 ]; then
+                printf '\n… output truncated.\n'
+              fi
+              echo '```'
+            fi
+            echo "DIFF_EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Post sticky comment
+        uses: marocchino/sticky-pull-request-comment@v3
+        with:
+          header: output-diff
+          message: |
+            ### Built output diff
+
+            Comparing `dist/` between the base branch and this PR, with
+            content-hashed asset names normalized to a stable placeholder so
+            only genuine changes show up. This is reporting-only and does not
+            block merging.
+
+            ${{ steps.diff.outputs.diff }}
