@@ -9,10 +9,12 @@
 
 require "minitest/autorun"
 require "net/http"
+require "json"
 
 require_relative "../bin/dependabot-compat-score"
 
 class DependabotCompatScoreTest < Minitest::Test
+  PACKAGE_JSON = File.expand_path("../package.json", __dir__)
   BADGE_URL = "https://dependabot-badges.githubapp.com/badges/compatibility_score" \
               "?dependency-name=sass&package-manager=npm_and_yarn" \
               "&previous-version=1.101.7&new-version=1.102.0"
@@ -105,5 +107,12 @@ class DependabotCompatScoreTest < Minitest::Test
     end
 
     assert_equal 91, result
+  end
+
+  def test_markdown_remark_is_declared_as_a_direct_dependency
+    package = JSON.parse(File.read(PACKAGE_JSON))
+
+    assert package.fetch("dependencies").key?("@astrojs/markdown-remark"),
+           "astro.config.mjs imports @astrojs/markdown-remark, so it must be a direct dependency"
   end
 end

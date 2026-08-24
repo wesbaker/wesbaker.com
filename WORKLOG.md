@@ -1,5 +1,10 @@
 # WORKLOG
 
+## 2026-08-24
+Combined the Astro 7.2.4 and @astrojs/mdx 7.0.7 Dependabot updates into one compatibility update. Declared @astrojs/markdown-remark 7.2.4 directly because `astro.config.mjs` imports it, and added a regression test to keep that root dependency explicit. Kept TypeScript at 6.x.
+
+Regenerated `package-lock.json` with npm 10.9.8 after CI's clean install reported missing optional `@emnapi/core` and `@emnapi/runtime` 1.11.3 entries. Verified a clean npm 10.9.8 install and `npm run check`.
+
 ## 2026-08-09
 Added Dependabot automation. `dependabot.yml` schedules weekly Monday updates: npm ungrouped (one PR per dependency, to preserve Dependabot's compatibility-score badge), github-actions grouped (no scores exist for Actions, so grouping costs no signal). `dependabot-auto-merge.yml` reads that score via a new stdlib-only Ruby parser (`bin/dependabot-compat-score.rb`) and auto-merges on `>= 80%` or `unknown`, holding for a comment on major bumps or a known low score. `output-diff.yml` replaces Playwright visual regression (which never worked on Dependabot PRs — secrets resolve to the wrong store on `pull_request` events) with a deterministic diff of the built `dist/` between base and PR, normalizing Astro's content-hashed asset names (`bin/normalize-dist-hashes.rb`) so the diff shows genuine changes instead of hash churn. Reporting-only, not a merge gate. Added a `main` ruleset requiring the `check` status, with the repo owner as bypass actor so direct pushes still work.
 
