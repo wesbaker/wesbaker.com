@@ -8,6 +8,13 @@ Personal blog/portfolio site for Wes Baker, built with [Astro](https://astro.bui
 The look and feel is a port of the [Apollo](https://github.com/not-matthias/apollo)
 Zola theme, now maintained in-tree under `src/styles/`.
 
+## Workflow Tools
+
+Use available review, simplification, and Git helpers when they add value, but
+their absence must not block content updates, maintenance, or implementation.
+Follow the repository's tests and validation commands directly when optional
+tooling is unavailable.
+
 ## Commands
 
 ```bash

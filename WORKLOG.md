@@ -1,5 +1,8 @@
 # WORKLOG
 
+## 2026-09-07
+Combined the compatible Astro ecosystem updates into one PR: Astro 7.3.1, @astrojs/markdown-remark 7.3.0, @astrojs/mdx 8.0.0, and @astrojs/sitemap 3.7.4. The Astro, Markdown Remark, and MDX updates must land together because their peer requirements target the new processor versions. Regenerated the lockfile with npm 10.9.8 and verified a clean install plus `npm run check`.
+
 ## 2026-08-24
 Combined the Astro 7.2.4 and @astrojs/mdx 7.0.7 Dependabot updates into one compatibility update. Declared @astrojs/markdown-remark 7.2.4 directly because `astro.config.mjs` imports it, and added a regression test to keep that root dependency explicit. Kept TypeScript at 6.x.
 
