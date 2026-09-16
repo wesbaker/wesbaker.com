@@ -1,0 +1,23 @@
+---
+/** A responsive row of Figure components that stacks on narrow screens. */
+---
+
+<div class="figure-grid">
+  <slot />
+</div>
+
+<style>
+  .figure-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+    gap: 1rem;
+    align-items: start;
+    margin: 1.5rem 0;
+  }
+
+  :global(.figure-grid > figure) {
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+  }
+</style>

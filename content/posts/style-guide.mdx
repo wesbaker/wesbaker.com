@@ -6,6 +6,12 @@ tags: ["style", "design", "markdown"]
 draft: true
 ---
 
+import Figure from "../../src/components/Figure.astro";
+import FigureGrid from "../../src/components/FigureGrid.astro";
+import status from "../../content/projects/prusa-raycast/prusa-1.png";
+import commands from "../../content/projects/prusa-raycast/prusa-2.png";
+import menubar from "../../content/projects/prusa-raycast/prusa-3.png";
+
 ## Subtitle
 
 This page uses the optional `subtitle` frontmatter field:
@@ -14,7 +20,28 @@ This page uses the optional `subtitle` frontmatter field:
 subtitle: "A reference page showing all available markdown styles"
 ```
 
+## Figure
+
+<Figure src={status} alt="Prusa printer status">
+  A single Figure with a caption.
+</Figure>
+
 It renders in a `<p class="page-subtitle">` inside an `<hgroup>` with the `<h1>`, using `--text-2` (muted) and `font-size: 1.1rem`.
+
+### Figure Grid
+
+`FigureGrid` places two or three `Figure` components side by side on larger
+screens and stacks them on mobile:
+
+<FigureGrid>
+  <Figure src={commands} alt="Prusa extension commands">
+    Two figures share a row on larger screens.
+  </Figure>
+
+  <Figure src={menubar} alt="Prusa extension menubar">
+    The same figures stack on mobile.
+  </Figure>
+</FigureGrid>
 
 ## Headings
 

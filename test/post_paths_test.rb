@@ -12,7 +12,11 @@ class PostPathsTest < Minitest::Test
     )
 
     assert status.success?, stderr
-    assert_path_exists "dist/posts/prusaslicer-and-printing-miniature-terrain/index.html"
+    post_path = "dist/posts/prusaslicer-and-printing-miniature-terrain/index.html"
+    assert_path_exists post_path
     refute_path_exists "dist/posts/prusaslicer-and-printing-miniature-terrain/index/index.html"
+
+    html = File.read(post_path)
+    assert_equal 2, html.scan('class="figure-grid"').length
   end
 end

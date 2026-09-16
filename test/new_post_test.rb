@@ -47,7 +47,7 @@ class NewPostTest < Minitest::Test
   def test_with_images_creates_a_post_directory_with_index_file
     Dir.mktmpdir do |posts_dir|
       stdout, stderr, status = run_generator(posts_dir, "--with-images", "Terrain With Images")
-      path = File.join(posts_dir, "2026-09-16-terrain-with-images", "index.md")
+      path = File.join(posts_dir, "2026-09-16-terrain-with-images", "index.mdx")
 
       assert status.success?, "#{stdout}\n#{stderr}"
       assert_path_exists path

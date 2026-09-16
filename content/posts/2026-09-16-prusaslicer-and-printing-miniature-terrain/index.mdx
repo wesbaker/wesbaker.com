@@ -1,0 +1,60 @@
+---
+title: "PrusaSlicer and Printing Miniature Terrain"
+date: "2026-09-16T00:00:00-04:00"
+tags: ["3d-printing", "prusa", "prusaslicer", "terrain", "miniatures"]
+---
+
+import Figure from "../../../src/components/Figure.astro";
+import FigureGrid from "../../../src/components/FigureGrid.astro";
+import bambuStudio from "./bambu-studio.jpg";
+import orcaSlicer from "./orcaslicer.jpg";
+import prusaSlicerAfter from "./prusaslicer-after.jpg";
+import prusaSlicerBefore from "./prusaslicer-before.jpg";
+import stringing from "./stringing.jpg";
+import final from "./final.jpg";
+
+Over the past weekend, I spent a lot of time with my Prusa MK4S, PrusaSlicer, and ChatGPT attempting to figure out why my prints of [the Altar of Desolation](https://www.printablescenery.com/product/altar-of-desolation/) were coming out pretty poor looking with stringing and a particuarly rough looking wooden beam.
+
+<Figure src={stringing} alt="Poorly printed terrain with stringing">
+  Stringing and poor detail on the wooden beam
+</Figure>
+
+I printed the same chunk of terrain about 5 times tweaking various settings, mostly small stuff:
+
+- Dropping the other layer temperature to 210°C
+- Enabling Wipe While Retracting
+- Enabling Avoid Crossing Perimeters
+- Dropping Small Perimter Speed to 15mm/s
+- Setting Slow down if layer print time is below: 10s
+
+And those produced _better_ prints, but that plank of vertical wood stymied me. I had seen **great** prints from Bambu Labs and other printers and wondered what was different, so I installed Bambu Studio and OrcaSlicer to look at their slices and saw paths that were *way* better than what I was getting out of PrusaSlicer.
+
+<FigureGrid>
+  <Figure src={bambuStudio} alt="Bambu Studio's slicing path">
+    Bambu Studio's slicing path
+  </Figure>
+
+  <Figure src={orcaSlicer} alt="OrcaSlicer's slicing path">
+    OrcaSlicer's slicing path
+  </Figure>
+</FigureGrid>
+
+When I fed these screenshots into ChatGPT it finally seized on the problem: Arachne Perimeter Generation. Flipping Perimeter Generation from Arachne to Classic fixed all of the problems with that plank, and showing Seams in the Preview also helped to spot the problem (every little white dot is a seam on that layer, more seams mean more extra filament on the layer).
+
+<FigureGrid>
+  <Figure src={prusaSlicerBefore} alt="PrusaSlicer with Perimeter Generation set to Arachne">
+    PrusaSlicer with Perimeter Generation set to Arachne
+  </Figure>
+
+  <Figure src={prusaSlicerAfter} alt="PrusaSlicer with Perimeter Generation set to Classic">
+    PrusaSlicer with Perimeter Generation set to Classic
+  </Figure>
+</FigureGrid>
+
+I'm not sure who this helps, but hopefully this will save someone else some filament and time.
+
+<Figure src={final} alt="The final product">
+  The final product
+</Figure>
+
+It's not perfect, but it's far, far better.

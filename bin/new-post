@@ -21,7 +21,7 @@ abort "title must contain at least one letter or number" if slug.empty?
 
 post_name = "#{date[0, 10]}-#{slug}"
 path = if with_images
-         File.join(posts_dir, post_name, "index.md")
+         File.join(posts_dir, post_name, "index.mdx")
        else
          File.join(posts_dir, "#{post_name}.md")
        end
