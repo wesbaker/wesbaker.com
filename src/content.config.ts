@@ -8,6 +8,7 @@ import { siteDate } from "./date";
 const postId = (filePath: string) =>
   filePath
     .replace(/\.mdx?$/, "")
+    .replace(/\/index$/, "")
     .replace(/^\d{4}-\d{2}-\d{2}-/, "");
 
 const posts = defineCollection({

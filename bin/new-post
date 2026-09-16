@@ -1,0 +1,36 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "erb"
+require "fileutils"
+require "time"
+
+with_images = ARGV.delete("--with-images")
+title = ARGV.join(" ").strip
+abort "usage: #{File.basename($PROGRAM_NAME)} \"Post title\"" if title.empty?
+
+posts_dir = ENV.fetch("POSTS_DIR", File.expand_path("../content/posts", __dir__))
+date = if ENV["POST_DATE"]
+         Time.iso8601(ENV.fetch("POST_DATE")).iso8601
+       else
+         Time.now.getlocal.strftime("%Y-%m-%dT00:00:00%:z")
+       end
+
+slug = title.downcase.gsub(/[^a-z0-9]+/, "-").gsub(/\A-|-$/, "")
+abort "title must contain at least one letter or number" if slug.empty?
+
+post_name = "#{date[0, 10]}-#{slug}"
+path = if with_images
+         File.join(posts_dir, post_name, "index.md")
+       else
+         File.join(posts_dir, "#{post_name}.md")
+       end
+abort "already exists: #{path}" if File.exist?(path)
+
+template_path = File.expand_path("../templates/post.md.erb", __dir__)
+escaped_title = title.gsub("\\", "\\\\").gsub('"', '\\"')
+template = ERB.new(File.read(template_path))
+
+FileUtils.mkdir_p(File.dirname(path))
+File.write(path, template.result(binding))
+puts path
