@@ -1,5 +1,8 @@
 # WORKLOG
 
+## 2026-10-26
+Fixed the Astro 7.4.2 update's failing GitHub Actions builds. Astro requires Node >=22.23.4, but setup-node's broad `22` selector reused cached Node 22.23.3. Pinned `.node-version` to 22.23.4 and made both build workflows read it, keeping CI and Cloudflare Pages aligned. Added regression coverage for Astro's minimum Node version and the shared workflow configuration.
+
 ## 2026-09-07
 Combined the compatible Astro ecosystem updates into one PR: Astro 7.3.1, @astrojs/markdown-remark 7.3.0, @astrojs/mdx 8.0.0, and @astrojs/sitemap 3.7.4. The Astro, Markdown Remark, and MDX updates must land together because their peer requirements target the new processor versions. Regenerated the lockfile with npm 10.9.8 and verified a clean install plus `npm run check`.
 
